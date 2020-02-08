@@ -1,6 +1,9 @@
 # codeforka
 New (2020) website OK Lab Karlsruhe
 
+Live version, still work in progress [here](https://ok-lab-karlsruhe.de)
+
+
 This is a modified copy of the projected [new codefor.de website](https://dev.codefor.de)
 
 Is is using hugo, as a stitc site generator. I have modivied the config to support 2 languageed (de and en) but the translations are not there yet.

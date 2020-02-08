@@ -1,0 +1,12 @@
+name = "Hugo Fresh"
+license = "MIT"
+licenselink = "https://github.com/StefMa/hugo-fresh/blob/master/LICENSE.md"
+description = "Website des OK Lab Karlsruhe, interessierte Bürger*innen, die gemeinsam mit offenen Daten und freier Software ihr Stadt und das gesellschaftliche Miteinander verbessern wollen - für mehr Transparenz, Offene Daten und Partizipation!"
+homepage = "https://github.com/StefMa/hugo-fresh"
+tags = ["responsive", "one page", "light", "onepage", "company", "clean", "landing page"]
+features = []
+min_version = "0.45"
+
+[author]
+  name = "Stefan M."
+  homepage = "https://github.com/StefMa"

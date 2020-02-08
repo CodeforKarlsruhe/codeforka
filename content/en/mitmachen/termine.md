@@ -1,5 +1,5 @@
 ---
-title: Termine
+title: Coming Events
 date: 2020-01-30
 schedule: true
 weight: 1

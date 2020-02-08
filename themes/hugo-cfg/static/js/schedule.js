@@ -5,13 +5,20 @@ $(document).ready(function(e) {
   if ($("#schedule").length) {
       //$.getJSON("/schedule/schedule.json", function(result){
       $.ajaxSetup({ cache: false });
-      $.getJSON("https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json", function(result){
+      var langUrl = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json";
+          $.getJSON(langUrl, function(result){
         if (0 == result.length) 
             console.log("No schedule data")
         else {
             console.log("Length " + result.length)
+            if (lang && lang == "en") {
+                  var schedule = result.en
+            } else {
+                  var schedule = result.de
+            }
+
             var sc = "<ul>";
-            $.each(result, function(i, field){
+            $.each(schedule, function(i, field){
                 sc += "<li>";
                 sc += field.date + ": " + field.title;
                 sc += "</li>";

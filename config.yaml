@@ -181,12 +181,12 @@ languages:
         # Main hero title
         title: OK Lab Karlsruhe
         # Hero subtitle (optional)
-        # subtitle: We are open
-        subtitle: Work in Progress ...
+        # subtitle: We are a non-profit civic-tech lab working on digital tools for all
+        subtitle: This site is work in progress. Stay tuned ...
         # Button text
-        buttontext: Werde Stadtentwickler*in!
+        buttontext: Improve your city!
         # Where the main hero button links to
-        buttonlink: "join us"
+        buttonlink: "/en/mitmachen"
         # Hero image (from static/images/___)
         image: "../img/CfKA Hexagon 3d.svg" # illustrations/worker.svg
         # Footer logos (from static/images/logos/clients/___.svg)

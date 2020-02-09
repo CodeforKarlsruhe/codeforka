@@ -1,5 +1,5 @@
 ---
-title: Über das OK Lab Karlsruhe
+title: About OK Lab Karlsruhe
 include_footer: true
 ---
 
@@ -20,4 +20,6 @@ Anwendungen neue Möglichkeiten und Chancen in Bereichen wie
 Bürgerservice, Partizipation und staatlicher Transparenz aufzuzeigen und
 die Öffnung staatlicher Daten weiter voranzutreiben. 
 
+
+Meeting spot: [Digital Lab](https://www.openstreetmap.org/relation/1333212) at town hall Karlsruhe
 

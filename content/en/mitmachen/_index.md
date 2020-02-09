@@ -1,6 +1,4 @@
 ---
-title: Mitmachen!
+title: Join us!
 ---
-
-!!English!!
 

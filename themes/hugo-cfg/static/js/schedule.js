@@ -31,4 +31,8 @@ $(document).ready(function(e) {
     console.log("No schedule id")
 });
 
+// language toggle
+function langToggle() {
+    console.log("toggle")
+}
 

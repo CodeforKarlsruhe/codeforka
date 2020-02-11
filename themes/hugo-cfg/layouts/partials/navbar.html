@@ -45,6 +45,12 @@
               {{ .title }}
             </span>
           </a>
+          {{- else if .flag }}
+          <a href="{{ .url }}" class="navbar-item">
+            <span class="flag signup-button rounded secondary-btn raised">
+              {{ .title }}
+            </span>
+          </a>
           {{- else }}
           <a href="{{ .url }}" class="navbar-item is-secondary">
             {{ .title }}

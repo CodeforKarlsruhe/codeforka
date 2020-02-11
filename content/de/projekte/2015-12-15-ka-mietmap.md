@@ -3,7 +3,7 @@ layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/mietmap.png
 title: Mietpreise in Karlsruhe
-status: Finished
+status: Fertig
 
 links:
 - url: http://codeforkarlsruhe.github.io/mietmap

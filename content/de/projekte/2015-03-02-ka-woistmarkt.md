@@ -3,7 +3,7 @@ layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/wo-ist-markt.png
 title: Wo ist Markt?
-status: Finished
+status: Fertig
 
 links:
 - url: http://wo-ist-markt.de/#karlsruhe

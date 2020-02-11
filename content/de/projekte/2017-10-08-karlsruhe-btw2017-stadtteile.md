@@ -3,7 +3,7 @@ layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/btw2017-stadtteile.png
 title: Die Bundestagswahl 2017 in den Karlsruher Stadtteilen
-status: abgeschlossen
+status: Abgeschlossen
 type: WS
 draft: false #set to 'true'
 

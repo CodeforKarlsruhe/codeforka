@@ -3,7 +3,7 @@ layout: project #do not change
 lab: OK Lab Karlsruhe #change into your city/lab
 imgname: #add file to assets/projects/your city
 title: Welcome #project title
-status: Beendet
+status: Abgeschlossen
 type: DRL
 draft: false #set to 'true'
 

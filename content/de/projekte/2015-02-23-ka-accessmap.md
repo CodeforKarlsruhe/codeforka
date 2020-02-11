@@ -3,7 +3,7 @@ layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/access_map_ka.gif
 title: Access Map
-status: Finished
+status: Fertig
 
 links:
 - url: http://codeforkarlsruhe.github.io/access_map_ka/

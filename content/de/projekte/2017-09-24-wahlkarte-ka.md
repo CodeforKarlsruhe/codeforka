@@ -6,6 +6,7 @@ title: Karlsruher Wahlanzeiger
 status: abgeschlossen
 type: WS
 draft: false #set to 'true'
+status: Abgeschlossen
 
 links:
 - url: https://codeforkarlsruhe.github.io/wahlkarte

@@ -18,6 +18,7 @@
                 </div>
                 <span class="date">{{.Date.Format "02.01.2006"}}</span>
                 -->
+			  {{/*  we don't use schedule inside list any more ...
               {{ if isset .Params "schedule" }}
                 <h3>{{.Title}}</h3>
                 <div id="schedule">
@@ -26,7 +27,11 @@
                 <h3>{{.Title}}</h3></a>
                 {{ if isset .Params "subtitle" }}
                 <a href="{{.Permalink}}"><h4>{{.Params.Subtitle}}</h4></a>
-                {{ end }}
+              {{ end }}
+			  */}}
+                <h3>{{.Title}}</h3></a>
+                {{ if isset .Params "subtitle" }}
+                <a href="{{.Permalink}}"><h4>{{.Params.Subtitle}}</h4></a>
               {{- end -}}
                 <p>{{.Params.Excerpt}}</p>
               </li>

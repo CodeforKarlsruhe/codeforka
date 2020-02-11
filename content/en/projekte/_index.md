@@ -1,5 +1,5 @@
 ---
-title: Unsere Projekte
+title: Our Projects
 ---
 
 In unseren Labs entstehen immer wieder Projekte, die aufzeigen, welchen Mehrwert

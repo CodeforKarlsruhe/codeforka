@@ -3,7 +3,7 @@ layout: project #do not change
 lab: OK Lab Karlsruhe #change into your city/lab
 imgname: karlsruhe/schau-hin-website.png
 title: SchauHin mit der Antidiskriminierungsstelle #project title
-status: Finished
+status: Abgeschlossen
 type: DRL
 draft: false #set to 'true'
 

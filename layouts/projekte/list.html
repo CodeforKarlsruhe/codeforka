@@ -9,7 +9,7 @@
         {{ .Content }}
       </div>
       <div class="projects columns is-multiline">
-        {{ range where .Pages ".Params.draft" false  }}
+        {{ range where .Pages.ByDate.Reverse ".Params.draft" false  }}
         <div class="preview column is-6">
           <a href="{{.Permalink}}">
             {{ if isset .Params "imgname" }}

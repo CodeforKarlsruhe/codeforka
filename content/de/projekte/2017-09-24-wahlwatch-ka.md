@@ -3,7 +3,7 @@ layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: 
 title: Wahlwatching Twitter-Bot
-status: abgeschlossen
+status: Abgeschlossen
 type: WS
 draft: false #set to 'true'
 

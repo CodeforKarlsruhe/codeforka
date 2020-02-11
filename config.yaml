@@ -9,6 +9,7 @@ disableKinds:
  -taxonomy
  -taxonomyTerm
 pluralizeListTitles: false
+# tell hugo to get the date from the filename, if possible
 frontmatter:
   date: [":filename", ":default"]
 
@@ -57,26 +58,16 @@ languages:
       - title: Projekte
         url: /projekte/
       - title: Mitmachen
-        sublinks:
-        - title: Termine
-          url: /mitmachen/termine/
-        - title: als Bürger*in
-          url: /mitmachen/gesellschaft/
-        - title: als Entwickler*in / Designer*in
-          url: /mitmachen/entwickeln/
-        - title: aus Politik / Verwaltung
-          url: /mitmachen/politik/
-        - title: als Journalist*in / Blogger*in
-          url: /mitmachen/schreiben/
+        url: /mitmachen
       - title: Code For Germany
-        url: https://dev.codefor.de/
+        url: https:/dev.codefor.de/
         button: false
       - title: English
         url: /en/
         flag: en
       section1:
-        title: 28 Labs | 300 Ehrenamtliche | 5 Jahre
-        subtitle:
+        title: Zivilgesellschaftliches Engagement
+        subtitle: Gute Taten mit offenen Daten
         tiles:
         - # title: Design & Entwicklung
           icon: coding
@@ -203,45 +194,35 @@ languages:
       - title: Projects
         url: /en/projekte/
       - title: Join us
-        sublinks:
-        - title: Schedule
-          url: /en/mitmachen/termine/
-        - title: als Bürger*in
-          url: /en/mitmachen/gesellschaft/
-        - title: als Entwickler*in / Designer*in
-          url: /en/mitmachen/entwickeln/
-        - title: aus Politik / Verwaltung
-          url: /en/mitmachen/politik/
-        - title: als Journalist*in / Blogger*in
-          url: /en/mitmachen/schreiben/
+        url: /en/mitmachen/
       - title: Code For Germany
-        url: https://dev.codefor.de/
+        url: https:/dev.codefor.de/
         button: false
       - title: Deutsch
         url: /de/
         flag: de
       section1:
-        title: 28 Labs | 300 Ehrenamtliche | 5 Jahre
-        subtitle:
+        title: Get Involved in Civic Tech
+        subtitle: Good deeds with open data
         tiles:
         - # title: Design & Entwicklung
           icon: coding
           text:
-          url: /en
-          buttonText: Entwicklung & Design
+          url: /
+          buttonText: Design & Development
         - # title: Cloud integration
           icon: folders
           text:
-          url: /en
-          buttonText: Politik & Verwaltung
+          url: /
+          buttonText: Politics & Administration
         - # title: Add-ons & plugins
           icon: microphone
           text:
-          url: /en
-          buttonText: Journalismus & Unterstützung
+          url: /
+          buttonText: Journalism & Support
       section2:
-        subtitle: Freie Software + Offene Daten = <3
-        title: open source + open data = <3
+        title: Open Source + Open Data = <3
+        subtitle: Free Software + Open Data = <3
         features:
         - title: Offene Daten // Open Data
           text: Offene Daten sind Daten, auf die alle Personen frei zugreifen können und die von allen genutzt, verändert und geteilt werden können. Sie werden in vielen Anwendungen erzeugt und gesammelt, beispielsweise in amtlichen Messungen oder wissenschaftlichen Experimenten.
@@ -310,7 +291,7 @@ languages:
           column3:
             title: "Über uns"
             links:
-            - text: Projekte
+            - text: Projects
               link: /en/projekte/
             - text: Unterstützen
               link: /en/mitmachen/unterstuetzen/

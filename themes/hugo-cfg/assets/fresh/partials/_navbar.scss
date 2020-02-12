@@ -127,3 +127,18 @@ body {
         }
     }
 }
+
+
+.flag {
+    //color: $black;
+    //background-color: $secondary;
+    //border-radius: 300px;
+    padding: 4px 4px;
+	&.lang_de {
+	    border:solid $primary;
+	}
+	&.lang_en {
+	    border:solid $secondary;
+	}
+}
+

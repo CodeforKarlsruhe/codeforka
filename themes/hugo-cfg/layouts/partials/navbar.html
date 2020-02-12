@@ -1,5 +1,6 @@
 {{- $navbar         := .Site.Params.navbar }}
 {{- $navbarLogo     := .Site.Params.navbarlogo }}
+{{- $lang			:= .Site.Language.Lang }}
 <nav id="menu" class="navbar is-fresh no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
@@ -47,8 +48,12 @@
           </a>
           {{- else if .flag }}
           <a href="{{ .url }}" class="navbar-item">
-            <span class="flag signup-button rounded secondary-btn raised">
-              {{ .title }}
+			{{ if eq $lang "en" }}
+	            <span class="signup-button rounded secondary-btn raised flag lang_en">
+			{{ else }}
+	            <span class="signup-button rounded secondary-btn raised flag lang_de">
+			{{ end }}
+            {{ .title }}
             </span>
           </a>
           {{- else }}

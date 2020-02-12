@@ -10,3 +10,7 @@ min_version = "0.45"
 [author]
   name = "Stefan M."
   homepage = "https://github.com/StefMa"
+
+languages = ["de","en"]
+
+

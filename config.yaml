@@ -1,7 +1,5 @@
 baseURL: https://ok-lab-karlsruhe.de
-languageCode: de
 DefaultContentLanguage: de
-
 title: OK Lab Karlsruhe
 theme: hugo-cfg
 #Disables warnings
@@ -31,6 +29,7 @@ languages:
     languageName: Deutsch
     weight: 1
     contentDir: content/de
+    lang: de
     params:
       hero:
         # Main hero title
@@ -167,6 +166,7 @@ languages:
     languageName: English
     weight: 2
     contentDir: content/en
+    lang: en
     params:
       hero:
         # Main hero title

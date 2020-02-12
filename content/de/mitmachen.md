@@ -7,7 +7,7 @@ weight: 1
 ---
 
 Code for Germany ist ein breit aufgestelltes Netzwerk aus Softwareentwicklerinnen, Designern, Politikern, Verwaltungsmitarbeiterinnen und Open Data Interessierten.
-Im **OK Lab Karlsruhe** kannst Du auf vielen Ebenen mitmachen und Teil des Netzwerks werden: 
+Im **OK Lab Karlsruhe** kannst Du auf vielen Ebenen mitmachen und Teil des Netzwerks werden. Du musst dazu in keine Organisationsform* eintreten oder Beiträge bezahlen.
 
 ## Als Bürger*in
 Wir wollen nicht nur Anwendungen für die Allgemeinheit schaffen, wir wollen auch, dass sie genutzt werden und dass darüber gesprochen wird. Dafür brauchen wir Deine Ideen und Fragen als Bürger*in.
@@ -22,4 +22,6 @@ Kontakt und aktiver Austausch zwischen lokaler Verwaltung und Politik und den OK
 Du nutzt selbst offene Daten aus unseren Projekten für Deine journalistische Arbeit oder berichtest über interessante Erkenntnisse und Zusammenhänge, die durch unsere Anwendungen offen gelegt werden?
 Du willst wissen, wie Offene Daten als Werkzeug bei der Recherche genutzt werden können und wie durch diese Daten Transparenz geschaffen werden kann? Komm' vorbei und erzähle uns von Deinen Projekten oder Ideen!
 
+**\*** Das OK Lab Karlsruhe ist ein Zusammenschluss interessierter Menschen. 
+Die Gründung eines gemeinsnützigen Vereins ist gerade im Gespräch.
 

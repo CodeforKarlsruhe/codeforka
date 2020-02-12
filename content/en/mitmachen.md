@@ -1,5 +1,5 @@
 ---
-title: Join us!!
+title: Join us!
 # schedule will add the schedule from github to the end of content
 schedule: Coming Events
 weight: 1

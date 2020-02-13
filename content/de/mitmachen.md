@@ -22,6 +22,6 @@ Kontakt und aktiver Austausch zwischen lokaler Verwaltung und Politik und den OK
 Du nutzt selbst offene Daten aus unseren Projekten für Deine journalistische Arbeit oder berichtest über interessante Erkenntnisse und Zusammenhänge, die durch unsere Anwendungen offen gelegt werden?
 Du willst wissen, wie Offene Daten als Werkzeug bei der Recherche genutzt werden können und wie durch diese Daten Transparenz geschaffen werden kann? Komm' vorbei und erzähle uns von Deinen Projekten oder Ideen!
 
-**\*** Das OK Lab Karlsruhe ist ein Zusammenschluss interessierter Menschen. 
-Die Gründung eines gemeinsnützigen Vereins ist gerade im Gespräch.
+**\*** Das OK Lab Karlsruhe ist ein informeller Zusammenschluss interessierter Menschen. 
+Die Gründung eines gemeinnützigen Vereins ist gerade im Gespräch.
 

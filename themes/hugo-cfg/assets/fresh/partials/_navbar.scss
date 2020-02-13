@@ -134,11 +134,30 @@ body {
     //background-color: $secondary;
     //border-radius: 300px;
     padding: 4px 4px;
+    //background-size:cover;
+    font-weight:bold;
+    z-index: 1;
+
 	&.lang_de {
-	    border:solid $primary;
+        /* transparent background. not nice yet 
+        &:before {
+          content: "   ";
+          position: absolute;
+          width: 100%;
+          height: 2em;  
+          opacity: .4; 
+          z-index: -1;
+          background-image:url("/img/de.svg");
+        }
+        */
+	    //border:solid $primary;
+        background-image:url("/img/de.svg");
+        color: #fff;
 	}
 	&.lang_en {
-	    border:solid $secondary;
+	    //border:solid $secondary;
+        background-image:url("/img/gb.svg");
+        color: #000;
 	}
 }
 

@@ -130,33 +130,52 @@ body {
 
 
 .flag {
+    $flag-width: 1.9em;
+    $flag-height: 1.5em;
+    $flag-opacity: .3;
+
     //color: $black;
     //background-color: $secondary;
     //border-radius: 300px;
     padding: 4px 4px;
+    width: $flag-width;
+    height: $flag-height;
     //background-size:cover;
     font-weight:bold;
     z-index: 1;
 
 	&.lang_de {
-        /* transparent background. not nice yet 
+        /* transparent background. not nice yet */
         &:before {
-          content: "   ";
+          content: " ";
+          color: rgba(0,0,0,0);
           position: absolute;
-          width: 100%;
-          height: 2em;  
-          opacity: .4; 
+          width: $flag-width;
+          height: $flag-height;  
+          opacity: $flag-opacity; 
           z-index: -1;
           background-image:url("/img/de.svg");
+          background-size:cover;
         }
-        */
+        /* */
 	    //border:solid $primary;
-        background-image:url("/img/de.svg");
-        color: #fff;
+        //background-image:url("/img/de.svg");
+        color: #000;
 	}
 	&.lang_en {
-	    //border:solid $secondary;
-        background-image:url("/img/gb.svg");
+        &:before {
+          content: " ";
+          color: rgba(0,0,0,0);
+          position: absolute;
+          width: $flag-width;
+          height: $flag-height;  
+          opacity: $flag-opacity; 
+          z-index: -1;
+          background-image:url("/img/gb.svg");
+          background-size:cover;
+        }
+        
+        //background-image:url("/img/gb.svg");
         color: #000;
 	}
 }

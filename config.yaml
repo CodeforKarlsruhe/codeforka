@@ -57,7 +57,7 @@ languages:
       - title: Mitmachen
         url: /mitmachen
       - title: Code For Germany
-        url: https:/dev.codefor.de/
+        url: https://dev.codefor.de/
         button: false
       section1:
         title: Zivilgesellschaftliches Engagement
@@ -196,7 +196,7 @@ languages:
       - title: Join us
         url: /en/mitmachen/
       - title: Code For Germany
-        url: https:/dev.codefor.de/
+        url: https://dev.codefor.de/
         button: false
       section1:
         title: Get Involved in Civic Tech

@@ -1,6 +1,7 @@
 {{- $navbar         := .Site.Params.navbar }}
 {{- $navbarLogo     := .Site.Params.navbarlogo }}
 {{- $lang			:= .Site.Language.Lang }}
+{{- $switch         := .Site.Params.switch }}
 <nav id="menu" class="navbar is-fresh no-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
@@ -9,6 +10,13 @@
         <img src="{{ printf "%s" $navbarLogo.image | relURL }}" alt="" width="112" height="28">
       </a>
       {{- end}}
+
+	<div class="navbar-item switch" id="switch">
+		<a href="{{ $switch.code | relURL }}" role="button" class="langswitch" aria-label="{{ $switch.lang }}">
+	    <span class="flag lang_{{ $switch.code }} ">{{ $switch.title }}
+		</span> 
+	  </a>
+	</div>
 
       <a href="#menu" role="button" class="navbar-burger open-button" aria-label="menu" aria-expanded="false" data-target="menu">
         <span aria-hidden="true"></span>
@@ -44,16 +52,6 @@
           <a href="{{ .url }}" class="navbar-item">
             <span class="button signup-button rounded secondary-btn raised">
               {{ .title }}
-            </span>
-          </a>
-          {{- else if .flag }}
-          <a href="{{ .url }}" class="navbar-item">
-			{{ if eq $lang "en" }}
-	            <span class="signup-button rounded secondary-btn raised flag lang_en">
-			{{ else }}
-	            <span class="signup-button rounded secondary-btn raised flag lang_de">
-			{{ end }}
-            {{ .title }}
             </span>
           </a>
           {{- else }}

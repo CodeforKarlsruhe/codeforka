@@ -43,13 +43,11 @@ languages:
         buttonlink: "mitmachen"
         # Hero image (from static/images/___)
         image: "../img/CfKA Hexagon 3d.svg" # illustrations/worker.svg
-        # Footer logos (from static/images/logos/clients/___.svg)
-        #clientlogos:
-        #- systek
-        #- tribe
-        #- kromo
-        #- infinite
-        #- gutwork
+      switch:
+        title: EN
+        # Where the main hero button links to
+        lang: Englisch
+        code: en
       # Customizable navbar. For a dropdown, add a "sublinks" list.
       navbar:
       - title: Über uns
@@ -61,9 +59,6 @@ languages:
       - title: Code For Germany
         url: https:/dev.codefor.de/
         button: false
-      - title: English
-        url: /en/
-        flag: en
       section1:
         title: Zivilgesellschaftliches Engagement
         subtitle: Gute Taten mit offenen Daten
@@ -188,6 +183,11 @@ languages:
         #- infinite
         #- gutwork
       # Customizable navbar. For a dropdown, add a "sublinks" list.
+      switch:
+        title: DE
+        # Where the main hero button links to
+        lang: German
+        code: de
       navbar:
       - title: About
         url: /en/ueber/
@@ -198,9 +198,6 @@ languages:
       - title: Code For Germany
         url: https:/dev.codefor.de/
         button: false
-      - title: Deutsch
-        url: /de/
-        flag: de
       section1:
         title: Get Involved in Civic Tech
         subtitle: Good deeds with open data

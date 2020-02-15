@@ -22,4 +22,4 @@ collaborators:
 
 ---
 
-Open Sense stellt Android Sensor-Widgets für das openSenseMap-Projekt (https://opensensemap.org) bereit. Die App ermöglicht es von über 800 Messstationen die offenen Sensordaten wie Temperatur, Emission von Feinstaub oder Luftdruck zu beobachten.
+Open Sense provides Android sensor widgets for the openSenseMap project (https://opensensemap.org). The app makes it possible to observe open sensor data such as temperature, emission of fine dust or air pressure from over 800 measuring stations.

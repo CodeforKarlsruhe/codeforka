@@ -2,7 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/strassennamen.png
-title: Straßennamen
+title: Street names
 status: Fertig
 
 links:
@@ -15,4 +15,5 @@ collaborators:
 - name: Torf
 
 ---
-Visualisiert die nach Menschen benannten Karlsruher Straßen und deren Geschlechter.
+Visualizes the streets of Karlsruhe named after people and their genders.
+

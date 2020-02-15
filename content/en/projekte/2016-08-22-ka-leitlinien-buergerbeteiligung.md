@@ -2,7 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: 
-title: Textanalyse von Leitlinien zur Bürger*innenbeteiligung
+title: Text analisis of guidleines for citic participation
 status: Laufend
 
 links:
@@ -13,7 +13,7 @@ collaborators:
 
 ---
 
-Viele Städte haben Leitlinien oder Konzepte zur Bürger*innenbeteiligung. 
-Wir wollen eine Plattform entwickeln, auf der diese strukturiert gelesen, kommentiert und entwickelt werden können.
+Many cities have guidelines or concepts for citic participation.
+We want to develop a platform on which these can be read, commented on and developed in a structured manner.
 
-Technisch gesehen arbeiten wir mit Text-Extraktion mit Apache Tika und Indizierung/Volltextsuche mit Elastic Search. Dabei ist das Konzept natürlich für viele weitere Themen spannend - wir wollten mit einem überschaubaren Thema anfangen um Erfahrungen zu sammeln.
+Technically speaking, we work with text extraction with Apache Tika and indexing / full-text search with Elastic Search. The concept is of course exciting for many other topics - we wanted to start with a manageable topic in order to gain experience.

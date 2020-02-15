@@ -2,7 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/mietmap.png
-title: Mietpreise in Karlsruhe
+title: Rental prices in Karlsruhe
 status: Finished
 
 links:
@@ -16,5 +16,6 @@ collaborators:
 
 ---
 
-Dieses Projekt visualisiert auf einer Karte die Mietpreise in Karlsruhe auf Basis von Immobilienanzeigen.
+This project visualizes the rental prices in Karlsruhe on the basis of real estate advertisements.
+
 

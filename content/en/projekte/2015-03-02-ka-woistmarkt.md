@@ -2,7 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/wo-ist-markt.png
-title: Wo ist Markt?
+title: Street Markets
 status: Finished
 
 links:
@@ -17,4 +17,5 @@ collaborators:
 
 ---
 
-Dieses Projekt visualisiert auf einer Karte wo gerade Wochenmarkt in Karlsruhe ist. Man kann für den aktuellen Tag filtern oder alle anzeigen. Die gerade stattfindenden Märkte werden grün gekennzeichnet.
+This project visualizes on a map where the weekly market is in Karlsruhe. You can filter for the current day or display all. The markets currently taking place are marked in green.
+

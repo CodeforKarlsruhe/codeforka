@@ -2,7 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/btw2017-stadtteile.png
-title: Die Bundestagswahl 2017 in den Karlsruher Stadtteilen
+title: Federal election 2017 results by districts, Karlsruhe
 status: abgeschlossen
 type: WS
 draft: false #set to 'true'
@@ -18,5 +18,4 @@ collaborators:
 
 ---
 
-Jeder Karlsruher Stadtteil ist anders — wie hat sich das auf die Wahl ausgewirkt? Wir haben uns das an Hand verschiedener Statistiken genauer angeschaut.
-
+Every district in Karlsruhe is different - how did that affect the election? We took a closer look at this using various statistics.

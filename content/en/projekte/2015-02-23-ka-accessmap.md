@@ -18,4 +18,5 @@ collaborators:
 
 ---
 
-Kleines <a href="http://codefor.de/projekte/2011-12-31-accessmap.html">Projekt aus Berlin</a>, das mit einem Slider visualisiert, wie barrierefrei Nahverkehrssysteme sind, indem nicht barrierefreie Stationen ausradiert werden. Jetzt auch in Karlsruhe.
+Small [project from Berlin](https://codefor.de/projekte/2011-12-31-accessmap.html) that uses a slider to visualize how barrier-free local transport systems are by adding non-barrier-free stations be erased. Now also in Karlsruhe.
+

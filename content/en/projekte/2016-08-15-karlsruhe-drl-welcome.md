@@ -12,4 +12,5 @@ links:
 
 ---
 
-Das Projekt Welcome wurde vom Pfarrer Jörg Sieger ins Leben gerufen, um Helferkreise innerhalb der Flüchtlingshilfe zu vernetzen und für einen reibungsloseren Informationsfluss zu sorgen.
+The project Welcome was initiated by the pastor Jörg Sieger in order to network aid groups within the refugee aid and to ensure a smoother flow of information.
+

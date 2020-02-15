@@ -12,4 +12,4 @@ links:
 
 ---
 
-Die Integrations-Timeline-App soll einen Überblick über den Prozess der Integration liefern und ihn kontextabhängig begleiten.
+The integration timeline app is intended to provide an overview of the integration process and to accompany it depending on the context.

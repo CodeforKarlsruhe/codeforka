@@ -2,7 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/direktvermarkter.png
-title: farmshops.eu Direktvermarkter Karte
+title: farmshops.eu map
 showcase: 1
 status: Laufend
 
@@ -24,8 +24,9 @@ links:
 
 ---
 
-Übersichtskarte von Hofläden, Märkten, Milchautomaten und anderen Direktvermarktern aus der DACH-Region (Deutschland, Österreich, Schweiz). Die Karte erhält alle ihre Daten über ein Script von Openstreetmap, bereitet sie optisch auf und unterstützt die Pflege der Daten indem sie fehlende Werte sichtbar macht und direkt auf den entsprechenden Ort auf OSM und in andere Kartendienste verlinkt. 
+Overview map of farm shops, markets, milk vending machines and other direct marketers from the DACH region (Germany, Austria, Switzerland). The map receives all of its data via a script from Openstreetmap, prepares it optically and supports the maintenance of the data by making missing values ​​visible and linking directly to the corresponding location on OSM and other map services.
 
-Fehlende Orte können auf Openstreetmap über die Tags shop=farm, amenity=vending_machine (vending=milk oder vending=food,...) oder amenity=marketplace nachgetragen werden. Details dazu findest Du im Menü der Karte.
+Missing locations can be added on Openstreetmap using the tags shop = farm, amenity = vending_machine (vending = milk or vending = food, ...) or amenity = marketplace. You can find details on this in the menu of the map.
 
-<a href="https://codeforkarlsruhe.github.io/direktvermarkter/">https://codeforkarlsruhe.github.io/direktvermarkter</a>
+[Farmshops](https://codeforkarlsruhe.github.io/direktvermarkter/)
+

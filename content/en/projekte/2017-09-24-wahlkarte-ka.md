@@ -2,7 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: 
-title: Karlsruher Wahlanzeiger
+title: Karlsruhe election map 2017
 status: abgeschlossen
 type: WS
 draft: false #set to 'true'
@@ -23,4 +23,4 @@ collaborators:
 
 ---
 
-Verschiedenste spannende Visualisierungen der Karlsruher Wahldaten für die Bundestagswahl 2017. Interaktive Karte und Analysen.
+Various exciting visualizations of the Karlsruhe election dates for the Bundestag election 2017. Interactive map and analyzes.

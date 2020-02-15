@@ -44,10 +44,10 @@ languages:
         # Hero image (from static/images/___)
         image: "../img/CfKA Hexagon 3d.svg" # illustrations/worker.svg
       # langiage switch: works, but keep it disabled until translation complete
-      #switch:
-      #  title: EN
-      #  lang: Englisch
-      #  code: en
+      switch:
+        title: EN
+        lang: Englisch
+        code: en
       # Customizable navbar. For a dropdown, add a "sublinks" list.
       navbar:
       - title: Über uns
@@ -66,17 +66,17 @@ languages:
         - # title: Design & Entwicklung
           icon: coding
           text:
-          url: /
+          url: /mitmachen#entwickler
           buttonText: Entwicklung & Design
         - # title: Cloud integration
           icon: folders
           text:
-          url: /
+          url: /mitmachen#politiker
           buttonText: Politik & Verwaltung
         - # title: Add-ons & plugins
           icon: microphone
           text:
-          url: /
+          url: /mitmachen#journalist
           buttonText: Journalismus & Unterstützung
       section2:
         subtitle: Freie Software + Offene Daten = <3
@@ -198,52 +198,52 @@ languages:
         - # title: Design & Entwicklung
           icon: coding
           text:
-          url: /
+          url: /en/mitmachen#entwickler
           buttonText: Design & Development
         - # title: Cloud integration
           icon: folders
           text:
-          url: /
+          url: /en/mitmachen#politiker
           buttonText: Politics & Administration
         - # title: Add-ons & plugins
           icon: microphone
           text:
-          url: /
+          url: /en/mitmachen#journalist
           buttonText: Journalism & Support
       section2:
         title: Open Source + Open Data = <3
         subtitle: Free Software + Open Data = <3
         features:
-        - title: Offene Daten // Open Data
-          text: Offene Daten sind Daten, auf die alle Personen frei zugreifen können und die von allen genutzt, verändert und geteilt werden können. Sie werden in vielen Anwendungen erzeugt und gesammelt, beispielsweise in amtlichen Messungen oder wissenschaftlichen Experimenten.
+        - title: Open Data
+          text: Open data is data that everyone can freely access and that can be used, changed and shared by everyone. They are generated and collected in many applications, for example in official measurements or scientific experiments.
           # Icon (from /images/illustrations/icons/___.svg)
           icon: laptop-globe
-        - title: Offene Verwaltung // Open Government
-          text: Politik und Verwaltung sollen geöffnet werden für Bürger*innen, Wirtschaft, Wissenschaft, Kunst und Kultur, um stärkere gemeinschaftliche Belange in einer Kommune zu ermöglichen. Im Fokus stehen dabei Transparenz, Partizipation und Kollaboration.
+        - title: Open Government
+          text: Politics and administration should be opened to citizens, business, science, art and culture in order to enable stronger common interests in a community. The focus is on transparency, participation and collaboration.
           icon: doc-sync
-        - title: Zivilgesellschaftliche Technik // Civic Tech
-          text: Technischen Konzepten können Engagement und Beteiligung von Bürgern fördern, beispielsweise durch entsprechende Kommunikationsplattformen, bessere öffentliche Infrastrukturen und technikbasierte Verbesserungen des Allgemeinwohls.
+        - title: Civic Tech
+          text: Technical concepts can promote engagement and participation of citizens, for example through appropriate communication platforms, better public infrastructures and technology-based improvements in the common good.
           icon: mobile-feed
       section3:
-        title: Wir nehmen offene Daten
-        subtitle: und bauen daraus Anwendungen für Bürger*innen.
+        title: We use open data
+        subtitle: to build applications for citicens.
         image: illustrations/cfg-summit-19.png
-        buttonText: Zu den Projekten
-        buttonLink: "/projekte/"
+        buttonText: The projects
+        buttonLink: "/en/projekte/"
       section4:
-        title: Unsere Schwerpunkte
-        subtitle: für 2020
+        title: Hot topics
+        subtitle: in 2020
         clients:
-        - name: Umwelt
-          quote: Wir loten aus, wie viel wir für unsere Umwelt und unser Klima tun. Dazu sammeln wir offene Daten vor Ort und werten sie aus.
+        - name: Climate and environment
+          quote: We are exploring how much we do for our environment and our climate. We collect open data on site and evaluate it.
           job:
           img: 1
-        - name: Mobilität & Infrastruktur
-          quote: Im Alltag sind wir viel unterwegs. Mit offenen Daten wollen wir die sichersten Wege, die entspanntesten Verkehrsmittel und die umweltfreundlichste Fortbewegung finden.
+        - name: Mobility & Infrastructure
+          quote: We travel a lot in everyday life. With open data, we want to find the safest routes, the most relaxed means of transport and the most environmentally friendly transportation.
           job:
           img: 2
         - name: Open Government
-          quote: Wir sprechen mit Politiker*innen und setzen uns für Transparenz und Partizipation ein.
+          quote: We talk to politicians and are committed to transparency and participation.
           job:
           img: 3
       section5: true

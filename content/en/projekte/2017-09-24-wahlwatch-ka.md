@@ -2,7 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: 
-title: Wahlwatching Twitter-Bot
+title: Election real-time Twitter-Bot
 status: abgeschlossen
 type: WS
 draft: false #set to 'true'
@@ -16,4 +16,4 @@ collaborators:
 
 ---
 
-Live sehen, wann neue Wahlergebnisse eingetragen werden! Dieser Bot twittert immer, wenn sich die Live-Ergebnisse aktualisieren.
+See live when new election results are entered! This bot tweets whenever the live results update.

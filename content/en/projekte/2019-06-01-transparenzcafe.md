@@ -7,7 +7,7 @@ showcase: 1
 status: Laufend
 
 collaborators:
-- name: Stefan R. Grotz
+- name: Andreas Kugel
   links:
   - url: https://twitter.com/stergro
     name: twitter
@@ -24,8 +24,12 @@ links:
 
 ---
 
-Übersichtskarte von Hofläden, Märkten, Milchautomaten und anderen Direktvermarktern aus der DACH-Region (Deutschland, Österreich, Schweiz). Die Karte erhält alle ihre Daten über ein Script von Openstreetmap, bereitet sie optisch auf und unterstützt die Pflege der Daten indem sie fehlende Werte sichtbar macht und direkt auf den entsprechenden Ort auf OSM und in andere Kartendienste verlinkt. 
+The transparency portal of the city of Karlsruhe targets primarily interested specialists who want to realize projects with the data, which
+may then also be of interest to the general public. With the concept of the 
+"Transparency Cafe" the OK Lab Karlsruhe wants to make the knowledge
+about open data and how to use it accessible to a wider public. With a series
+of events, we want to provide some inspiration for dealing with the data
+of the Transparency Portal in an informal »café« atmosphere. A
+continuation of these " Transparency Cafes", e.g. at district level, would be
+desirable.
 
-Fehlende Orte können auf Openstreetmap über die Tags shop=farm, amenity=vending_machine (vending=milk oder vending=food,...) oder amenity=marketplace nachgetragen werden. Details dazu findest Du im Menü der Karte.
-
-<a href="https://codeforkarlsruhe.github.io/direktvermarkter/">https://codeforkarlsruhe.github.io/direktvermarkter</a>

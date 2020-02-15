@@ -10,6 +10,9 @@
       </div>
       <div class="columns">
         <div class="column is-8 content">
+          {{ safeHTML "<?php" }}
+            echo $phpresult; // echo something 
+          {{ safeHTML "?>" }}
           {{ .Content }}
         </div>
       </div>

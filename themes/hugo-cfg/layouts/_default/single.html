@@ -5,17 +5,6 @@
     <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
     <div class="divider"></div>
 
-	{{/*
-    <div class="content">
-      {{ if isset .Params "schedule" }}
-        <h3>{{.Title}}</h3>
-        <div id="schedule" class="schedule">
-        </div>
-      {{- else -}}
-          {{ .Content }}
-      {{- end -}}
-    </div>
-	*/}}
     <div class="content">
           {{ .Content }}
       {{ if isset .Params "schedule" }}

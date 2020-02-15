@@ -151,8 +151,8 @@ languages:
             links:
             - text: Projekte
               link: /projekte/
-            - text: Unterstützen
-              link: /mitmachen/unterstuetzen/
+            - text: Mitmachen
+              link: /mitmachen/
             - text: OKF e.V.
               link: https://okfn.de/
 
@@ -261,16 +261,16 @@ languages:
         bulmalogo: true
         quicklinks:
           column1:
-            title: "Rechtliches"
+            title: "Legal stuff"
             links:
-            - text: Impressum
+            - text: Imprint
               link: /en/impressum/
-            - text: Datenschutz
+            - text: Data protection
               link: /en/impressum/#datenschutzerklaerung
-            - text: Grundsätze
+            - text: Principles
               link: /en/grundsaetze/
           column2:
-            title: "Werkzeugkoffer"
+            title: "Toolset"
             links:
             - text: Github (extern)
               link: https://github.com/okfde
@@ -279,12 +279,12 @@ languages:
             - text: ABC der Offenheit
               link: https://upload.wikimedia.org/wikipedia/commons/a/a9/ABC_der_Offenheit_-_Brosch%C3%BCre_%282019%29.pdf
           column3:
-            title: "Über uns"
+            title: "About"
             links:
             - text: Projects
               link: /en/projekte/
-            - text: Unterstützen
-              link: /en/mitmachen/unterstuetzen/
+            - text: Join Us
+              link: /en/mitmachen/
             - text: OKF e.V.
               link: https://okfn.de/
 

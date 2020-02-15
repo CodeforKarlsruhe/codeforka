@@ -6,20 +6,27 @@ weight: 1
 
 ---
 
-Code for Germany ist ein breit aufgestelltes Netzwerk aus Softwareentwicklerinnen, Designern, Politikern, Verwaltungsmitarbeiterinnen und Open Data Interessierten.
-Im **OK Lab Karlsruhe** kannst Du auf vielen Ebenen mitmachen und Teil des Netzwerks werden: 
+*Please note: this English translation is still work in progress*
 
-## Als Bürger*in
-Wir wollen nicht nur Anwendungen für die Allgemeinheit schaffen, wir wollen auch, dass sie genutzt werden und dass darüber gesprochen wird. Dafür brauchen wir Deine Ideen und Fragen als Bürger*in.
 
-## Als Entwickler*in / Designer*in
-Du bist Softwareentwicklerin oder Designerin und hast Lust mit Deinen Fähigkeiten Deine Nachbarschaft/Stadt/Umgebung positiv zu beeinflussen? Du kannst auch von der Ferne aus bei gemeinsamen Projekten der Codefor Community mitmachen. Alle Projekte liegen auf github und freuen sich über pull requests. Fertige Anwendungen warten darauf, auch in anderen Städten implementiert zu werden.
+Code for Germany is a broad network of software developers, designers, politicians, administrative staff and people interested in open data.
+In the **OK Lab Karlsruhe** you can participate on many levels and become part of the network. You do not have to enter any organizational form * or pay contributions.
 
-## Als Mitglied in Politik oder Verwaltung
-Kontakt und aktiver Austausch zwischen lokaler Verwaltung und Politik und den OK Labs ist sehr wichtig für den Erfolg des Programms. Daher laden wir Politikerinnen und Mitarbeiter der lokalen Verwaltung ein, mit den OK Labs zusammenarbeiten. Gemeinsam können wir weitere Daten öffnen und die Rahmenbedingungen für offenes Regierungshandeln, Transparenz und Beteiligung verbessern. Interessierte Menschen aus Politik und Verwaltung können einfach mit einem Lab aus ihrer Stadt in Kontakt treten oder sich per E-Mail bei uns melden, wir kümmern uns dann um die Vernetzung.
+## As a citizen
+We not only want to create applications for the general public, we also want them to be used and talked about. For this we need your ideas and questions as a citizen.
 
-## Als Journalist*in / Blogger*in
-Du nutzt selbst offene Daten aus unseren Projekten für Deine journalistische Arbeit oder berichtest über interessante Erkenntnisse und Zusammenhänge, die durch unsere Anwendungen offen gelegt werden?
-Du willst wissen, wie Offene Daten als Werkzeug bei der Recherche genutzt werden können und wie durch diese Daten Transparenz geschaffen werden kann? Komm' vorbei und erzähle uns von Deinen Projekten oder Ideen!
+## As a developer
+Are you a software developer or designer and would you like to use your skills to positively influence your neighborhood / city / environment? You can also participate in codefor community projects from afar. All projects are on github and look forward to pull requests. Finished applications are waiting to be implemented in other cities.
+
+## As a member of politics or administration
+Contact and active exchange between local administration and politics and the OK Labs is very important for the success of the program. We therefore invite politicians from the local administration to work with OK Labs. Together we can open more data and improve the framework for open government, transparency and participation. Interested people from politics and administration can simply get in touch with a lab in their city or contact us by e-mail and we will take care of the networking.
+
+## As a journalist / blogger
+Do you use open data from our projects for your journalistic work or do you report on interesting findings and relationships that are disclosed by our applications?
+Do you want to know how open data can be used as a research tool and how this data can create transparency? Come along and tell us about your projects or ideas!
+
+**\*** The OK Lab Karlsruhe is an informal association of interested people.
+The foundation of a non-profit organization is currently under discussion.
+
 
 

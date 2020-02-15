@@ -1,41 +1,43 @@
 ---
-title: "Grundsätze"
+title: "Principles"
 ---
 
-!!English!!
-
-# Mission Statement
-
-Code For Germany ist ein Netzwerk von Gruppen ehrenamtlich engagierter Freiwilliger, die ihre Fähigkeiten nutzen, um ihre Städte und das gesellschaftliche Miteinander positiv zu gestalten. Sie setzen sich für mehr Transparenz, Offene Daten und Partizipation in ihren Städten ein. Sie vermitteln insbesondere zwischen Zivilgesellschaft, Verwaltung und Politik und nutzen ihre Fähigkeiten, um die Kommunikation zwischen diesen zu verbessern und notwendige Impulse zu setzen, damit die Möglichkeiten der offenen und freien Digitalisierung so vielen Menschen wie möglich zugute kommen.
+*Please note: this English translation is still work in progress*
 
 
-## 1. Präambel
+# Mission statement
 
-Code for Germany ist ein Projekt der Open Knowledge Foundation Deutschland, in dem sich Gruppen ehrenamtlicher Freiwilliger in lokalen Labs engagieren. Mit diesem Code of Conduct regeln wir die wesentlichen Grundsätze für das Arbeiten und für Kooperationen im Rahmen des Code for Germany Netzwerks. Diese dienen als Leitsätze für das Verhalten untereinander sowie das Auftreten nach außen. Die Veranstaltungen der regionalen Code for Germany Gruppen sind grundsätzlich offen. Wer daran teilnimmt, über die Kommunikationskanäle kommuniziert und/oder anderweitig als Teil des Code-for-Germany-Netzwerks in Erscheinung tritt, erkennt diesen Code of Conduct als verbindlich an.
+Code For Germany is a network of groups of volunteer volunteers who use their skills to make their cities and social life positive. They are committed to more transparency, open data and participation in their cities. In particular, they mediate between civil society, administration and politics and use their skills to improve communication between them and provide the necessary impetus so that the opportunities of open and free digitization benefit as many people as possible.
 
-## 2. Organisation der Labs
 
-Für die Gründung eines neuen Labs wird zunächst die Open Knowledge Foundation (info@codefor.de) kontaktiert. In gemeinsamen Gesprächen wird evaluiert, ob eine Gründung infrage kommt und für beide Seiten sinnvoll ist. Die Projektleitung konsultiert hierfür auch den Community Rat. Bei positiver Entscheidung wird das neue Lab von Seiten der OKF bei der Ansprache möglicher Interessent*innen und strategischer Partner*innen in der Organisation einer Auftaktveranstaltung unterstützt.
+## 1. Preamble
 
-Die Lab Leads organisieren und entwickeln die Labs in ihren Städten. Sie organisieren Veranstaltungen, indem sie sich um Räumlichkeiten und Einladungen kümmern. Sie unterstützen dabei eine örtliche Community in ihren Labs aufzubauen, indem sie Interessierte ansprechen und einladen und eine Atmosphäre schaffen, die einladend für neue Teilnehmenden ist. Sie sind primäre Ansprechpartner*innen für die lokale Community und für die Open Knowledge Foundation. Lab Leads werden innerhalb der Labs bestimmt, dies kann per Wahl oder nach Konsensprinzip auf einem Lab Treffen erfolgen. Dies muss aber zuvor über die internen Kanäle mindestens zwei Wochen vorher angekündigt werden. Es sollte mindestens zwei Lab Leads geben, die sich gegenseitig vertreten und die Aufgaben teilen. Die Code For Labs und ihre Teilnehmenden sprechen und handeln in eigenem Namen. Ein Verweis auf die Open Knowledge Foundation und Code for Germany ist ausdrücklich erwünscht.
+Code for Germany is a project of the Open Knowledge Foundation Germany, in which groups of volunteer volunteers get involved in local labs. With this Code of Conduct we regulate the essential principles for working and for cooperation within the framework of the Code for Germany network. These serve as guiding principles for the behavior among each other as well as the external appearance. The events of the regional Code for Germany groups are basically open. Anyone who participates, communicates via the communication channels and / or otherwise appears as part of the Code for Germany network recognizes this Code of Conduct as binding.
 
-Die Lab Leads sind für die Organisation des Labs und der Veranstaltungen verantwortlich. Sie sind Ansprechpartner oder Ansprechpartnerinnen für ihr Lab und für die Projektleitung von Code for Germany. Die OK Labs und ihre Teilnehmenden sprechen und handeln in eigenem Namen. Ein Verweis auf die Open Knowledge Foundation und Code for Germany ist ausdrücklich erwünscht.
+## 2. Organization of the labs
 
-## 3. Repräsentation und Community Rat
+To open a new lab, the Open Knowledge Foundation (info@codefor.de) is contacted. In joint discussions it is evaluated whether a start-up is possible and makes sense for both sides. The project management also consults the Community Council. If the decision is positive, the OKF will assist the new lab in addressing potential interested parties and strategic partners in organizing a kick-off event.
 
-Für die bessere übergreifende Organisation der Labs untereinander und der Zusammenarbeit mit der OKF, wählt die Community einen “Rat”. Dieser besteht aus bis zu 5 Menschen und wird für ein Jahr gewählt. Wahlberechtigt sind alle Mitglieder aus den Labs die sich bis einer Woche vor Wahlbeginn auf der Code For Germany Mailingliste registriert haben. Mit der Wahl sprechen die Labs dem Beirat ihr ausdrückliches Vertrauen aus und wählen sie als Vertreter*innen der Interessen der Labs.
+The lab leads organize and develop the labs in their cities. They organize events by taking care of rooms and invitations. They help build a local community in their labs by addressing and inviting interested parties and creating an atmosphere that is inviting for new participants. They are primary contacts for the local community and for the Open Knowledge Foundation. Lab leads are determined within the labs, this can be done by choice or based on a consensus principle at a lab meeting. However, this must be announced beforehand via the internal channels at least two weeks in advance. There should be at least two lab leads that represent each other and share the tasks. The Code For Labs and its participants speak and act in their own name. A reference to the Open Knowledge Foundation and Code for Germany is expressly desired.
 
-Der Community Rat ist ein gewähltes Gremium aus Vertreter*innen der Labs, das von der Projektleitung für strategische Entscheidungen konsultiert wird. Der Rat unterstützt die Projektleitung bei der Planung und Erstellung von Strategien für Wachstum, Kommunikation, inhaltlicher Ausrichtung, etc., indem es die Perspektive und Bedürfnisse der Labs vertritt und so die Entwicklung des Programms mit gestaltet. Der Rat wird als offizielles Gremium auf der Seite von Code for Germany aufgeführt.
+The lab leads are responsible for the organization of the lab and the events. You are the contact person for your lab and for the project management of Code for Germany. The OK Labs and their participants speak and act in their own name. A reference to the Open Knowledge Foundation and Code for Germany is expressly desired.
 
-## 4. Entscheidungsfindung
+## 3. Representation and community advice
 
-Die Code for Germany Community strebt danach, Entscheidungen im Konsens zu treffen. Hierfür wird bei wichtigen Entscheidungen, welche das Programm oder eine öffentliche Stellungnahme betreffen, die Community konsultiert. Informationen und Optionen werden dafür verständlich aufbereitet und das Feedback der Community in einer Konsultationsphase von mindestens einer Woche eingeholt. Sollte eine schnellere Absprache nötig sein, können Entscheidungen in Rücksprache mit dem Community Rat getroffen werden.
+The community chooses a “Council” for the better overall organization of the labs among themselves and for cooperation with the OKF. This consists of up to 5 people and is elected for one year. All members from the labs who have registered on the Code For Germany mailing list up to one week before the start of the election are entitled to vote. With the election, the labs express their express trust in the advisory board and elect them as representatives of the interests of the labs.
 
-## 5. Verhalten untereinander
+The Community Council is an elected body made up of representatives of the labs, which is consulted by the project management for strategic decisions. The council supports the project management in planning and creating strategies for growth, communication, content orientation, etc. by representing the perspective and needs of the labs and thus helping to shape the development of the program. The Council is listed as an official body on the Code for Germany website.
 
-Innerhalb des Netzwerks Code for Germany wollen wir erreichen, dass sich Menschen unabhängig von Geschlecht, sexueller Orientierung, Herkunft, Glauben, Aussehen, Religion oder Alter einbringen und wohlfühlen können. Wir dulden keine sexistischen, rassistischen, homo- oder transfeindlichen, ableistischen oder anderweitig marginalisierte Gruppen diskriminierenden Äußerungen – auch nicht, wenn sie „nur als Witz“ gedacht waren.
+## 4. Decision making
 
-Die Lab Leads sind für die Einhaltung des Code of Conducts verantwortlich und sorgen entsprechend dafür, dass eine Umgebung geschaffen wird, die einen respektvollen Umgang miteinander ermöglicht. Interessierte sind gerne willkommen.
+The Code for Germany Community strives to make decisions by consensus. The community is consulted for important decisions regarding the program or a public statement. Information and options are prepared in an understandable way and the feedback from the community is obtained in a consultation phase of at least one week. Should a faster consultation be necessary, decisions can be made in consultation with the Community Council.
 
-In Konfliktfällen und bei Verstößen gegen den Code of Conduct, wird innerhalb des Labs an einer Lösung gearbeitet, sollte dies nicht zu einer Lösung führen, kontaktieren die Teilnehmenden den Community Rat und die Projektleitung. Diese beraten gemeinsam über die weitere Vorgehensweise. Ziel für uns ist es, Konflikte durch Schlichtung zu lösen. Bei fehlgeschlagener Streitschlichtung und anhaltenden Verstößen kann durch die Projektleitung bei der Open Knowledge Foundation Deutschland, nach vorheriger Konsultation des Community Rats, der Ausschluss einer Person vom entsprechenden Lab und dem Code for Germany Netzwerk und deren Treffen beschlossen werden. Auch Lab Leads und Community Ratsmitglieder können von diesem Ausschluss betroffen sein.
+## 5. Behavior with each other
+
+Within the Code for Germany network, we want to ensure that people can contribute and feel good regardless of gender, sexual orientation, origin, belief, appearance, religion or age. We do not tolerate sexist, racist, homophobic or trans-hostile, disservice or otherwise marginalized groups of discriminatory statements - even if they were "just a joke".
+
+The Lab Leads are responsible for compliance with the Code of Conduct and accordingly ensure that an environment is created that enables respectful interaction with one another. Interested parties are welcome.
+
+In cases of conflict and violations of the Code of Conduct, a solution is being worked on within the lab. If this does not lead to a solution, the participants contact the Community Council and the project management. Together they advise on how to proceed. The goal for us is to resolve conflicts through arbitration. In the event of unsuccessful dispute resolution and persistent violations, the project management at the Open Knowledge Foundation Germany, after prior consultation with the Community Council, may decide to exclude a person from the relevant lab and the Code for Germany network and to meet them. Lab Leads and Community Council members can also be affected by this exclusion.
+
 

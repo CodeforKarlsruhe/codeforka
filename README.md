@@ -6,11 +6,11 @@ Live version, still work in progress [here](https://ok-lab-karlsruhe.de)
 
 This is a modified copy of the projected [new codefor.de website](https://dev.codefor.de)
 
-Is is using hugo, as a stitc site generator. I have modivied the config to support 2 languageed (de and en) but the translations are not there yet.
+Is using hugo, a stitc site generator. I have modivied the config to support 2 languages (de and en). Translations are there (tx to Google) but need to be improved. Also, some content relates only to the main codefor.de site ans has to be removed or modfied for the OK lab KA.
 
-It support to load the event schedule from a json file from github at runtime, so we don't need to recompile just to update events.
+It supports to load the event schedule from a json file from github at runtime, so we don't need to recompile just to update events.
 
-For developing you need to get the **extended** hugo site generator from [here](https://github.com/gohugoio/hugo/releases/)
+For developing you need to get the **extended** hugo site generator from [here](https://github.com/gohugoio/hugo/releases/), make sure to use version >= 0.64
 
 Then go to the base directory (the one with the config.yaml file) and run
 

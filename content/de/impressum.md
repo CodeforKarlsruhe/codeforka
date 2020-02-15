@@ -80,8 +80,8 @@ Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden,
 bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von
 Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
-Datenschutzerklärung {#datenschutzerklaerung}
---------------------
+
+## Datenschutzerklärung {#datenschutzerklaerung}
 
 Die Open Knowledge Foundation Deutschland e.V., Singerstr. 109, 10179
 Berlin Deutschland (nachfolgend als „Open Knowledge Foundation" oder
@@ -105,7 +105,7 @@ stattfindenden Datenverarbeitungen ist die
 Open Knowledge Foundation Deutschland e.V.\
 Singerstr. 109\
 10179 Berlin\
-Deutschland\
+Deutschland
 
 EMail:
 :   <info@codefor.de>
@@ -119,11 +119,11 @@ Fax:
 
 Unser Datenschutzbeauftragter ist erreichbar unter:
 
-Open Knowledge Foundation Deutschland e.V.\
+Open Knowledge Foundation Deutschland e.V.
+
 - Datenschutzbeauftragter -\
 Singerstr. 109\
 10179 Berlin\
-\
 Deutschland\
 \
 <datenschutz@okfn.de>

@@ -250,7 +250,7 @@ languages:
       footer:
         logo: /img/CFG_Karlsruhe_white.svg
         # Social Media Title
-        socialmediatitle: Folge uns!
+        socialmediatitle: Follow us!
         # Social media links (GitHub, Twitter, etc.). All are optional.
         socialmedia:
         - link: https://github.com/okfde/codefor.de

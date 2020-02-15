@@ -4,6 +4,7 @@
 {{- $socialMedia := index $footer "socialmedia" }}
 {{- $bulmaLogo   := index $footer "bulmalogo" }}
 {{- $socialMediaTitle    := index $footer "socialmediatitle" }}
+{{- $lang			:= .Site.Language.Lang }}
 <footer class="footer footer-dark">
   <div class="container">
     <div class="columns">
@@ -43,7 +44,11 @@
                 {{- end }}
               </div>
             </nav>
+            {{- if eq $lang "en" -}}
+            <p>This website was created with love, volunteer work, <a href="https://gohugo.io">Hugo</a> and <a href="https://bulma.io" target="_blank">Bulma</a>.</p>
+            {{- else -}}
             <p>Diese Website wurde gebaut mit viel Liebe, ehrenamtlicher Arbeit, <a href="https://gohugo.io">Hugo</a> und <a href="https://bulma.io" target="_blank">Bulma</a>.</p>
+            {{- end -}}
           </div>
         </div>
       </div>

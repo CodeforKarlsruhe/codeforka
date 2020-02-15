@@ -6,7 +6,7 @@ include_footer: true
 Wir sind Menschen, die Karlsruhe mit digitalen Werkzeugen verbessern wollen. 
 Jeden Monat veranstalten wir das Code for Karlsruhe Meetup, bei dem Projekte vorgestellt, 
 interessanten Vorträgen gelauscht und zusammen diskutiert und gebastelt wird. 
-Du bist Coder*in, Designer*in, Journalist*in, politisch aktiv oder einfach nur interessiert? 
+Du bist Coder\*in, Designer\*in, Journalist\*in, politisch aktiv oder einfach nur interessiert? 
 
 **Prima! Lass uns zusammen die Stadt voran bringen!**
 

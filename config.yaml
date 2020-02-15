@@ -43,11 +43,11 @@ languages:
         buttonlink: "mitmachen"
         # Hero image (from static/images/___)
         image: "../img/CfKA Hexagon 3d.svg" # illustrations/worker.svg
-      switch:
-        title: EN
-        # Where the main hero button links to
-        lang: Englisch
-        code: en
+      # langiage switch: works, but keep it disabled until translation complete
+      #switch:
+      #  title: EN
+      #  lang: Englisch
+      #  code: en
       # Customizable navbar. For a dropdown, add a "sublinks" list.
       navbar:
       - title: Über uns
@@ -175,19 +175,12 @@ languages:
         buttonlink: "/en/mitmachen"
         # Hero image (from static/images/___)
         image: "../img/CfKA Hexagon 3d.svg" # illustrations/worker.svg
-        # Footer logos (from static/images/logos/clients/___.svg)
-        #clientlogos:
-        #- systek
-        #- tribe
-        #- kromo
-        #- infinite
-        #- gutwork
-      # Customizable navbar. For a dropdown, add a "sublinks" list.
+      # langiage switch: works, but keep it disabled until translation complete
       switch:
         title: DE
-        # Where the main hero button links to
         lang: German
         code: de
+      # Customizable navbar. For a dropdown, add a "sublinks" list.
       navbar:
       - title: About
         url: /en/ueber/

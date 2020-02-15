@@ -4,7 +4,7 @@ New (2020) website OK Lab Karlsruhe
 Live version, still work in progress [here](https://ok-lab-karlsruhe.de)
 
 
-This is a modified copy of the projected [new codefor.de website](https://dev.codefor.de)
+This is a modified copy of the projected [new codefor.de website](https://dev.codefor.de) which is online, but still under development. I tried to keep the same look-and-feel.
 
 Is using hugo, a stitc site generator. I have modivied the config to support 2 languages (de and en). Translations are there (tx to Google) but need to be improved. Also, some content relates only to the main codefor.de site ans has to be removed or modfied for the OK lab KA.
 

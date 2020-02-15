@@ -1,5 +1,4 @@
 {{ define "main"}}
-  {{ partial "navbar.html" . }}
   <section class="section is-medium">
     <div class="container">
       <div class="columns">
@@ -10,8 +9,9 @@
         </div>
       </div>
       <p>Diese Seite wurde nicht gefunden.</p>
-      <p><a href="{{ "/" | relURL }}">Zurück zur Startseite!</a></p>
+      <p><a href="{{ "/de/" | relURL }}">Zurück zur Startseite!</a></p>
+      <p>we could not find that page.</p>
+      <p><a href="{{ "/en/" | relURL }}">Back to the startpage!</a></p>
     </div>
   </section>
-  {{ partial "footer.html" . }}
 {{ end }}

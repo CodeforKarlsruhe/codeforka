@@ -36,15 +36,15 @@
           <a href="{{ .url }}">{{ .name }}</a>
         {{ end }}
         <hr>
+        {{/*
         <h3>OK Lab</h3>
         {{.Params.lab }}
-        {{/* TODO: link to lab */}}
         <hr>
+        */}}
         <h3>Projektstatus</h3>
         {{.Params.status }}
         </div>
       </div>
     </div>
   </section>
-  {{ partial "footer.html" . }}
 {{ end }}

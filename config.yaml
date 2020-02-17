@@ -97,7 +97,9 @@ languages:
       section3:
         title: Wir nehmen offene Daten
         subtitle: und bauen daraus Anwendungen für Bürger*innen.
-        image: illustrations/cfg-summit-19.png
+        #image: illustrations/cfg-summit-19.png
+        # images here are in theme directory below images
+        image: sma.jpg
         buttonText: Zu den Projekten
         buttonLink: "/projekte/"
       section4:
@@ -123,10 +125,9 @@ languages:
         socialmediatitle: Folge uns!
         # Social media links (GitHub, Twitter, etc.). All are optional.
         socialmedia:
-        - link: https://github.com/okfde/codefor.de
           # Icons are from Font Awesome
+        - link: https://github.com/CodeforKarlsruhe
           icon: github
-        - link: https://twitter.com/codeforde
           #icon: twitter
         bulmalogo: true
         quicklinks:
@@ -142,7 +143,7 @@ languages:
           column2:
             title: "Werkzeugkoffer"
             links:
-            - text: Github (extern)
+            - text: Github OKF (extern)
               link: https://github.com/okfde
             - text: opendatahandbook.org
               link: https://opendatahandbook.org/
@@ -229,7 +230,9 @@ languages:
       section3:
         title: We use open data
         subtitle: to build applications for citicens.
-        image: illustrations/cfg-summit-19.png
+        #image: illustrations/cfg-summit-19.png
+        # images here are in theme directory below images
+        image: sma.jpg
         buttonText: The projects
         buttonLink: "/en/projekte/"
       section4:
@@ -255,11 +258,8 @@ languages:
         socialmediatitle: Follow us!
         # Social media links (GitHub, Twitter, etc.). All are optional.
         socialmedia:
-        - link: https://github.com/okfde/codefor.de
-          # Icons are from Font Awesome
+        - link: https://github.com/CodeforKarlsruhe
           icon: github
-        - link: https://twitter.com/codeforde
-          #icon: twitter
         bulmalogo: true
         quicklinks:
           column1:
@@ -274,7 +274,7 @@ languages:
           column2:
             title: "Toolset"
             links:
-            - text: Github (extern)
+            - text: Github OKF (extern)
               link: https://github.com/okfde
             - text: opendatahandbook.org
               link: https://opendatahandbook.org/

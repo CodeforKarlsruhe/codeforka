@@ -11,7 +11,15 @@
       </div>
       <div class="columns">
         <div class="column is-8 content">
-          <img src="/projects/{{ .Params.Imgname }}" alt="">
+		  <div style="position:relative;">
+			<fig>
+	          	<img src="/projects/{{ .Params.Imgname }}" alt="">
+				{{- if isset .Params "imgcaption" -}}
+					<figcaption class="figcaption">{{ .Params.Imgcaption }}
+					</figcaption>
+				{{- end -}}
+			  </fig>
+		  </div>
           {{ .Content }}
         </div>
         <div class="column is-offset-1 sidebar">

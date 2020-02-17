@@ -18,6 +18,12 @@ Hero styles
             color: $muted-grey;
         }
     }
+    .subsubtitle {
+        &.is-muted {
+            color: $muted-grey;
+			font-size: 90%;
+        }
+	}
 }
 
 .hero-foot {

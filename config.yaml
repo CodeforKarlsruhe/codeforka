@@ -36,7 +36,9 @@ languages:
         title: OK Lab Karlsruhe
         # Hero subtitle (optional)
         # subtitle: Wir sind ein offenes Stadtlabor und bauen digitale Werkzeuge für alle!
-        subtitle: Diese Seite ist noch im Aufbau ...
+        subtitle: Open Knowledge // Freies Wissen mit digitalen Werkzeugen für alle!  
+        subsubtitle: Diese Seiten sind noch im Aufbau ...
+        #subtitle: Diese Seite ist noch im Aufbau ...
         # Button text
         buttontext: Werde Stadtentwickler*in!
         # Where the main hero button links to
@@ -125,7 +127,7 @@ languages:
           # Icons are from Font Awesome
           icon: github
         - link: https://twitter.com/codeforde
-          icon: twitter
+          #icon: twitter
         bulmalogo: true
         quicklinks:
           column1:
@@ -167,8 +169,8 @@ languages:
         # Main hero title
         title: OK Lab Karlsruhe
         # Hero subtitle (optional)
-        # subtitle: We are a non-profit civic-tech lab working on digital tools for all
-        subtitle: This site is work in progress. Stay tuned ...
+        subtitle: Open Knowledge with digital tools for all!
+        subsubtitle: This site is work in progress. Stay tuned ...
         # Button text
         buttontext: Improve your city!
         # Where the main hero button links to
@@ -257,7 +259,7 @@ languages:
           # Icons are from Font Awesome
           icon: github
         - link: https://twitter.com/codeforde
-          icon: twitter
+          #icon: twitter
         bulmalogo: true
         quicklinks:
           column1:
@@ -267,7 +269,7 @@ languages:
               link: /en/impressum/
             - text: Data protection
               link: /en/impressum/#datenschutzerklaerung
-            - text: Principles
+            - text: Code of Conduct
               link: /en/grundsaetze/
           column2:
             title: "Toolset"

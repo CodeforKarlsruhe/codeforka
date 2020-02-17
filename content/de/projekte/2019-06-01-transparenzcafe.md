@@ -2,6 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/tcafe.jpg
+imgcaption: "© ZKM | Zentrum für Kunst und Medien, Foto: Tanja Meissner"
 title: Transparenz.Cafe
 showcase: 1
 status: Laufend

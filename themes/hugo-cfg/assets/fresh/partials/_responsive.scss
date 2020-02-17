@@ -39,6 +39,18 @@ Responsive Styles
     .testimonial {
         margin: 0 auto;
     }
+
+	.figcaption {
+		position:absolute;
+		bottom:-1em;
+		left:0;
+		width:100%;
+		font-size:60%;
+		background:#444f60;
+		color:white;
+	}
+
+
 }
 
 

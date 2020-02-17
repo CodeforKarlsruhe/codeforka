@@ -2,6 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/klimakonzept.png
+imgcaption: "Foto: Stadt Karlsruhe"
 title: Klimakonzept Karlsruhe
 showcase: 1
 status: Laufend

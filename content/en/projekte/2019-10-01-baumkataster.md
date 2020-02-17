@@ -1,27 +1,25 @@
 ---
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
-imgname: karlsruhe/direktvermarkter.png
-title: Baumkataster
+imgname: karlsruhe/trees.png
+title: Communal Trees
 showcase: 1
 status: Laufend
 
 collaborators:
-- name: Stefan R. Grotz
-  links:
-  - url: https://twitter.com/stergro
-    name: twitter
-  - url: http://github.com/stefangrotz
-    name: github
-  - url: http://stefan.grotz.me/
-    name: homepage
+collaborators:
+- name: Andreas Kugel
+- name: Simon Haas
 
 links:
 - name: Karte
-  url: https://codeforkarlsruhe.github.io/direktvermarkter
+  url: https://codeforkarlsruhe.github.io/baumkataster/
 - name: Github
-  url: https://github.com/codeforkarlsruhe/direktvermarkter
+  url: https://github.com/CodeforKarlsruhe/baumkataster
 
 ---
 
-Map of communal trees in Karlsruhe with addional information on district parameters.
+The tree register of the city of Karslruhe contains the geo-coordinates and type of all urban trees. The map shows the positions on a map, which also shows population and area for all districts. Further information can be displayed in a popup for each tree species.
+
+To process the data, preprocessing is done with Python.
+

@@ -17,7 +17,7 @@ collaborators:
   links:
   - url: https://twitter.com/Ari42
     name: Twitter
-  - url: https://github.com/dbaelz
+  - url: https://github.com/CodeforKarlsruhe/opensense
     name: GitHub
 
 ---

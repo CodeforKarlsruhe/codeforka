@@ -1,28 +1,24 @@
 ---
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
-imgname: karlsruhe/direktvermarkter.png
-title: Klimakonzept Karlsruhe
+imgname: karlsruhe/klimakonzept.png
+title: Climate Protection Plan Karlsruhe
 showcase: 1
 status: Laufend
 
 collaborators:
-- name: Stefan R. Grotz
-  links:
-  - url: https://twitter.com/stergro
-    name: twitter
-  - url: http://github.com/stefangrotz
-    name: github
-  - url: http://stefan.grotz.me/
-    name: homepage
+- name: Johannes Eichold
+- name: Andreas Kugel
+- name: Sebastian Richter
+- name: Martin Weis
 
 links:
-- name: Karte
-  url: https://codeforkarlsruhe.github.io/direktvermarkter
-- name: Github
-  url: https://github.com/codeforkarlsruhe/direktvermarkter
+  - name: Info
+    url: https://presse.karlsruhe.de/db/stadtzeitung/jahr2019/woche30/klimaschutzkonzept_2030_gehandelt_wird_bereits_jetzt.html
+
 
 ---
 
-Climate protection plan of Karlsruhe
+The city of Karlsruhe presented the draft of the 2030 climate protection concept to the population in a [participation process] (https://beteiligung.karlsruhe.de/content/bbv/details/90/).
+We want to support and improve the associated calculation models and the progress of the measures in a public process.
 

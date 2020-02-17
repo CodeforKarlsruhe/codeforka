@@ -1,31 +1,23 @@
 ---
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
-imgname: karlsruhe/direktvermarkter.png
+imgname: karlsruhe/trees.png
 title: Baumkataster
 showcase: 1
 status: Laufend
 
 collaborators:
-- name: Stefan R. Grotz
-  links:
-  - url: https://twitter.com/stergro
-    name: twitter
-  - url: http://github.com/stefangrotz
-    name: github
-  - url: http://stefan.grotz.me/
-    name: homepage
+- name: Andreas Kugel
+- name: Simon Haas
 
 links:
 - name: Karte
-  url: https://codeforkarlsruhe.github.io/direktvermarkter
+  url: https://codeforkarlsruhe.github.io/baumkataster/
 - name: Github
-  url: https://github.com/codeforkarlsruhe/direktvermarkter
+  url: https://github.com/CodeforKarlsruhe/baumkataster
 
 ---
 
-Übersichtskarte von Hofläden, Märkten, Milchautomaten und anderen Direktvermarktern aus der DACH-Region (Deutschland, Österreich, Schweiz). Die Karte erhält alle ihre Daten über ein Script von Openstreetmap, bereitet sie optisch auf und unterstützt die Pflege der Daten indem sie fehlende Werte sichtbar macht und direkt auf den entsprechenden Ort auf OSM und in andere Kartendienste verlinkt. 
+Das Baumkatatster der Stadt Karslruhe enthält die Geokoordinaten und Art aller städtischen Bäume. Die Karte zeigt die Positionen auf einer Karte, in der ebenfalls für alle Stadtteile Einwohnerzahl und Fläche angezeigt werden. Für jede Baumart können weitere Informationen in einem Popup dargestellt werden.
 
-Fehlende Orte können auf Openstreetmap über die Tags shop=farm, amenity=vending_machine (vending=milk oder vending=food,...) oder amenity=marketplace nachgetragen werden. Details dazu findest Du im Menü der Karte.
-
-<a href="https://codeforkarlsruhe.github.io/direktvermarkter/">https://codeforkarlsruhe.github.io/direktvermarkter</a>
+Zur Auswertung der Daten wird eine Vorverarbeitung mit Python gemacht.

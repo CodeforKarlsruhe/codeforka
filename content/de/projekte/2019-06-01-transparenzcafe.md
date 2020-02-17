@@ -1,31 +1,21 @@
 ---
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
-imgname: karlsruhe/direktvermarkter.png
+imgname: karlsruhe/tcafe.jpg
 title: Transparenz.Cafe
 showcase: 1
 status: Laufend
 
 collaborators:
-- name: Stefan R. Grotz
-  links:
-  - url: https://twitter.com/stergro
-    name: twitter
-  - url: http://github.com/stefangrotz
-    name: github
-  - url: http://stefan.grotz.me/
-    name: homepage
+- name: Andreas Kugel
+- name: Martin Weis
+- name: Josef Attmann
+- name: Michael Riedmüller
 
 links:
-- name: Karte
-  url: https://codeforkarlsruhe.github.io/direktvermarkter
-- name: Github
-  url: https://github.com/codeforkarlsruhe/direktvermarkter
+- name: Homepage
+  url: https://transparenz.cafe
 
 ---
 
-Übersichtskarte von Hofläden, Märkten, Milchautomaten und anderen Direktvermarktern aus der DACH-Region (Deutschland, Österreich, Schweiz). Die Karte erhält alle ihre Daten über ein Script von Openstreetmap, bereitet sie optisch auf und unterstützt die Pflege der Daten indem sie fehlende Werte sichtbar macht und direkt auf den entsprechenden Ort auf OSM und in andere Kartendienste verlinkt. 
-
-Fehlende Orte können auf Openstreetmap über die Tags shop=farm, amenity=vending_machine (vending=milk oder vending=food,...) oder amenity=marketplace nachgetragen werden. Details dazu findest Du im Menü der Karte.
-
-<a href="https://codeforkarlsruhe.github.io/direktvermarkter/">https://codeforkarlsruhe.github.io/direktvermarkter</a>
+Das Transparenzportal der Stadt Karlsruhe richtet sich in erster Linie an inter­es­sierte Spezia­lis­ten, die mit den Daten Projekte verwirk­li­chen wollen, welche dann auch für die Allge­mein­heit inter­essant sein können. Mit dem Konzept »Transparenz Cafe« will das OK Lab Karlsruhe das Wissen über offene Daten und ihre Nutzung einer breiteren Öffentlichkeit zugänglich machen. Mit einer Reihe von Veranstaltungen im Rahmen der [*Seasons of Media Arts 2019*](https://zkm.de/de/veranstaltung/2019/08/datenlabor-workshop) wollen wir Anregungen geben, sich mit den Daten des Transparenzportals in zwangloser »Cafe«-Atmosphäre zu befassen. Eine Fortsetzung dieser »Trapnsparenz Cafes«, z.B. auf Stadtteilebene, ist geplant. 

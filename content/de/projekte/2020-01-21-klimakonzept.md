@@ -1,31 +1,21 @@
 ---
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
-imgname: karlsruhe/direktvermarkter.png
+imgname: karlsruhe/klimakonzept.png
 title: Klimakonzept Karlsruhe
 showcase: 1
 status: Laufend
 
 collaborators:
-- name: Stefan R. Grotz
-  links:
-  - url: https://twitter.com/stergro
-    name: twitter
-  - url: http://github.com/stefangrotz
-    name: github
-  - url: http://stefan.grotz.me/
-    name: homepage
+- name: Johannes Eichold
+- name: Andreas Kugel
+- name: Sebastian Richter
+- name: Martin Weis
 
 links:
-- name: Karte
-  url: https://codeforkarlsruhe.github.io/direktvermarkter
-- name: Github
-  url: https://github.com/codeforkarlsruhe/direktvermarkter
-
+  - name: Info
+    url: https://presse.karlsruhe.de/db/stadtzeitung/jahr2019/woche30/klimaschutzkonzept_2030_gehandelt_wird_bereits_jetzt.html
 ---
 
-Übersichtskarte von Hofläden, Märkten, Milchautomaten und anderen Direktvermarktern aus der DACH-Region (Deutschland, Österreich, Schweiz). Die Karte erhält alle ihre Daten über ein Script von Openstreetmap, bereitet sie optisch auf und unterstützt die Pflege der Daten indem sie fehlende Werte sichtbar macht und direkt auf den entsprechenden Ort auf OSM und in andere Kartendienste verlinkt. 
-
-Fehlende Orte können auf Openstreetmap über die Tags shop=farm, amenity=vending_machine (vending=milk oder vending=food,...) oder amenity=marketplace nachgetragen werden. Details dazu findest Du im Menü der Karte.
-
-<a href="https://codeforkarlsruhe.github.io/direktvermarkter/">https://codeforkarlsruhe.github.io/direktvermarkter</a>
+Die Stadt Karlsruhe hat den Entwurf des Klimaschutzkonzepts 2030 in einem [Beteiligungsverfahren](https://beteiligung.karlsruhe.de/content/bbv/details/90/) der Bevölkerung vorgelegt.
+Wir wollen die zugehörigen Berechnungsmodelle und den Fortschritt der Massnahmen in einem öffentlichen Prozess begleiten und verbessern.

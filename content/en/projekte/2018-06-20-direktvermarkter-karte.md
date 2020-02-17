@@ -18,7 +18,7 @@ collaborators:
 
 links:
 - name: Karte
-  url: https://codeforkarlsruhe.github.io/direktvermarkter
+  url: https://farmshops.eu/
 - name: Github
   url: https://github.com/codeforkarlsruhe/direktvermarkter
 
@@ -28,5 +28,4 @@ Overview map of farm shops, markets, milk vending machines and other direct mark
 
 Missing locations can be added on Openstreetmap using the tags shop = farm, amenity = vending_machine (vending = milk or vending = food, ...) or amenity = marketplace. You can find details on this in the menu of the map.
 
-[Farmshops](https://codeforkarlsruhe.github.io/direktvermarkter/)
 

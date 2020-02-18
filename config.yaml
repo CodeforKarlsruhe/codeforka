@@ -103,19 +103,19 @@ languages:
         buttonText: Zu den Projekten
         buttonLink: "/projekte/"
       section4:
-        title: Unsere Schwerpunkte
-        subtitle: für 2020
+        title: Das Konzept der Offenheit
+        # subtitle: für 2020
         clients:
-        - name: Umwelt
-          quote: Wir loten aus, wie viel wir für unsere Umwelt und unser Klima tun. Dazu sammeln wir offene Daten vor Ort und werten sie aus.
+        - name: Offene Daten
+          quote: Offene Daten sind Daten, auf die alle Personen frei zugreifen können und die von allen genutzt, verändert und geteilt werden können. Sie werden in vielen Anwendungen erzeugt und gesammelt, beispielsweise in amtlichen Messungen oder wissenschaftlichen Experimenten.
           job:
           img: 1
-        - name: Mobilität & Infrastruktur
-          quote: Im Alltag sind wir viel unterwegs. Mit offenen Daten wollen wir die sichersten Wege, die entspanntesten Verkehrsmittel und die umweltfreundlichste Fortbewegung finden.
+        - name: Offene Verwaltung
+          quote: Politik und Verwaltung sollen geöffnet werden für Bürger*innen, Wirtschaft, Wissenschaft, Kunst und Kultur, um stärkere gemeinschaftliche Belange in einer Kommune zu ermöglichen. Im Fokus stehen dabei Transparenz, Partizipation und Kollaboration.
           job:
           img: 2
-        - name: Open Government
-          quote: Wir sprechen mit Politiker*innen und setzen uns für Transparenz und Partizipation ein.
+        - name: Zivilgesellschaftliche Technik
+          quote: Technische Konzepte können Engagement und Beteiligung von Bürgern fördern, beispielsweise durch entsprechende Kommunikationsplattformen, bessere öffentliche Infrastrukturen und technikbasierte Verbesserungen des Allgemeinwohls.
           job:
           img: 3
       section5: true
@@ -236,19 +236,19 @@ languages:
         buttonText: The projects
         buttonLink: "/en/projekte/"
       section4:
-        title: Hot topics
-        subtitle: in 2020
+        title: The Concept of Openness
+        #subtitle: in 2020
         clients:
-        - name: Climate and environment
-          quote: We are exploring how much we do for our environment and our climate. We collect open data on site and evaluate it.
+        - name: Open Data
+          quote: Open data is data that everyone can freely access and that can be used, changed and shared by everyone. They are generated and collected in many applications, for example in official measurements or scientific experiments.
           job:
           img: 1
-        - name: Mobility & Infrastructure
-          quote: We travel a lot in everyday life. With open data, we want to find the safest routes, the most relaxed means of transport and the most environmentally friendly transportation.
+        - name: Open Government
+          quote: Politics and administration should be opened to citizens, business, science, art and culture in order to enable stronger common interests in a community. The focus is on transparency, participation and collaboration.
           job:
           img: 2
-        - name: Open Government
-          quote: We talk to politicians and are committed to transparency and participation.
+        - name: Civic Tech
+          quote: Technical concepts can promote engagement and participation of citizens, for example through appropriate communication platforms, better public infrastructures and technology-based improvements in the common good.
           job:
           img: 3
       section5: true

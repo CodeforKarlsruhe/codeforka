@@ -120,7 +120,9 @@ languages:
           img: 3
       section5: true
       footer:
-        logo: /img/CFG_Karlsruhe_white.svg
+        logo: /img/okf.svg
+        logourl: https://okfn.de/
+        #logo: /img/CFG_Karlsruhe_white.svg
         # Social Media Title
         socialmediatitle: Folge uns!
         # Social media links (GitHub, Twitter, etc.). All are optional.
@@ -156,8 +158,6 @@ languages:
               link: /projekte/
             - text: Mitmachen
               link: /mitmachen/
-            - text: OKF e.V.
-              link: https://okfn.de/
 
 
   en:
@@ -253,7 +253,9 @@ languages:
           img: 3
       section5: true
       footer:
-        logo: /img/CFG_Karlsruhe_white.svg
+        #logo: /img/CFG_Karlsruhe_white.svg
+        logo: /img/okf.svg
+        logourl: https://okfn.de/
         # Social Media Title
         socialmediatitle: Follow us!
         # Social media links (GitHub, Twitter, etc.). All are optional.
@@ -287,7 +289,5 @@ languages:
               link: /en/projekte/
             - text: Join Us
               link: /en/mitmachen/
-            - text: OKF e.V.
-              link: https://okfn.de/
 
 

@@ -1,5 +1,6 @@
 {{- $footer      := .Site.Params.footer }}
 {{- $logo        := index $footer "logo" }}
+{{- $logourl     := index $footer "logourl" }}
 {{- $quickLinks  := index $footer "quicklinks" }}
 {{- $socialMedia := index $footer "socialmedia" }}
 {{- $bulmaLogo   := index $footer "bulmalogo" }}
@@ -10,7 +11,9 @@
     <div class="columns">
       <div class="column">
         <div class="footer-logo">
+          <a href="{{ printf "%s" $logourl }}" alt="">
           <img src="{{ printf "%s" $logo | relURL }}">
+          </a>
         </div>
       </div>
       {{- range $quickLinks }}

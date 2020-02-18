@@ -10,7 +10,9 @@ footer.footer-dark {
     }
     .footer-logo {
         img {
-            height: 40px;
+            // modified for OKF logo
+            height: 60px;
+            background-color: $white;
         }
     }
     .footer-column {

@@ -17,13 +17,12 @@
         {{- range $clients }}
         <div class="column is-4">
           <figure class="testimonial">
+              <h3><b>{{ .name }}</b></h3>
             <blockquote>
               {{ .quote }}
             </blockquote>
             <div class="author">
-              <img src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}" alt=""/>
-              <h5>{{ .name }}</h5>
-              <span>{{ .job }}</span>
+              <img src="{{ printf "/images/illustrations/%s" (string .img) | relURL }}" class="img-4" alt=""/>
             </div>
           </figure>
         </div>

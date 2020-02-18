@@ -109,15 +109,15 @@ languages:
         - name: Offene Daten
           quote: Offene Daten sind Daten, auf die alle Personen frei zugreifen können und die von allen genutzt, verändert und geteilt werden können. Sie werden in vielen Anwendungen erzeugt und gesammelt, beispielsweise in amtlichen Messungen oder wissenschaftlichen Experimenten.
           job:
-          img: 1
+          img: icons/doc-sync.svg
         - name: Offene Verwaltung
           quote: Politik und Verwaltung sollen geöffnet werden für Bürger*innen, Wirtschaft, Wissenschaft, Kunst und Kultur, um stärkere gemeinschaftliche Belange in einer Kommune zu ermöglichen. Im Fokus stehen dabei Transparenz, Partizipation und Kollaboration.
           job:
-          img: 2
+          img: icons/folders.svg
         - name: Zivilgesellschaftliche Technik
           quote: Technische Konzepte können Engagement und Beteiligung von Bürgern fördern, beispielsweise durch entsprechende Kommunikationsplattformen, bessere öffentliche Infrastrukturen und technikbasierte Verbesserungen des Allgemeinwohls.
           job:
-          img: 3
+          img: icons/laptop-cloud.svg
       section5: true
       footer:
         logo: /img/okf.svg
@@ -242,15 +242,15 @@ languages:
         - name: Open Data
           quote: Open data is data that everyone can freely access and that can be used, changed and shared by everyone. They are generated and collected in many applications, for example in official measurements or scientific experiments.
           job:
-          img: 1
+          img: icons/doc-sync.svg
         - name: Open Government
           quote: Politics and administration should be opened to citizens, business, science, art and culture in order to enable stronger common interests in a community. The focus is on transparency, participation and collaboration.
           job:
-          img: 2
+          img: icons/folders.svg
         - name: Civic Tech
           quote: Technical concepts can promote engagement and participation of citizens, for example through appropriate communication platforms, better public infrastructures and technology-based improvements in the common good.
           job:
-          img: 3
+          img: icons/laptop-cloud.svg
       section5: true
       footer:
         #logo: /img/CFG_Karlsruhe_white.svg

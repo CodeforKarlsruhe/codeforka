@@ -1,38 +1,23 @@
 ---
-title: "Impressum"
+title: Impressum  und Datenschutzerklärung
 ---
 
 Vereinsadresse:
 :   Open Knowledge Foundation Deutschland e.V.\
     Singerstr. 109\
     10179 Berlin\
-    Deutschland\
-    [OpenStreetMap](http://www.openstreetmap.org/way/29386807) - [Google Maps](https://goo.gl/maps/aHBAbaCA35C2)
+    Deutschland
 
+E-Mail: <info@okfn.de>
+\[[OpenPGP](https://okfn.de/okf/info_okfn_de_pub.asc)\]\
+Telefon: +49 30 57 70 36 660\
+Fax: +49 30 57 70 36 669
 
-Vereinsregister Nr.:
-:   VR 30468 B
+Vereinsregister Nr: VR 30468 B\
+Umsatzsteuernummer: DE278022128\
+Registergericht: Amtsgericht Charlottenburg
 
-Umsatzsteuernummer:
-:   DE278022128
-
-<!-- -->
-
-EMail:
-:   <info@codefor.de>
-
-Telefon:
-:   [+49 30 57703666 0](tel:+49%2030%2057703666%202)
-
-Fax:
-:   [+49 30 57703666 9](fax:+49%2030%2057703666%209)
-
-<!-- -->
-
-Community & Projektmanagement:
-:   [Michael Peters](mailto:michael.peters@okfn.de)
-
-## Haftungsausschluss
+### Haftungsausschluss
 
 Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV ist der jeweilige Autor
 eines Textes.
@@ -70,25 +55,24 @@ von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
 ### Urheberrecht
 
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
-Seiten unterliegen dem deutschen Urheberrecht. Sie sind mit einer
-Creative Commons Lizenz urheberrechtlich geschützt. Sofern nicht anders
-angegeben, stehen die Inhalte dieser Seite unter der Creative Commons
-Namensnennung 3.0 DE Lizenz. Soweit die Inhalte auf dieser Seite nicht
-vom Betreiber erstellt wurden, werden die Urheberrechte Dritter
-beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet.
-Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden,
-bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von
-Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+Seiten unterliegen dem deutschen Urheberrecht. Der Quelltext der
+Anwendungen ist durch die LICENSE Datei des Quellcode-Repository
+festgelegt. Soweit die Inhalte auf dieser Seite nicht vom Betreiber
+erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere
+werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem
+auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
+entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden
+wir derartige Inhalte umgehend entfernen.
 
 
 ## Datenschutzerklärung {#datenschutzerklaerung}
 
 Die Open Knowledge Foundation Deutschland e.V., Singerstr. 109, 10179
-Berlin Deutschland (nachfolgend als „Open Knowledge Foundation" oder
+Berlin, Deutschland (nachfolgend als „Open Knowledge Foundation" oder
 „wir" bezeichnet) betreibt die im Internet unter
 https://ok-lab-karlsruhe.de und den jeweils dazu gehörenden
-Unterverzeichnissen abrufbare Internetseite (nachfolgend
-\"OK Lab Karlsruhe\".de" oder die „Website").
+Unterverzeichnissen und Subdomains abrufbare Internetseite (nachfolgend
+die „Website").
 
 Die Open Knowledge Foundation möchte Ihnen mit dieser
 Datenschutzerklärung erläutern, welche Daten in welcher Form verarbeitet
@@ -107,27 +91,21 @@ Singerstr. 109\
 10179 Berlin\
 Deutschland
 
-EMail:
-:   <info@codefor.de>
-
-Telefon:
-:   [+49 30 57703666 0](tel:+49%2030%2057703666%202)
-
-Fax:
-:   [+49 30 57703666 9](fax:+49%2030%2057703666%209)
-
+E-Mail: <info@okfn.de>\[[OpenPGP](https://okfn.de/okf/info_okfn_de_pub.asc)\]\
+Telefon: +49 30 57703666 0\
+Fax: +49 30 57703666 9  
 
 Unser Datenschutzbeauftragter ist erreichbar unter:
 
 Open Knowledge Foundation Deutschland e.V.
 
-- Datenschutzbeauftragter -\
-Singerstr. 109\
-10179 Berlin\
-Deutschland\
-\
-<datenschutz@okfn.de>
+-   Datenschutzbeauftragter -\
+    Singerstr. 109\
+    10179 Berlin\
+    Deutschland
 
+
+<datenschutz@okfn.de>\[[OpenPGP](https://okfn.de/okf/info_okfn_de_pub.asc)\]
 
 ### II. Personenbezogene Daten, Zwecke und Rechtsgrundlage der Datenverarbeitung
 
@@ -145,15 +123,12 @@ kulturellen oder sozialen Identität dieser natürlichen Person sind.
 
 #### 2. Allgemeine Nutzung der Website
 
-Wir erheben und speichern im Zuge Ihres Besuchs auf unserer Website
-keine personenbezogenen Daten.
+Der Webserver unseres Hosters registriert automatisch Zugriffe auf die
+Websites und dabei insbesondere Ihre IP-Adresse.
 
-Unbeschadet der vorstehenden grundsätzlichen Gegebenheiten registriert
-aber der Webserver unseres Hosters automatisch Zugriffe auf die Websites
-und dabei insbesondere Ihre IP-Adresse.
-
-Zudem legt unser Hoster zur Erhaltung der Systemsicherheit sog. Logfiles
-an. Diese Logfiles enthalten die folgenden Informationen:
+Zudem legen sowohl unser Hoster als auch wir zur Erhaltung der
+Systemsicherheit sog. Logfiles an. Diese Logfiles enthalten die
+folgenden Informationen:
 
 -   die IP - Adresse
 -   Datum des Zugriffs
@@ -161,16 +136,13 @@ an. Diese Logfiles enthalten die folgenden Informationen:
 -   Inhalte auf die zugegriffen wurde sowie
 -   die übertragenen Informationen
 
-Diese Informationen bleiben für uns anonym. Ein Rückschluss auf eine
-Person ist somit nicht möglich.
-
 Nehmen Sie unter der auf unserer Website angegebenen E-Mail-Adresse
 Kontakt zu uns auf, teilen Sie uns zumindest Ihre E-Mail-Adresse mit,
 sowie gegebenenfalls weitere Informationen, die Sie in Ihrer E-Mail
 preisgeben. Damit wir Ihr Anliegen bearbeiten können, müssen wir diese
 Daten verarbeiten.
 
-### 3. Zwecke und Rechtsgrundlage der Datenverarbeitung
+#### 3. Zwecke und Rechtsgrundlage der Datenverarbeitung
 
 Die Verarbeitung Ihrer IP-Adresse während des Verbindungsaufbaus
 erfolgt, damit wir Ihnen unsere Website zur Verfügung stellen können.
@@ -191,11 +163,6 @@ oder nicht sinnvoll selbst vornehmen können. Diese externen
 Dienstleister sind dabei vor allem Anbieter von IT-Dienstleistungen und
 Telekommunikationsdienste.
 
-Eine Übermittlung in Drittstaaten findet grundsätzlich nicht und nur
-dann statt, soweit sie zur Ausführung Ihrer Aufträge erforderlich ist,
-gesetzlich vorgeschrieben ist oder Sie uns Ihre Einwilligung hierzu
-erteilt haben.
-
 ### IV. Speicherdauer
 
 Ihre E-Mails und Kontaktaufnahmen speichern wir so lange, wie es zur
@@ -209,25 +176,25 @@ Die Datenschutz-Grundverordnung garantiert Ihnen gewisse Rechte, die Sie
 uns gegenüber -- soweit die gesetzlichen Voraussetzungen vorliegen --
 geltend machen können.
 
--   **Art. 15 DS-GVO -- Auskunftsrecht der betroffenen Person:** Sie
-    haben das Recht, von uns eine Bestätigung darüber zu verlangen, ob
-    Sie betreffende personenbezogene Daten verarbeitet werden und wenn
-    ja, welche dies sind sowie die näheren Umstände der
-    Datenverarbeitung.
--   **Art. 16 DS-GVO -- Recht auf Berichtigung:** Sie haben das Recht,
-    von uns unverzüglich die Berichtigung Sie betreffender unrichtiger
+-   Art. 15 DS-GVO -- Auskunftsrecht der betroffenen Person: Sie haben
+    das Recht, von uns eine Bestätigung darüber zu verlangen, ob Sie
+    betreffende personenbezogene Daten verarbeitet werden und wenn ja,
+    welche dies sind sowie die näheren Umstände der Datenverarbeitung.
+
+-   Art. 16 DS-GVO -- Recht auf Berichtigung: Sie haben das Recht, von
+    uns unverzüglich die Berichtigung Sie betreffender unrichtiger
     personenbezogener Daten zu verlangen. Dabei haben Sie unter
     Berücksichtigung der Zwecke der Verarbeitung auch das Recht, die
     Vervollständigung unvollständiger personenbezogener Daten -- auch
     mittels einer ergänzenden Erklärung -- zu verlangen.
--   **Art. 17 DS-GVO -- Recht auf Löschung:** Sie haben das Recht, von
-    uns zu verlangen, dass Sie betreffende personenbezogene Daten
+-   Art. 17 DS-GVO -- Recht auf Löschung: Sie haben das Recht, von uns
+    zu verlangen, dass Sie betreffende personenbezogene Daten
     unverzüglich gelöscht werden. Beachten Sie hier bitte die unter
     Punkt II. 4 beschriebene Ausnahme
--   **Art. 18 DS-GVO -- Recht auf Einschränkung der Verarbeitung:** Sie
+-   Art. 18 DS-GVO -- Recht auf Einschränkung der Verarbeitung: Sie
     haben das Recht, von uns die Einschränkung der Verarbeitung zu
     verlangen.
--   **Art. 20 DS-GVO -- Recht auf Datenübertragbarkeit:** Sie haben das
+-   Art. 20 DS-GVO -- Recht auf Datenübertragbarkeit: Sie haben das
     Recht, im Falle der Verarbeitung aufgrund einer Einwilligung oder
     zur Erfüllung eines Vertrags, die Sie betreffenden personenbezogenen
     Daten, die Sie uns bereitgestellt haben, in einem strukturierten,
@@ -235,7 +202,7 @@ geltend machen können.
     einem anderen Verantwortlichen ohne Behinderung durch uns zu
     übermitteln oder die Daten direkt an den anderen Verantwortlichen
     übermitteln zu lassen, soweit dies technisch machbar ist.
--   **Art. 21 DS-GVO -- Widerspruchsrecht:** Sie haben das Recht, aus
+-   Art. 21 DS-GVO -- Widerspruchsrecht: Sie haben das Recht, aus
     Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit
     gegen die Verarbeitung Sie betreffender personenbezogener Daten, die
     aufgrund eines berechtigten Interesses unsererseits oder zur Wahrung
@@ -255,8 +222,8 @@ geltend machen können.
     Verarbeitung für Zwecke der Direktwerbung, so werden wir Ihre
     personenbezogenen Daten nicht mehr für diese Zwecke verarbeiten.
 
--   **Art. 77 DSGVO i. V. m. § 19 BDSG -- Recht auf Beschwerde bei einer
-    Aufsichtsbehörde:** Sie haben das Recht, jederzeit Beschwerde bei
+-   Art. 77 DSGVO i. V. m. § 19 BDSG -- Recht auf Beschwerde bei einer
+    Aufsichtsbehörde: Sie haben das Recht, jederzeit Beschwerde bei
     einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres
     Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen
     Verstoßes, einzulegen, wenn Sie der Ansicht sind, dass die
@@ -283,7 +250,8 @@ Auf dieser Webseite verwenden wir keine "Cookies".
 
 Wir treffen alle erdenklichen Vorkehrungen zum Schutz und zur Sicherheit
 Ihrer Daten. Ihre Fragen und Kommentare zum Datenschutz sind uns
-willkommen, schreiben Sie einfach eine Mail an info@codefor.de.
+willkommen, schreiben Sie einfach eine Mail an <info@okfn.de>
+\[[OpenPGP](https://okfn.de/okf/info_okfn_de_pub.asc)\].
 
-Berlin, April 2018
+Berlin, August 2019
 

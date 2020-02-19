@@ -128,7 +128,7 @@ languages:
         # Social media links (GitHub, Twitter, etc.). All are optional.
         socialmedia:
           # Icons are from Font Awesome. use fa-<name> as item 
-        - link: mailto://info@ok-lab-karlsruhe.de
+        - link: mailto:info@ok-lab-karlsruhe.de
           icon: envelope
           # Icons are from Font Awesome
         - link: https://github.com/CodeforKarlsruhe
@@ -263,7 +263,7 @@ languages:
         socialmediatitle: Follow us!
         # Social media links (GitHub, Twitter, etc.). All are optional.
         socialmedia:
-        - link: mailto://info@ok-lab-karlsruhe.de
+        - link: mailto:info@ok-lab-karlsruhe.de
           icon: envelope
         - link: https://github.com/CodeforKarlsruhe
           icon: github

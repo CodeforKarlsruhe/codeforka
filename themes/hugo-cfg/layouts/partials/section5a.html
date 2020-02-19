@@ -1,0 +1,18 @@
+{{- $lang			:= .Site.Language.Lang }}
+{{- $button := "Abbonnieren" -}}
+<section class="section section-light-grey is-medium">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2 is-spaced">Newsletter</h2>
+      {{- if eq $lang "en" -}}
+      <h3 class="subtitle is-5 is-muted">
+    You want to stay informed about the OK Lab Karlsruhe activities? The new newsletter form will be here soon. Stay tuned ...</h3>
+      {{- $button = "Sign up" -}}
+      {{- else -}}
+      <h3 class="subtitle is-5 is-muted">Du möchtest auf dem Laufenden bleiben über das OK Lab Karlsruhe? Unser neues Formular für den Newsletter kommt bald. Schau bald wieder vorbei ...</h3>
+      {{- end -}}
+      <div class="divider is-centered"></div>
+    </div>
+
+  </div>
+</section>

@@ -2,7 +2,6 @@
 title: Mitmachen!
 # schedule will add the schedule from github to the end of content
 schedule: Termine
-weight: 1
 
 ---
 

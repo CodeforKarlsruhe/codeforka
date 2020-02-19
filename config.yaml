@@ -14,8 +14,6 @@ frontmatter:
 params:
  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
-  # Used as meta data; describe your site to make Google Bots happy
-  description: OK Lab Karlsruhe
   navbarlogo:
    image: img/CFG_Karlsruhe.svg
    link: /
@@ -30,6 +28,8 @@ languages:
     weight: 1
     contentDir: content/de
     lang: de
+    # Used as meta data; describe your site to make Google Bots happy
+    description: Webseite des OK Lab Karlsruhe. Offene Daten, offene Verwaltung, Demokratie, Partizipation
     params:
       hero:
         # Main hero title
@@ -168,6 +168,8 @@ languages:
     weight: 2
     contentDir: content/en
     lang: en
+    # Used as meta data; describe your site to make Google Bots happy
+    description: Website of the OK Lab Karlsruhe. Open Data, Open Government, Democrycy, Participation, Civic Tech
     params:
       hero:
         # Main hero title

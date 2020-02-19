@@ -7,7 +7,7 @@ showcase: 1
 status: Laufend
 
 collaborators:
-- name: Johannes Eichold
+- name: Johannes Eickhold
 - name: Sebastian Richter
 
 links:

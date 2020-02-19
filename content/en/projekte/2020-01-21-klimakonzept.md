@@ -8,7 +8,7 @@ showcase: 1
 status: Laufend
 
 collaborators:
-- name: Johannes Eichold
+- name: Johannes Eickhold
 - name: Andreas Kugel
 - name: Sebastian Richter
 - name: Martin Weis

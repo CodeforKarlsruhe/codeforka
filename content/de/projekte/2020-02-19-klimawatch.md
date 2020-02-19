@@ -16,7 +16,7 @@ links:
 
 ---
 
-Die *codefor* Community strebt an, die Klimadaten möglichst vieler Städte auf einer übersichtlichen [Websiete](https://klimawatch.codefor.de/) zu veröffentlichen.
+Die *codefor* Community strebt an, die Klimadaten möglichst vieler Städte auf einer übersichtlichen [Webseite](https://klimawatch.codefor.de/) zu veröffentlichen.
 
 Wir beteiligen uns an diesem Projekt mit den Daten aus Karlsruhe.
 

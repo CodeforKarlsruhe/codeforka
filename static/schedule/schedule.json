@@ -1,6 +1,5 @@
 {"de":
 [
-{"date":"18.02.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"},
 {"date":"07.03.2020","title":"Open Data Day im <a href=\"https://zkm.de/de/veranstaltung/2020/03/open-data-day\" target=\"_blank\">ZKM</a>"},
 {"date":"24.03.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"},
 {"date":"28.04.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"},
@@ -14,17 +13,16 @@
 ],
 "en":
 [
-{"date":"18.02.2020","title":"Lab Meetup at Digital-Labor, town hall Karlsruhe"},
 {"date":"07.03.2020","title":"Open Data Day at <a href=\"https://zkm.de/de/veranstaltung/2020/03/open-data-day\" target=\"_blank\">ZKM</a>"},
 {"date":"24.03.2020","title":"Lab Meetup at Digital-Labor, town hall Karlsruhe"},
-{"date":"28.04.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"},
-{"date":"26.05.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"},
-{"date":"30.06.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"},
-{"date":"21.07.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"},
-{"date":"29.09.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"},
-{"date":"20.10.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"},
-{"date":"17.11.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"},
-{"date":"15.12.2020","title":"Lab Treffen im Digital-Labor, Rathaus Karlsruhe"}
+{"date":"28.04.2020","title":"Lab Meetup at Digital-Labor, town hall Karlsruhe"},
+{"date":"26.05.2020","title":"Lab Meetup at Digital-Labor, town hall Karlsruhe"},
+{"date":"30.06.2020","title":"Lab Meetup at Digital-Labor, town hall Karlsruhe"},
+{"date":"21.07.2020","title":"Lab Meetup at Digital-Labor, town hall Karlsruhe"},
+{"date":"29.09.2020","title":"Lab Meetup at Digital-Labor, town hall Karlsruhe"},
+{"date":"20.10.2020","title":"Lab Meetup at Digital-Labor, town hall Karlsruhe"},
+{"date":"17.11.2020","title":"Lab Meetup at Digital-Labor, town hall Karlsruhe"},
+{"date":"15.12.2020","title":"Lab Meetup at Digital-Labor, town hall Karlsruhe"}
 ]
 }
 

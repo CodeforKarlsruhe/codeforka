@@ -127,6 +127,9 @@ languages:
         socialmediatitle: Folge uns!
         # Social media links (GitHub, Twitter, etc.). All are optional.
         socialmedia:
+          # Icons are from Font Awesome. use fa-<name> as item 
+        - link: mailto://info@ok-lab-karlsruhe.de
+          icon: envelope
           # Icons are from Font Awesome
         - link: https://github.com/CodeforKarlsruhe
           icon: github
@@ -242,15 +245,15 @@ languages:
         - name: Open Data
           quote: Open data is data that everyone can freely access and that can be used, changed and shared by everyone. They are generated and collected in many applications, for example in official measurements or scientific experiments.
           job:
-          img: icons/doc-sync.svg
+          img: icons/156-stats-dots.svg
         - name: Open Government
           quote: Politics and administration should be opened to citizens, business, science, art and culture in order to enable stronger common interests in a community. The focus is on transparency, participation and collaboration.
           job:
-          img: icons/folders.svg
+          img: icons/033-books.svg
         - name: Civic Tech
           quote: Technical concepts can promote engagement and participation of citizens, for example through appropriate communication platforms, better public infrastructures and technology-based improvements in the common good.
           job:
-          img: icons/laptop-cloud.svg
+          img: icons/033-books.svg
       section5: true
       footer:
         #logo: /img/CFG_Karlsruhe_white.svg
@@ -260,6 +263,8 @@ languages:
         socialmediatitle: Follow us!
         # Social media links (GitHub, Twitter, etc.). All are optional.
         socialmedia:
+        - link: mailto://info@ok-lab-karlsruhe.de
+          icon: envelope
         - link: https://github.com/CodeforKarlsruhe
           icon: github
         bulmalogo: true

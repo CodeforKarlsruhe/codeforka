@@ -253,7 +253,7 @@ languages:
         - name: Civic Tech
           quote: Technical concepts can promote engagement and participation of citizens, for example through appropriate communication platforms, better public infrastructures and technology-based improvements in the common good.
           job:
-          img: icons/033-books.svg
+          img: icons/087-display.svg
       section5: true
       footer:
         #logo: /img/CFG_Karlsruhe_white.svg

@@ -59,7 +59,7 @@ languages:
       - title: Mitmachen
         url: /mitmachen
       - title: Code For Germany
-        url: https://dev.codefor.de/
+        url: https://codefor.de/
         button: false
       section1:
         title: Zivilgesellschaftliches Engagement
@@ -109,15 +109,15 @@ languages:
         - name: Offene Daten
           quote: Offene Daten sind Daten, auf die alle Personen frei zugreifen können und die von allen genutzt, verändert und geteilt werden können. Sie werden in vielen Anwendungen erzeugt und gesammelt, beispielsweise in amtlichen Messungen oder wissenschaftlichen Experimenten.
           job:
-          img: icons/doc-sync.svg
+          img: icons/156-stats-dots.svg
         - name: Offene Verwaltung
           quote: Politik und Verwaltung sollen geöffnet werden für Bürger*innen, Wirtschaft, Wissenschaft, Kunst und Kultur, um stärkere gemeinschaftliche Belange in einer Kommune zu ermöglichen. Im Fokus stehen dabei Transparenz, Partizipation und Kollaboration.
           job:
-          img: icons/folders.svg
+          img: icons/033-books.svg
         - name: Zivilgesellschaftliche Technik
           quote: Technische Konzepte können Engagement und Beteiligung von Bürgern fördern, beispielsweise durch entsprechende Kommunikationsplattformen, bessere öffentliche Infrastrukturen und technikbasierte Verbesserungen des Allgemeinwohls.
           job:
-          img: icons/laptop-cloud.svg
+          img: icons/087-display.svg
       section5: true
       footer:
         logo: /img/okf.svg
@@ -192,7 +192,7 @@ languages:
       - title: Join us
         url: /en/mitmachen/
       - title: Code For Germany
-        url: https://dev.codefor.de/
+        url: https://codefor.de/
         button: false
       section1:
         title: Get Involved in Civic Tech

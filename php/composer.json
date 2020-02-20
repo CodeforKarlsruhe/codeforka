@@ -1,0 +1,5 @@
+{
+    "require": {
+        "catfan/medoo": "^1.7",
+       "pear/net_smtp": "^1.8"
+}

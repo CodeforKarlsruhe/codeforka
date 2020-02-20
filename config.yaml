@@ -10,6 +10,8 @@ pluralizeListTitles: false
 # tell hugo to get the date from the filename, if possible
 frontmatter:
   date: [":filename", ":default"]
+ignorefiles: [ "php/*","php/.*" ]
+
 
 params:
  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable

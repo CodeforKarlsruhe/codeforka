@@ -269,8 +269,10 @@
       mlog("user id: " . $uid);
       // create a new code, independent from email
       $code = hash("md5", uniqid($uid, true));
+      $cert = $cfg["cert"];
+      $cryptcode = encrypt($code,$cert);
       mlog("new code: " . $code);
-		  $database->update("users", ["confirmed" => 1,"code" => $code], ["id" => $uid]);
+		  $database->update("users", ["confirmed" => 1,"code" => $code,"cryptcode" => $cryptcode], ["id" => $uid]);
 		  $err = $database->error();
 		  if ($err[0] != 0) {
         mlog("Update error: " . $err[2]);
@@ -332,7 +334,7 @@
 
 		try {
 		  // find codes, use only non-confirmed users
-		  $user = $database->select("users", ["email","code","lang"], ["confirmed" => 1]);
+		  $user = $database->select("users", ["email","cryptcode","lang"], ["confirmed" => 1]);
 		  if (!$user or (count($user) == 0)) {
         mlog("NO users found");
         return json_encode([]);
@@ -360,11 +362,11 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       mlog(json_encode($_POST));
       if (empty($_POST["lang"])) {
-        throw new Exception("1");
+        throw new Exception("0");
       } else {
         $lang = trim($_POST["lang"]);
         if (("de" != $lang) and ("en" != $lang)) {
-          throw new Exception("1");
+          throw new Exception("0");
         }
       }
 
@@ -391,13 +393,17 @@
           case 1:
             // worked!
             if ($lang == "de") {
-              $phpresponse = "Vielen Dank für Ihre Anmeldung.<br>";
-              $phpresponse .= "Wir haben Ihnen eine Email mit einem Bestätigungslink geshcikct<br>";
-              $phpresponse .= "Bitte überprüfen Sie Ihr Postfach.";
+              $respTitle = "Anmeldung";
+              $respSubtitle = "";
+              $respContent = "Vielen Dank für Ihre Anmeldung.<br>";
+              $respContent .= "Wir haben Ihnen eine Email mit einem Bestätigungslink geschickt<br>";
+              $respContent .= "Bitte überprüfen Sie Ihr Postfach.";
             } else {
-              $phpresponse = "Thank you for subscribing.<br>";
-              $phpresponse .= "We've sent an email with a confirmation link to you<br>";
-              $phpresponse .= "Please check your inbox.";
+              $respTitle = "Subscription";
+              $respSubtitle = "";
+              $respContent = "Thank you for subscribing.<br>";
+              $respContent .= "We've sent an email with a confirmation link to you<br>";
+              $respContent .= "Please check your inbox.";
             }
           break;
           default:
@@ -433,9 +439,13 @@
           else {
             // worked!
             if ($lang == "de") {
-              $phpresponse = "Vielen Dank für Ihre Bestätigung.<br>";
+              $respTitle = "Bestätigung";
+              $respSubtitle = "";
+              $respContent = "Vielen Dank für Ihre Bestätigung.<br>";
             } else {
-              $phpresponse = "Thank you for the confirmation.<br>";
+              $respTitle = "Confirmation";
+              $respSubtitle = "";
+              $respContent = "Thank you for the confirmation.<br>";
             }
           }
         } else {
@@ -448,20 +458,24 @@
             else {
               // worked!
               if ($lang == "de") {
-                $phpresponse = "Wir haben Sie aus dem Verteiler ausgetragen.<br>";
+                $respTitle = "Abmeldung";
+                $respSubtitle = "";
+                $respContent = "Wir haben Sie aus dem Verteiler ausgetragen.<br>";
               } else {
-                $phpresponse = "We have cancelled your subscription.<br>";
+                $respTitle = "Unsubscription";
+                $respContent = "We have cancelled your subscription.<br>";
+                $respSubtitle = "";
               }
             }
           } else {
             // download
             if (!empty($_GET["down"])) {
               $val = filter_var($_GET["down"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
-              $phpresponse = down($val);
-              mlog("users: " . $phpresponse);
+              $users = down($val);
+              mlog("users: " . $users);
               // this is special: echo and die
-              echo $phpresponse . PHP_EOL;
-              die();
+              echo $users . PHP_EOL;
+              die(); // don't proceed from here
               //
             } else {
               mlog("Invalid GET");
@@ -474,28 +488,53 @@
 
   } catch (Exception $e) {
     switch ($e->getMessage()) {
+      case "0":
+        $respTitle = "Verzeihung / We're sorry";
+        $respSubtitle = "";
+        $respContent = "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.<br>";
+        $respContent .= "Unfortunately we encountered an error. Please try again later";
+      break;
       case "1":
-      if ($lang == "de")
-        $phpresponse = "Leider ist uns ein Fehler unterlaufen. Bitte versuchen Sie es später noch einmal";
-      else
-        $phpresponse = "Unfortunately we encountered an error. Please try again later";
+      if ($lang == "de") {
+        $respTitle = "Verzeihung";
+        $respSubtitle = "";
+        $respContent = "Leider ist uns ein Fehler unterlaufen. Bitte versuchen Sie es später noch einmal";
+      } else {
+        $respTitle = "We're sorry";
+        $respSubtitle = "";
+        $respContent = "Unfortunately we encountered an error. Please try again later";
+      }
       break;
       case "2":
-        if ($lang == "de")
-          $phpresponse = "Die Email Adresse ist ungültig. Bitte versuchen Sie nochmal";
-        else
-          $phpresponse = "The Email Address is invalid. Please try again.";
+        if ($lang == "de") {
+          $respTitle = "Das hat leider nicht geklappt.";
+          $respSubtitle = "";
+          $respContent = "Die Email Adresse ist ungültig. Bitte versuchen Sie nochmal";
+          $respContent .= "<a href=\"\#newsletter\">Zurück</a>";
+        } else {
+          $respTitle = "Sorry, this didn't work.";
+          $respSubtitle = "";
+          $respContent = "The Email Address is invalid. Please try again.";
+          $respContent .= "<a href=\"\#newsletter\">Back</a>";
+        }
       break;
       case "3":
-      if ($lang == "de")
-        $phpresponse = "Sie sind bereits für den Newsletter angemeldet.";
-      else
-        $phpresponse = "You are already subscribed.";
+      if ($lang == "de") {
+        $respTitle = "Anmeldung";
+        $respSubtitle = "";
+        $respContent = "Alles OK, Sie waren bereits für den Newsletter angemeldet.";
+      } else {
+        $respTitle = "Subscription";
+        $respSubtitle = "";
+        $respContent = "OK, you have been subscribed already.";
+      }
       break;
       default:
         mlog("Processing error");
         die("Invalid error code");
     }
-    mlog($phpresponse);
+    mlog($respTitle . "," . $respSubtitle . "," . $respContent);
+    include "/public/actions/action/index.html";
+    die();
 
   }

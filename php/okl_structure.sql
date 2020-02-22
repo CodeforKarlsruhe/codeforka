@@ -37,6 +37,7 @@ CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(2048) NOT NULL UNIQUE,
   `code` varchar(255) NOT NULL UNIQUE,
+  `cryptcode` varchar(2048) DEFAULT NULL,
   `lang` varchar(255) NOT NULL,
   `confirmed` tinyint DEFAULT 0,
   `created` timestamp NOT NULL DEFAULT current_timestamp(),

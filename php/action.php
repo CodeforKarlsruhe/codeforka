@@ -332,24 +332,13 @@
 
 		try {
 		  // find codes, use only non-confirmed users
-		  $user = $database->select("users", ["id","email","code","lang"], ["confirmed" => 1]);
+		  $user = $database->select("users", ["email","code","lang"], ["confirmed" => 1]);
 		  if (!$user or (count($user) == 0)) {
         mlog("NO users found");
         return json_encode([]);
 		  } else {
         mlog("Users: ". count($user));
-        $u = array();
-        foreach ($user as $v) {
-          mlog($v["email"] . $v["code"] . $v["lang"]);
-          $a = array();
-          $a["email"]=$v["email"];
-          $a["code"] = $v["code"];
-          $a["lang"] = $v["lang"];
-          array_push($u,$a);
-        }
-        $j = json_encode($u);
-        mlog("Download: " . $j);
-        return $j;
+        return json_encode($user);
       }
     } catch (Exception $e) {
       mlog($e->getMessage());
@@ -469,7 +458,10 @@
             if (!empty($_GET["down"])) {
               $val = filter_var($_GET["down"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
               $phpresponse = down($val);
-              mlog("users: ",$phpresponse);
+              mlog("users: " . $phpresponse);
+              // this is special: echo and die
+              echo $phpresponse . PHP_EOL;
+              die();
               //
             } else {
               mlog("Invalid GET");

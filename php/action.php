@@ -360,64 +360,70 @@
   // default error if lang not set or wrong
   $err = "Es ist leider ein Problem aufgetreten / Unfortunately we discovered a problem";
 
+  $meth = $_SERVER["REQUEST_METHOD"];
+
   try {
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-      mlog(json_encode($_POST));
-      if (empty($_POST["lang"])) {
-        throw new Exception("0");
-      } else {
-        $lang = trim($_POST["lang"]);
-        if (("de" != $lang) and ("en" != $lang)) {
+    switch ($meth) {
+      case "POST":
+        mlog(json_encode($_POST));
+        if (empty($_POST["lang"])) {
           throw new Exception("0");
+        } else {
+          $lang = trim($_POST["lang"]);
+          if (("de" != $lang) and ("en" != $lang)) {
+            throw new Exception("0");
+          }
         }
-      }
-
-      // we require lang to be OK
-      if (empty($_POST["email"])) {
-        throw new Exception("2");
-      } else {
-        $email = filter_var($_POST["email"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
-        // check if e-mail address is well-formed
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        // we require lang to be OK
+        if (empty($_POST["email"])) {
           throw new Exception("2");
+        } else {
+          $email = filter_var($_POST["email"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
+          // check if e-mail address is well-formed
+          if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            throw new Exception("2");
+          }
+          mlog("Lang: " . $lang . ", mail: " . $email);
+          // check if email exists in database, else append
+          // send mail
+          $res = sendOptIn($email,$lang);
+          switch ($res) {
+            case -1: // database error
+              mlog("smtp error");
+              throw new Exception("1");
+            break;
+            case 0: // already subscribed
+              mlog("smtp exists");
+              throw new Exception("3");
+            break;
+            case 1:
+              // worked!
+              mlog("smtp good");
+              if ($lang == "de") {
+                $respTitle = "Anmeldung";
+                $respSubtitle = "";
+                $respContent = "Vielen Dank für Ihre Anmeldung.<br>";
+                $respContent .= "Wir haben Ihnen eine Email mit einem Bestätigungslink geschickt<br>";
+                $respContent .= "Bitte überprüfen Sie Ihr Postfach.";
+              } else {
+                $respTitle = "Subscription";
+                $respSubtitle = "";
+                $respContent = "Thank you for subscribing.<br>";
+                $respContent .= "We've sent an email with a confirmation link to you<br>";
+                $respContent .= "Please check your inbox.";
+              }
+            break;
+            default:
+              mlog("Invalid smtp response" . $res);
+              break;
+          }
         }
-        mlog("Lang: " . $lang . ", mail: " . $email);
-        // check if email exists in database, else append
-        // send mail
-        $res = sendOptIn($email,$lang);
-        switch ($res) {
-          case -1: // database error
-            throw new Exception("1");
-          break;
-          case 0: // already subscribed
-            throw new Exception("3");
-          break;
-          case 1:
-            // worked!
-            if ($lang == "de") {
-              $respTitle = "Anmeldung";
-              $respSubtitle = "";
-              $respContent = "Vielen Dank für Ihre Anmeldung.<br>";
-              $respContent .= "Wir haben Ihnen eine Email mit einem Bestätigungslink geschickt<br>";
-              $respContent .= "Bitte überprüfen Sie Ihr Postfach.";
-            } else {
-              $respTitle = "Subscription";
-              $respSubtitle = "";
-              $respContent = "Thank you for subscribing.<br>";
-              $respContent .= "We've sent an email with a confirmation link to you<br>";
-              $respContent .= "Please check your inbox.";
-            }
-          break;
-          default:
-        }
-
-      }
-    } else {
-      // test get like  http GET http://127.0.0.1:8000/index1.php/
-      // confirm==d239672bd8d7986458abeae3454b6be7fe11e6bfa375741f157bdf2d3088f338
-      //lang==de
-      // note double == for GET
-      if ($_SERVER["REQUEST_METHOD"] == "GET") {
+      break;
+      case "GET":
+        // test get like  http GET http://127.0.0.1:8000/index1.php/
+        // confirm==d239672bd8d7986458abeae3454b6be7fe11e6bfa375741f157bdf2d3088f338
+        //lang==de
+        // note double == for GET
         mlog(json_encode($_GET));
         // check lang present
         if (empty($_GET["lang"])) {
@@ -429,8 +435,8 @@
             mlog("Wrong language code on get ");
             throw new Exception("1");
           }
-          mlog("Get language: " . $lang);
         }
+        mlog("GET language: " . $lang);
         // check confirm and remove actions
         // confirms
         if (!empty($_GET["confirm"])) {
@@ -481,13 +487,16 @@
               //
             } else {
               mlog("Invalid GET");
-              throw new Exception("1");
+              throw new Exception("0");
             }
           }
         }
-      }
+      break;
+      default:
+        mlog("invalid request");
+        throw new Exception("0");
+      break;
     }
-
   } catch (Exception $e) {
     switch ($e->getMessage()) {
       case "0":
@@ -535,8 +544,7 @@
         mlog("Processing error");
         die("Invalid error code");
     }
-    mlog($respTitle . "," . $respSubtitle . "," . $respContent);
-    include "../actions/action/index.html";
-    die();
-
   }
+  mlog("Result: " . $respTitle . "," . $respSubtitle . "," . $respContent);
+  include "../public/actions/action/index.html";
+  die();

@@ -22,4 +22,7 @@ To deploy, run hugo -D and copy the resulting "public" directory to your server.
 
 The -D tells hugo to include "draft" content (see front matter). You migh change this once the site is stable.
 
+------
+Newsletter backend is installed and seems to work. Files (on server) and local decoder are in "php" folder. Documentation lacks, ask me ..
+
 

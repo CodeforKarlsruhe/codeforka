@@ -1,6 +1,6 @@
 -- MySQL dump 10.17  Distrib 10.3.16-MariaDB, for Linux (x86_64)
 --
--- Host: localhost    Database: kdg
+-- Host: localhost    Database: DB4045286
 -- ------------------------------------------------------
 -- Server version	10.3.16-MariaDB
 
@@ -16,12 +16,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Current Database: `kdg`
+-- Current Database: `DB4045286`
 --
 
 /*!40000 DROP DATABASE IF EXISTS `DB4045286`*/;
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `DB4045286` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE IF NOT EXISTS `DB4045286` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
 USE `DB4045286`;
 
@@ -34,9 +34,9 @@ DROP TABLE IF EXISTS `users`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `email` varchar(2048) NOT NULL UNIQUE,
+  `id` MEDIUMINT NOT NULL AUTO_INCREMENT,
   `code` varchar(255) NOT NULL UNIQUE,
+  `email` varchar(2048) NOT NULL,
   `lang` varchar(255) NOT NULL,
   `confirmed` tinyint DEFAULT 0,
   `created` timestamp NOT NULL DEFAULT current_timestamp(),
@@ -54,3 +54,4 @@ CREATE TABLE `users` (
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2019-08-12 15:21:15
+

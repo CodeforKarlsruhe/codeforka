@@ -17,7 +17,7 @@ fsbase = absilute path on file system
 
 [crypt]
 # cert, key and pass are files from openssl certificate
-cert = "file://oklab.pem"
+cert = "file://oklab-cert.pem"
 key = "file://../../../2020/cert/oklab-key.pem";
 pass = "../../../2020/cert/pass.txt";
 seed = seed fpr hmac

@@ -8,7 +8,7 @@
   // log function
   // --------------------------------------------------
   define("LOG","okl.log");
-  define("LPRIO",0); // minimal log priority
+  define("LPRIO",2); // minimal log priority
 
   // log function to file
   function mlog($msg,$prio = 0) {

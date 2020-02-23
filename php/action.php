@@ -270,9 +270,7 @@
       // create a new code, independent from email
       $code = hash("md5", uniqid($uid, true));
       $cert = $cfg["cert"];
-      $cryptcode = encrypt($code,$cert);
-      mlog("new code: " . $code);
-		  $database->update("users", ["confirmed" => 1,"code" => $code,"cryptcode" => $cryptcode], ["id" => $uid]);
+		  $database->update("users", ["confirmed" => 1,"code" => $code], ["id" => $uid]);
 		  $err = $database->error();
 		  if ($err[0] != 0) {
         mlog("Update error: " . $err[2]);
@@ -334,12 +332,16 @@
 
 		try {
 		  // find codes, use only non-confirmed users
-		  $user = $database->select("users", ["email","cryptcode","lang"], ["confirmed" => 1]);
+		  $user = $database->select("users", ["email","code","lang"], ["confirmed" => 1]);
 		  if (!$user or (count($user) == 0)) {
         mlog("NO users found");
         return json_encode([]);
 		  } else {
         mlog("Users: ". count($user));
+        // encrypt link code for download
+        $cert = $cfg["cert"];
+        for ($l=0;$l<count($user);$l++)
+          $user[$l]["code"] = encrypt($user[$l]["code"],$cert);
         return json_encode($user);
       }
     } catch (Exception $e) {
@@ -534,7 +536,7 @@
         die("Invalid error code");
     }
     mlog($respTitle . "," . $respSubtitle . "," . $respContent);
-    include "/public/actions/action/index.html";
+    include "../actions/action/index.html";
     die();
 
   }

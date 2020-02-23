@@ -1,0 +1,25 @@
+[mail]
+smtphost= smtp host
+smtpport= normally 465 or 587
+smtpuser= smtp user
+smtppass= stmp password
+smtpfrom= smtp sender address
+
+[db]
+dbserv = db server, can be localhost
+dbname = db name
+dbuser = db user
+dbpass = db password
+
+[fs]
+# file system base. needed explicitly in some places 
+fsbase = absilute path on file system
+
+[crypt]
+# cert, key and pass are files from openssl certificate
+cert = "file://oklab.pem"
+key = "file://../../../2020/cert/oklab-key.pem";
+pass = "../../../2020/cert/pass.txt";
+seed = seed fpr hmac
+down = download password
+

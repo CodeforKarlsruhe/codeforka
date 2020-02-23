@@ -1,6 +1,6 @@
 {{- $lang			:= .Site.Language.Lang }}
 {{- $button := "Abbonnieren" -}}
-<section class="section section-light-grey is-medium">
+<section id="newsform" class="section section-light-grey is-medium">
   <div class="container">
     <div class="title-wrapper has-text-centered">
       <h2 class="title is-2 is-spaced">Newsletter</h2>
@@ -20,13 +20,14 @@
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form>
+          <form action="/php/action.php" method="POST">
             <div class="columns is-multiline">
               <div class="column mt-10">
-                <input class="input is-medium" type="email" placeholder="E-Mail">
+                <input class="input is-medium" name="email" type="email" placeholder="E-Mail">
+                <input class="hidden" type="text" name="lang" value="{{$lang}}">
               </div>
               <div class="form-footer has-text-centered mt-10">
-                <button class="button cta is-large primary-btn raised is-clear">{{- $button -}}</button>
+                <button type="submit" class="button cta is-large primary-btn raised is-clear">{{- $button -}}</button>
               </div>
             </div>
           </form>

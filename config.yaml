@@ -15,7 +15,7 @@ ignorefiles: [ "php/*","php/.*" ]
 
 params:
  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
-  openGraph: true
+  openGraph: false
   navbarlogo:
    image: img/CFG_Karlsruhe.svg
    link: /
@@ -31,7 +31,7 @@ languages:
     contentDir: content/de
     lang: de
     # Used as meta data; describe your site to make Google Bots happy
-    description: Webseite des OK Lab Karlsruhe. Offene Daten, offene Verwaltung, Demokratie, Partizipation
+    description: Webseite des OK Lab Karlsruhe. Offene Daten, offene Verwaltung, Demokratie, Partizipation, Coding, Daten, Codefor Karlsruhe, Freies Wissen
     params:
       hero:
         # Main hero title
@@ -171,7 +171,7 @@ languages:
     contentDir: content/en
     lang: en
     # Used as meta data; describe your site to make Google Bots happy
-    description: Website of the OK Lab Karlsruhe. Open Data, Open Government, Democrycy, Participation, Civic Tech
+    description: Website of the OK Lab Karlsruhe. Open Data, Open Government, Democrycy, Participation, Civic Tech, Coding, Daten, Codefor Karlsruhe, Open Knowledge
     params:
       hero:
         # Main hero title

@@ -25,7 +25,8 @@ function decrypt($msg,$cert,$pass) {
 $cfg = parse_ini_file("news.ini", false);
 
 $curlSession = curl_init();
-$url = "http://127.0.0.1:8000/php/action.php/?lang=de&down=" . $cfg["down"];
+//$url = "http://127.0.0.1:8000/php/action.php/?lang=de&down=" . $cfg["down"];
+$url = "https://ok-lab-karlsruhe.de/php/action.php/?lang=de&down=" . $cfg["down"];
 curl_setopt($curlSession, CURLOPT_URL, $url);
 curl_setopt($curlSession, CURLOPT_BINARYTRANSFER, true);
 curl_setopt($curlSession, CURLOPT_RETURNTRANSFER, true);

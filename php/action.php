@@ -8,7 +8,7 @@
   // log function
   // --------------------------------------------------
   define("LOG","okl.log");
-  define("LPRIO",2); // minimal log priority
+  define("LPRIO",0); // minimal log priority
 
   // log function to file
   function mlog($msg,$prio = 0) {
@@ -171,9 +171,9 @@
       // create text and subject
       if ($lang == "en") {
         $subj = "Subscription to the OK Lab Karlsruhe newsletter";
-        $body = "Thank you for subcribing to our newsletter\r\n.";
-        $body .= "Please click on the following link to confirm\r\n";
-        $body .= $mode . $_SERVER["SERVER_NAME"] . "/php/action.php/?code=\"";
+        $body = "Thank you for subcribing to our newsletter.\r\n";
+        $body .= "Please click on the following link to confirm:\r\n";
+        $body .= $mode . $_SERVER["SERVER_NAME"] . "/php/action.php/?confirm=";
         $body .= $mailcode . "&lang=en\r\n\r\n";
       } else {
         $subj = "Anmeldung für den Newsletter aus dem OK Lab Karlsruhe";
@@ -315,9 +315,9 @@ try {
         $cfg = parse_ini_file("news.ini", false);
         $prefix = "../"; // include file prefix
     } else {
-        $cfg = parse_ini_file("/mnt/rid/74/42/510237442/htdocs/files/okla/news.ini", false);
+        $cfg = parse_ini_file("/mnt/rid/74/42/510237442/htdocs/files/oklab/news.ini", false);
         //$cfg = parse_ini_file("news.ini", false);
-        $prefix = "/"; // include file prefix
+        $prefix = "/mnt/web510/b0/42/510237442/htdocs/html/oklab/"; // include file prefix
     }
 
     // don't print in real program
@@ -554,6 +554,8 @@ try {
   }
 }
 mlog("Result: " . $respTitle . "," . $respSubtitle . "," . $respContent);
-include $prefix . "actions/action/index.html";
+$inc = $prefix . "actions/action/index.html";
+mlog("Now loading: " . $inc);
+include $inc;
 
 ?>

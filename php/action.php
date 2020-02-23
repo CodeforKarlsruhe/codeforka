@@ -173,13 +173,13 @@
         $subj = "Subscription to the OK Lab Karlsruhe newsletter";
         $body = "Thank you for subcribing to our newsletter\r\n.";
         $body .= "Please click on the following link to confirm\r\n";
-        $body .= $mode . $_SERVER["SERVER_NAME"] . "/actions/index.php/?code=\"";
+        $body .= $mode . $_SERVER["SERVER_NAME"] . "/php/action.php/?code=\"";
         $body .= $mailcode . "&lang=en\r\n\r\n";
       } else {
         $subj = "Anmeldung für den Newsletter aus dem OK Lab Karlsruhe";
         $body = "Vielen Dank für Ihre Anmeldung für unseren Newsletter.\r\n";
         $body .= "Bitte klicken Sie zur Bestätigung auf folgenden link:\r\n";
-        $body .= $mode . $_SERVER["SERVER_NAME"] . "/actions/index.php/?confirm=";
+        $body .= $mode . $_SERVER["SERVER_NAME"] . "/php/action.php/?confirm=";
         $body .= $mailcode . "&lang=de\r\n\r\n";
       }
 
@@ -375,6 +375,9 @@ try {
           throw new Exception("0");
         }
       }
+      // update include prefix if not de
+      if ($lang != "de")
+        $prefix .= $lang . "/";
       // we require lang to be OK
       if (empty($_POST["email"])) {
         throw new Exception("2");
@@ -430,12 +433,12 @@ try {
       // check lang present
       if (empty($_GET["lang"])) {
         mlog("Missing lang on get");
-        throw new Exception("1");
+        throw new Exception("0");
       } else {
         $lang = $_GET["lang"];
         if (($lang != "de") and ($lang != "en")) {
           mlog("Wrong language code on get ");
-          throw new Exception("1");
+          throw new Exception("0");
         }
       }
       mlog("GET language: " . $lang);
@@ -525,13 +528,13 @@ try {
       if ($lang == "de") {
         $respTitle = "Das hat leider nicht geklappt.";
         $respSubtitle = "";
-        $respContent = "Die Email Adresse ist ungültig. Bitte versuchen Sie nochmal";
-        $respContent .= "<a href=\"\#newsletter\">Zurück</a>";
+        $respContent = "Die Email Adresse ist ungültig. Bitte versuchen Sie nochmal.<br>";
+        $respContent .= "<a href=\"/#newsform\">Zurück</a>";
       } else {
         $respTitle = "Sorry, this didn't work.";
         $respSubtitle = "";
-        $respContent = "The Email Address is invalid. Please try again.";
-        $respContent .= "<a href=\"\#newsletter\">Back</a>";
+        $respContent = "The Email Address is invalid. Please try again.<br>";
+        $respContent .= "<a href=\"/en/#newsform\">Back</a>";
       }
     break;
     case "3":

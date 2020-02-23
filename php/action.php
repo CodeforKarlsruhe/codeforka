@@ -1,10 +1,8 @@
 <?php
 
-  // pull flight and medoo via composer autoload
+  // pull medoo and smtp via composer autoload
 
   require 'vendor/autoload.php';
-
-  // test with http -f POST 127.0.0.1:8000/index1.php  email=123@ab.cd  lang=de
 
   // --------------------------------------------------
   // log function
@@ -39,56 +37,6 @@
       mlog($e->getMessage(),3);
       return Null;
     }
-  }
-
-  // --------------------------------------------------
-  // config setup
-  // --------------------------------------------------
-  // ini file on uberspace is elsewhere
-  $cfg = array();
-  //$cfg = parse_ini_file("/home/akugel/files/kdg/kdg.ini",false);
-  // $cfg = parse_ini_file("kdg.ini",false);
-  try {
-      if (!isset($_SERVER['HTTP_HOST']) or ($_SERVER['HTTP_HOST'] == "okl")) {
-          $cfg = parse_ini_file("news.ini", false);
-      } else {
-          //$cfg = parse_ini_file("/mnt/rid/74/42/510237442/htdocs/files/okla/news.ini", false);
-          $cfg = parse_ini_file("news.ini", false);
-      }
-
-      // don't print in real program
-      //echo "Config items: " . count($cfg) . "\n";
-      //print_r($cfg);
-  } catch (Exception $e) {
-      mlog("Config error",9);
-      die("Config Error");
-  }
-
-
-
-  // --------------------------------------------------
-  // database setup
-  // --------------------------------------------------
-
-  // Using Medoo namespace
-  use Medoo\Medoo;
-
-  $database = null;
-
-  try {
-      $database = new Medoo([
-          'database_type' => 'mysql',
-          'database_name' => $cfg["dbname"],
-          'server' =>  $cfg["dbserv"],
-          'username' => $cfg["dbuser"],
-          'password' => $cfg["dbpass"]
-      ]);
-
-      // don't print in real program
-      // print_r($database->info());
-  } catch (Exception $e) {
-    mlog("DB error",9);
-      die("DB Error");
   }
 
   // --------------------------------------------------
@@ -258,19 +206,19 @@
     mlog("Confirmation code ".$a, 0);
 
 		try {
-		  // find codes, use only non-confirmed users
-		  $user = $database->select("users", ["id"], ["code" => $a,"confirmed" => 0]);
+		  // find codes, include confirmed users
+		  $user = $database->select("users", ["id"], ["code" => $a]);
 		  if (!$user or (count($user) == 0)) {
 		      mlog("Mailcode not valid");
           return false;
 		  }
 		  // mailcode is OK, update
+      // this will confirm already confirmed users again, don't care!
 		  $uid = $user[0]["id"];
       mlog("user id: " . $uid);
-      // create a new code, independent from email
-      $code = hash("md5", uniqid($uid, true));
-      $cert = $cfg["cert"];
-		  $database->update("users", ["confirmed" => 1,"code" => $code], ["id" => $uid]);
+      // we cannot update the code with an email-independent
+      // as this would prevent to recognize existing mails!
+		  $database->update("users", ["confirmed" => 1], ["id" => $uid]);
 		  $err = $database->error();
 		  if ($err[0] != 0) {
         mlog("Update error: " . $err[2]);
@@ -351,200 +299,258 @@
   }
 
 
-  // --------------------------------------------------
-  // PHP response
-  // --------------------------------------------------
-// Request: http://www.example.org/suche?stichwort=wiki&ausgabe=liste
+// --------------------------------------------------
+// PHP Main Section
+// --------------------------------------------------
 
-  $lang = $email = "";
-  // default error if lang not set or wrong
-  $err = "Es ist leider ein Problem aufgetreten / Unfortunately we discovered a problem";
+// --------------------------------------------------
+// config setup
+// --------------------------------------------------
+// ini file on uberspace is elsewhere
+$cfg = array();
+//$cfg = parse_ini_file("/home/akugel/files/kdg/kdg.ini",false);
+// $cfg = parse_ini_file("kdg.ini",false);
+try {
+    if (!isset($_SERVER['HTTP_HOST']) or !isset($_SERVER['HTTPS'])) {
+        $cfg = parse_ini_file("news.ini", false);
+        $prefix = "../"; // include file prefix
+    } else {
+        $cfg = parse_ini_file("/mnt/rid/74/42/510237442/htdocs/files/okla/news.ini", false);
+        //$cfg = parse_ini_file("news.ini", false);
+        $prefix = "/"; // include file prefix
+    }
 
-  $meth = $_SERVER["REQUEST_METHOD"];
+    // don't print in real program
+    //echo "Config items: " . count($cfg) . "\n";
+    //print_r($cfg);
+} catch (Exception $e) {
+    mlog("Config error",9);
+    die("Config Error");
+}
 
-  try {
-    switch ($meth) {
-      case "POST":
-        mlog(json_encode($_POST));
-        if (empty($_POST["lang"])) {
+
+
+// --------------------------------------------------
+// database setup
+// --------------------------------------------------
+
+// Using Medoo namespace
+use Medoo\Medoo;
+
+$database = null;
+
+try {
+    $database = new Medoo([
+        'database_type' => 'mysql',
+        'database_name' => $cfg["dbname"],
+        'server' =>  $cfg["dbserv"],
+        'username' => $cfg["dbuser"],
+        'password' => $cfg["dbpass"]
+    ]);
+
+    // don't print in real program
+    // print_r($database->info());
+} catch (Exception $e) {
+  mlog("DB error",9);
+    die("DB Error");
+}
+
+
+$lang = $email = "";
+// default error if lang not set or wrong
+$err = "Es ist leider ein Problem aufgetreten / Unfortunately we discovered a problem";
+
+$meth = $_SERVER["REQUEST_METHOD"];
+
+try {
+  switch ($meth) {
+    case "POST":
+      // test with http -f POST 127.0.0.1:8000/index1.php  email=123@ab.cd  lang=de
+      mlog(json_encode($_POST));
+      if (empty($_POST["lang"])) {
+        throw new Exception("0");
+      } else {
+        $lang = trim($_POST["lang"]);
+        if (("de" != $lang) and ("en" != $lang)) {
           throw new Exception("0");
-        } else {
-          $lang = trim($_POST["lang"]);
-          if (("de" != $lang) and ("en" != $lang)) {
-            throw new Exception("0");
-          }
         }
-        // we require lang to be OK
-        if (empty($_POST["email"])) {
+      }
+      // we require lang to be OK
+      if (empty($_POST["email"])) {
+        throw new Exception("2");
+      } else {
+        $email = filter_var($_POST["email"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
+        // check if e-mail address is well-formed
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
           throw new Exception("2");
-        } else {
-          $email = filter_var($_POST["email"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
-          // check if e-mail address is well-formed
-          if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            throw new Exception("2");
-          }
-          mlog("Lang: " . $lang . ", mail: " . $email);
-          // check if email exists in database, else append
-          // send mail
-          $res = sendOptIn($email,$lang);
-          switch ($res) {
-            case -1: // database error
-              mlog("smtp error");
-              throw new Exception("1");
-            break;
-            case 0: // already subscribed
-              mlog("smtp exists");
-              throw new Exception("3");
-            break;
-            case 1:
-              // worked!
-              mlog("smtp good");
-              if ($lang == "de") {
-                $respTitle = "Anmeldung";
-                $respSubtitle = "";
-                $respContent = "Vielen Dank für Ihre Anmeldung.<br>";
-                $respContent .= "Wir haben Ihnen eine Email mit einem Bestätigungslink geschickt<br>";
-                $respContent .= "Bitte überprüfen Sie Ihr Postfach.";
-              } else {
-                $respTitle = "Subscription";
-                $respSubtitle = "";
-                $respContent = "Thank you for subscribing.<br>";
-                $respContent .= "We've sent an email with a confirmation link to you<br>";
-                $respContent .= "Please check your inbox.";
-              }
-            break;
-            default:
-              mlog("Invalid smtp response" . $res);
-              break;
-          }
         }
-      break;
-      case "GET":
-        // test get like  http GET http://127.0.0.1:8000/index1.php/
-        // confirm==d239672bd8d7986458abeae3454b6be7fe11e6bfa375741f157bdf2d3088f338
-        //lang==de
-        // note double == for GET
-        mlog(json_encode($_GET));
-        // check lang present
-        if (empty($_GET["lang"])) {
-          mlog("Missing lang on get");
-          throw new Exception("1");
-        } else {
-          $lang = $_GET["lang"];
-          if (($lang != "de") and ($lang != "en")) {
-            mlog("Wrong language code on get ");
+        mlog("Lang: " . $lang . ", mail: " . $email);
+        // check if email exists in database, else append
+        // send mail
+        $res = sendOptIn($email,$lang);
+        switch ($res) {
+          case -1: // database error
+            mlog("smtp error");
             throw new Exception("1");
+          break;
+          case 0: // already subscribed
+            mlog("smtp exists");
+            throw new Exception("3");
+          break;
+          case 1:
+            // worked!
+            mlog("smtp good");
+            if ($lang == "de") {
+              $respTitle = "Anmeldung";
+              $respSubtitle = "";
+              $respContent = "Vielen Dank für Ihre Anmeldung.<br>";
+              $respContent .= "Wir haben Ihnen eine Email mit einem Bestätigungslink geschickt<br>";
+              $respContent .= "Bitte überprüfen Sie Ihr Postfach.";
+            } else {
+              $respTitle = "Subscription";
+              $respSubtitle = "";
+              $respContent = "Thank you for subscribing.<br>";
+              $respContent .= "We've sent an email with a confirmation link to you<br>";
+              $respContent .= "Please check your inbox.";
+            }
+          break;
+          default:
+            mlog("Invalid smtp response" . $res);
+            break;
+        }
+      }
+    break;
+    case "GET":
+      // Request: http://www.example.org/suche?stichwort=wiki&ausgabe=liste
+      // test get like  http GET http://127.0.0.1:8000/index1.php/
+      // confirm==d239672bd8d7986458abeae3454b6be7fe11e6bfa375741f157bdf2d3088f338
+      //lang==de
+      // note double == for GET
+      mlog(json_encode($_GET));
+      // check lang present
+      if (empty($_GET["lang"])) {
+        mlog("Missing lang on get");
+        throw new Exception("1");
+      } else {
+        $lang = $_GET["lang"];
+        if (($lang != "de") and ($lang != "en")) {
+          mlog("Wrong language code on get ");
+          throw new Exception("1");
+        }
+      }
+      mlog("GET language: " . $lang);
+      // update include prefix if not de
+      if ($lang != "de")
+        $prefix .= $lang . "/";
+      // check confirm and remove actions
+      // confirms
+      if (!empty($_GET["confirm"])) {
+        $val = filter_var($_GET["confirm"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
+        mlog("confirm: " . $val);
+        if (!confirm($val))
+          throw new Exception ("1");
+        else {
+          // worked!
+          if ($lang == "de") {
+            $respTitle = "Bestätigung";
+            $respSubtitle = "";
+            $respContent = "Vielen Dank für Ihre Bestätigung.<br>";
+          } else {
+            $respTitle = "Confirmation";
+            $respSubtitle = "";
+            $respContent = "Thank you for the confirmation.<br>";
           }
         }
-        mlog("GET language: " . $lang);
-        // check confirm and remove actions
-        // confirms
-        if (!empty($_GET["confirm"])) {
-          $val = filter_var($_GET["confirm"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
-          mlog("confirm: " . $val);
-          if (!confirm($val))
+      } else {
+        // remove
+        if (!empty($_GET["remove"])) {
+          $val = filter_var($_GET["remove"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
+          mlog("remove: " . $val);
+          if (!remove($val))
             throw new Exception ("1");
           else {
             // worked!
             if ($lang == "de") {
-              $respTitle = "Bestätigung";
+              $respTitle = "Abmeldung";
               $respSubtitle = "";
-              $respContent = "Vielen Dank für Ihre Bestätigung.<br>";
+              $respContent = "Wir haben Sie aus dem Verteiler ausgetragen.<br>";
             } else {
-              $respTitle = "Confirmation";
+              $respTitle = "Unsubscription";
+              $respContent = "We have cancelled your subscription.<br>";
               $respSubtitle = "";
-              $respContent = "Thank you for the confirmation.<br>";
             }
           }
         } else {
-          // remove
-          if (!empty($_GET["remove"])) {
-            $val = filter_var($_GET["remove"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
-            mlog("remove: " . $val);
-            if (!remove($val))
-              throw new Exception ("1");
-            else {
-              // worked!
-              if ($lang == "de") {
-                $respTitle = "Abmeldung";
-                $respSubtitle = "";
-                $respContent = "Wir haben Sie aus dem Verteiler ausgetragen.<br>";
-              } else {
-                $respTitle = "Unsubscription";
-                $respContent = "We have cancelled your subscription.<br>";
-                $respSubtitle = "";
-              }
-            }
+          // download
+          if (!empty($_GET["down"])) {
+            $val = filter_var($_GET["down"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
+            $users = down($val);
+            mlog("users: " . $users);
+            // this is special: echo and die
+            echo $users . PHP_EOL;
+            die(); // don't proceed from here
+            //
           } else {
-            // download
-            if (!empty($_GET["down"])) {
-              $val = filter_var($_GET["down"], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_HIGH | FILTER_FLAG_STRIP_LOW | FILTER_SANITIZE_SPECIAL_CHARS);
-              $users = down($val);
-              mlog("users: " . $users);
-              // this is special: echo and die
-              echo $users . PHP_EOL;
-              die(); // don't proceed from here
-              //
-            } else {
-              mlog("Invalid GET");
-              throw new Exception("0");
-            }
+            mlog("Invalid GET");
+            throw new Exception("0");
           }
         }
-      break;
-      default:
-        mlog("invalid request");
-        throw new Exception("0");
-      break;
-    }
-  } catch (Exception $e) {
-    switch ($e->getMessage()) {
-      case "0":
-        $respTitle = "Verzeihung / We're sorry";
-        $respSubtitle = "";
-        $respContent = "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.<br>";
-        $respContent .= "Unfortunately we encountered an error. Please try again later";
-      break;
-      case "1":
-      if ($lang == "de") {
-        $respTitle = "Verzeihung";
-        $respSubtitle = "";
-        $respContent = "Leider ist uns ein Fehler unterlaufen. Bitte versuchen Sie es später noch einmal";
-      } else {
-        $respTitle = "We're sorry";
-        $respSubtitle = "";
-        $respContent = "Unfortunately we encountered an error. Please try again later";
       }
-      break;
-      case "2":
-        if ($lang == "de") {
-          $respTitle = "Das hat leider nicht geklappt.";
-          $respSubtitle = "";
-          $respContent = "Die Email Adresse ist ungültig. Bitte versuchen Sie nochmal";
-          $respContent .= "<a href=\"\#newsletter\">Zurück</a>";
-        } else {
-          $respTitle = "Sorry, this didn't work.";
-          $respSubtitle = "";
-          $respContent = "The Email Address is invalid. Please try again.";
-          $respContent .= "<a href=\"\#newsletter\">Back</a>";
-        }
-      break;
-      case "3":
-      if ($lang == "de") {
-        $respTitle = "Anmeldung";
-        $respSubtitle = "";
-        $respContent = "Alles OK, Sie waren bereits für den Newsletter angemeldet.";
-      } else {
-        $respTitle = "Subscription";
-        $respSubtitle = "";
-        $respContent = "OK, you have been subscribed already.";
-      }
-      break;
-      default:
-        mlog("Processing error");
-        die("Invalid error code");
-    }
+    break;
+    default:
+      mlog("invalid request");
+      throw new Exception("0");
+    break;
   }
-  mlog("Result: " . $respTitle . "," . $respSubtitle . "," . $respContent);
-  include "../public/actions/action/index.html";
-  die();
+} catch (Exception $e) {
+  switch ($e->getMessage()) {
+    case "0":
+      $respTitle = "Verzeihung / We're sorry";
+      $respSubtitle = "";
+      $respContent = "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.<br>";
+      $respContent .= "Unfortunately we encountered an error. Please try again later";
+    break;
+    case "1":
+    if ($lang == "de") {
+      $respTitle = "Verzeihung";
+      $respSubtitle = "";
+      $respContent = "Leider ist uns ein Fehler unterlaufen. Bitte versuchen Sie es später noch einmal";
+    } else {
+      $respTitle = "We're sorry";
+      $respSubtitle = "";
+      $respContent = "Unfortunately we encountered an error. Please try again later";
+    }
+    break;
+    case "2":
+      if ($lang == "de") {
+        $respTitle = "Das hat leider nicht geklappt.";
+        $respSubtitle = "";
+        $respContent = "Die Email Adresse ist ungültig. Bitte versuchen Sie nochmal";
+        $respContent .= "<a href=\"\#newsletter\">Zurück</a>";
+      } else {
+        $respTitle = "Sorry, this didn't work.";
+        $respSubtitle = "";
+        $respContent = "The Email Address is invalid. Please try again.";
+        $respContent .= "<a href=\"\#newsletter\">Back</a>";
+      }
+    break;
+    case "3":
+    if ($lang == "de") {
+      $respTitle = "Anmeldung";
+      $respSubtitle = "";
+      $respContent = "Alles OK, Sie waren bereits für den Newsletter angemeldet.";
+    } else {
+      $respTitle = "Subscription";
+      $respSubtitle = "";
+      $respContent = "OK, you have been subscribed already.";
+    }
+    break;
+    default:
+      mlog("Processing error");
+      die("Invalid error code");
+  }
+}
+mlog("Result: " . $respTitle . "," . $respSubtitle . "," . $respContent);
+include $prefix . "actions/action/index.html";
+
+?>

@@ -5,8 +5,8 @@ $(document).ready(function(e) {
   if ($("#newsletter").length) {
       //$.getJSON("/news/news.json", function(result){
       $.ajaxSetup({ cache: false });
-      //var langUrl = "https://raw.githubusercontent.com/CodeforKarlsruhe/codeforka/master/static/news/news.json";
-      var langUrl = "/news/news.json";
+      var langUrl = "https://raw.githubusercontent.com/CodeforKarlsruhe/codeforka/master/static/news/news.json";
+      //var langUrl = "/news/news.json";
           $.getJSON(langUrl, function(result){
         if (0 == result.length)
             console.log("No newsletter data")

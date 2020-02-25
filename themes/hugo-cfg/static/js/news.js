@@ -19,21 +19,24 @@ $(document).ready(function(e) {
             }
 
             var sc = "<div class=\"newsletter projects\">";
-            sc += "<h1>" + news.title + "</h1>"
+            sc += "<h2>" + news.title + "</h2>"
             sc += news.date + "<br>"
 
             $.each(news.items, function(i, field){
                 console.log("News: ",i)
-                sc += "<div class=\"" + ((i%2) ? "news-odd" : "news-even") + " preview\">"
-                sc += "<h2>" + field.headline + "</h2>"
+                sc += "<div class=\" preview " + ((i%2) ? "news-odd" : "news-even") + "\">"
+                sc += "<h3>" + field.headline + "</h3>"
                 sc += "<img class=\"news-img\" src=\"" + field.imglink + "\" + title=\"" + field.imgtitle + "\">"
                 sc += "<p>" + field.text + "</p>";
+                //sc += "<p>" + field.teaser + "</p>";
+                sc += "<a href=\"" +  field.more + "\">Mehr</a>";
                 sc += "</div>"
             });
             sc += "</div>";
             // append
             //$("#newsletter").append(sc);
-            $("#newsletter").html(sc);
+            //$("#newsletter").html("</h1>" + sc);
+            $("#newsletter").parent().html(sc);
         }
       });
   } else

@@ -8,7 +8,7 @@
         "imgtitle": "OK Logo",
         "teaser": "Teaser1 ......",
         "text": "Full text1",
-        "more": "More1 ..."
+        "more": "https://ok-lab-karlsruhe.de/more1.html"
       },
       {
         "headline": "headline2",
@@ -16,7 +16,7 @@
         "imgtitle": "OK Logo",
         "teaser": "Teaser2 ......",
         "text": "Full text2",
-        "more": "More2 ..."
+        "more": "https://ok-lab-karlsruhe.de/more2.html"
       }
     ]
   },
@@ -29,7 +29,7 @@
         "imgtitle": "OK Logo",
         "teaser": "Teaser1 ......",
         "text": "Full text1",
-        "more": "More1 ..."
+        "more": "https://ok-lab-karlsruhe.de/en/more1.html"
       },
       {
         "headline": "headline2",
@@ -37,7 +37,7 @@
         "imgtitle": "OK Logo",
         "teaser": "Teaser2 ......",
         "text": "Full text2",
-        "more": "More2 ..."
+        "more": "https://ok-lab-karlsruhe.de/en/more2.html"
       }
     ]
   }

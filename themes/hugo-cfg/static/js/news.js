@@ -18,13 +18,13 @@ $(document).ready(function(e) {
                   var news = result.de
             }
 
-            var sc = "<div class=\"newsletter\">";
+            var sc = "<div class=\"newsletter projects\">";
             sc += "<h1>" + news.title + "</h1>"
             sc += news.date + "<br>"
 
             $.each(news.items, function(i, field){
                 console.log("News: ",i)
-                sc += "<div class=\"" + ((i%2) ? "news-odd" : "news-even") + "\">"
+                sc += "<div class=\"" + ((i%2) ? "news-odd" : "news-even") + " preview\">"
                 sc += "<h2>" + field.headline + "</h2>"
                 sc += "<img class=\"news-img\" src=\"" + field.imglink + "\" + title=\"" + field.imgtitle + "\">"
                 sc += "<p>" + field.text + "</p>";

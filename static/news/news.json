@@ -1,0 +1,44 @@
+{
+  "de": {
+    "date": "25.03.2020",
+    "title": "First News",
+    "items": [{
+        "headline": "headline1",
+        "imglink": "https://ok-lab-karlsruhe.de/img/CFG_Karlsruhe.svg",
+        "imgtitle": "OK Logo",
+        "teaser": "Teaser1 ......",
+        "text": "Full text1",
+        "more": "More1 ..."
+      },
+      {
+        "headline": "headline2",
+        "imglink": "https://ok-lab-karlsruhe.de/img/CFG_Karlsruhe.svg",
+        "imgtitle": "OK Logo",
+        "teaser": "Teaser2 ......",
+        "text": "Full text2",
+        "more": "More2 ..."
+      }
+    ]
+  },
+  "en": {
+    "date": "25.03.2020",
+    "title": "First News",
+    "items": [{
+        "headline": "headline1",
+        "imglink": "https://ok-lab-karlsruhe.de/img/CFG_Karlsruhe.svg",
+        "imgtitle": "OK Logo",
+        "teaser": "Teaser1 ......",
+        "text": "Full text1",
+        "more": "More1 ..."
+      },
+      {
+        "headline": "headline2",
+        "imglink": "https://ok-lab-karlsruhe.de/img/CFG_Karlsruhe.svg",
+        "imgtitle": "OK Logo",
+        "teaser": "Teaser2 ......",
+        "text": "Full text2",
+        "more": "More2 ..."
+      }
+    ]
+  }
+}

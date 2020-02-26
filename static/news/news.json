@@ -2,6 +2,7 @@
   "de": {
     "date": "25.03.2020",
     "title": "First News",
+    "intro":"Intro text .............",
     "items": [{
         "headline": "headline1",
         "imglink": "https://ok-lab-karlsruhe.de/img/CFG_Karlsruhe.svg",
@@ -23,6 +24,7 @@
   "en": {
     "date": "25.03.2020",
     "title": "First News",
+    "intro":"Intro text .............",
     "items": [{
         "headline": "headline1",
         "imglink": "https://ok-lab-karlsruhe.de/img/CFG_Karlsruhe.svg",

@@ -1,5 +1,5 @@
 # codeforka
-New (2020) website OK Lab Karlsruhe
+## New (2020) website OK Lab Karlsruhe
 
 Live version, still work in progress [here](https://ok-lab-karlsruhe.de)
 
@@ -22,7 +22,26 @@ To deploy, run hugo -D and copy the resulting "public" directory to your server.
 
 The -D tells hugo to include "draft" content (see front matter). You migh change this once the site is stable.
 
-------
-Newsletter backend is installed and seems to work. Files (on server) and local decoder are in "php" folder. Documentation lacks, ask me ..
+## Newsletter 
+Approach: allow user to provide email address, using double opt-in. 
+
+PHP / Mysql backend is installed and works. Addresses are encrypted with the PHP "builtin" OpenSSL public key, as not all providers have GPG available. A standalone php download and decoder program is in the "php" folder. 
+
+The python based newsletter compiler is now in the tools directory. It reads the newsletter content from the news.json file (static/news) and creates a template, which is converted to html using [mjml](https://mjml.io/).
+This html template should be inspected before the newsletter is actually sent. Note: it will still contain the templated unsuscribe link at the bottom.
+
+Newsletter images should go into static/news and not into static/img to keep static and dynamic data apart.
+
+Subsequently, all subscribed addresses are loaded from the server. For all addresses the html template is updated with the individual unsubscribe links and a multipart email message with html and plaintext version is generated and saved to the "out" directory. If "sendMails" is enabled, the newsletter is sent via SMTP, using a delay of 1s. For large amounts of addresses the delay should be adjusted according to the specs of the provider (maybe it can be removed for few mails).
+
+The news page on the server is created from the same news.json file via javascript, so they are already in sync. Note, the server doesn't show news older than 2 weeks (adjust in themes/config-hugo/static/js/news.js)
+
+All sensitive information like smtp user data is stored in the file "news.ini" which should reside in a location where it cannot be reached by the webserver, only by PHP.
+
+On the server we need only the certificate file with the public key and the download password for verification. Note, the remove links are encrypted as well for download, so in case someone gets download access he still receives fully encrypted data only.
+On the client, we need the private key file and the key password as well.
+
+PHP versions >= 7.2, Python >= 3.6
+
 
 

@@ -38,7 +38,7 @@ The news page on the server is created from the same news.json file via javascri
 
 All sensitive information like smtp user data is stored in the file "news.ini" which should reside in a location where it cannot be reached by the webserver, only by PHP.
 
-On the server we need only the certificate file with the public key and the download password for verification. Note, the remove links are encrypted as well for download, so in case someone gets download access he still receives fully encrypted data only.
+On the server we need the smtp information for the double opt-in mails. For encryption we need only the certificate file with the public key and the download password for verification. Note, the remove links are encrypted as well for download, so in case someone gets download access he still receives fully encrypted data only.
 On the client, we need the private key file and the key password as well.
 
 PHP versions >= 7.2, Python >= 3.6

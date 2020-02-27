@@ -27,7 +27,7 @@ import html2text # pip install html2text
 
 #################
 
-sendMails = True
+sendMails = False
 
 #################
 # config parser
@@ -163,6 +163,10 @@ odd_t = """
 """
 
 foot_t = """
+  <!-- blue separator -->
+  <mj-section mj-class="seperator" background-color="#01aefd">
+  </mj-section>
+
     <!-- footer -->
     <!-- use a wrapper ! -->
     <mj-wrapper padding="0">
@@ -200,10 +204,6 @@ foot_t = """
       </mj-column>
     </mj-section>
   </mj-wrapper>
-
-  <!-- blue separator -->
-  <mj-section mj-class="seperator" background-color="#01aefd">
-  </mj-section>
 
 
   <!-- white separator -->

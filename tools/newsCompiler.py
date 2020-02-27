@@ -35,8 +35,6 @@ sendMails = False
 cfgFile = "/home/kugel/daten/work/projekte/okLabs/okLab/repo/code4ka/php/news.ini"
 config = configparser.ConfigParser()
 config.read(cfgFile)
-#print(config.sections())
-#print("Down:",config["crypt"]["down"])
 
 ################
 # read newsletter json
@@ -263,9 +261,8 @@ os.system(cmd)
 ###########################################
 # get the mail addresses and links
 
-url = "https://ok-lab-karlsruhe.de/php/action.php/?lang=de&down="
 downCode = config["crypt"]["down"].replace("\"","")
-url += downCode
+url = "https://ok-lab-karlsruhe.de/php/action.php/?lang=de&down=" + downCode
 
 
 try:
@@ -282,6 +279,10 @@ except urllib.error.HTTPError as err:
 
 addrData = json.loads(data)
 print("number of addresses: ",len(addrData))
+
+if len(addrData) == 0:
+    print("No addresses")
+    sys.exit()
 
 ###########################################
 # decrypt all eamils and remove links

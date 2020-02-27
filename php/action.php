@@ -320,6 +320,11 @@ try {
         $prefix = "/mnt/web510/b0/42/510237442/htdocs/html/oklab/"; // include file prefix
     }
 
+    // certificate spec is different in php and python. we use the raw version
+    // in the ini file, so need to prefix with file://
+    $cfg["cert"] = "file://" . $cfg["cert"];
+    $cfg["key"] = "file://" . $cfg["key"];
+
     // don't print in real program
     //echo "Config items: " . count($cfg) . "\n";
     //print_r($cfg);

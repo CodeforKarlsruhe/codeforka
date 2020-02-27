@@ -23,6 +23,11 @@ function decrypt($msg,$cert,$pass) {
 
 // adjust path, if required
 $cfg = parse_ini_file("news.ini", false);
+// certificate spec is different in php and python. we use the raw version
+// in the ini file, so need to prefix with file://
+$cfg["cert"] = "file://" . $cfg["cert"];
+$cfg["key"] = "file://" . $cfg["key"];
+
 
 $curlSession = curl_init();
 //$url = "http://127.0.0.1:8000/php/action.php/?lang=de&down=" . $cfg["down"];
@@ -39,10 +44,14 @@ curl_close($curlSession);
 $cert = $cfg["key"];
 $pass = trim(file_get_contents($cfg["pass"]));
 
+//echo $cert . PHP_EOL;
+//echo $pass . PHP_EOL;
 
 foreach ($jsonData as $j){
+    //echo ($j->email . "," . $j->code . ",");
     echo (decrypt($j->email,$cert,$pass) . "," . decrypt($j->code,$cert,$pass) . PHP_EOL);
 }
+
 
 
 ?>

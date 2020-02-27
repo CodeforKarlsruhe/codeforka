@@ -10,7 +10,7 @@ pluralizeListTitles: false
 # tell hugo to get the date from the filename, if possible
 frontmatter:
   date: [":filename", ":default"]
-ignorefiles: [ "php/*","php/.*" ]
+ignorefiles: [ "php/*","php/.*", "tools/*","tools/.*"  ]
 
 
 params:

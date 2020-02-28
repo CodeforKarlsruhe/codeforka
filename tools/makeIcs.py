@@ -1,6 +1,9 @@
 """ create event in ics format (vcal), print as string an db64 """
 import datetime
 import base64
+import urllib.request
+import json
+import pystache
 
 # see also https://www.kanzaki.com/docs/ical/dateTime.html
 
@@ -52,7 +55,9 @@ class Event():
             
     def get(self):
         return self.head + self.event + self.foot
-        
+
+################################
+    
 event = Event()
 
 event.add("summary","Lab Meeting")
@@ -66,4 +71,39 @@ event.add('location', "Karlsruhe Digital Lab")
 print(event.get())
 print(base64.b64encode(event.get().encode()).decode("utf-8"))
 
+# insert base64 later
+href = "<a href=\"data:text/calendar;base64,{{{ics}}}\">ICS</a>"
+
+# get the original json
+url = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json"
+
+try:
+    req = urllib.request.Request(url)
+    with urllib.request.urlopen(req) as response:
+       data = response.read()
+except urllib.error.HTTPError as err:
+    if err.code == 404 or err.code == 500 :
+        print("URL not found: ",url)
+        sys.exit(0)
+    else:
+        raise
+        sys.exit(0)
+
+data = json.loads(data)
+for e in data["de"]:
+    if not "ics" in e:
+        event = Event()
+        event.add("summary",e["title"])
+        start = e["date"]
+        try:
+            s = datetime.datetime.strptime(start, "%d.%m.%Y %H:%M")
+        except ValueError:
+            start += " 19:00"
+            pass
+        event.add('start',start) #e["date"])
+        #event.add('end', end)
+        event.add('location', "Karlsruhe Digital Lab")
+        context = {"ics":base64.b64encode(event.get().encode()).decode("utf-8")}
+        link = pystache.render(href,context)
+        print(link)
 

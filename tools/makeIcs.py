@@ -24,33 +24,36 @@ class Event():
         self.foot += u"END:VEVENT\n"
         self.foot += u"END:VCALENDAR\n"
 
-#;TZID=America/New_York:20200228T200000
-
     def add(self,a,b):
-        print("a:",a,", b:",b)
-        swin = {
-        0: "summary",
-        1: "description",
-        2: "start",
-        3: "end",
-        4: "location"
-        }
+        #print("a:",a,", b:",b)
+        # map plaintext description to VCAL items
+        swin = ("summary",
+                "description",
+                "start", #dd.mm.yyyy
+                "end", #dd.mm.yyyy
+                "duration",  #hh:mm
+                "location"
+        )
         swout = [u"SUMMARY:",
                  u"DESCRIPTION:",
                  u"DTSTART;TZID=Europe/Berlin:",
                  u"DTEND;TZID=Europe/Berlin:",
+                 u"DURATION:",  # as period, like PT2H0M0S for 2 hours
                  u"LOCATION:"]
         try:
-            self.event += swout[list(swin.values()).index(a)]
-            if a == swin[2] or a == swin[3]:
+            item = swin.index(a) # throws on wrong items
+            self.event += swout[item] # add property
+            if a == "start" or a == "end":
                 d = datetime.datetime.strptime(b, "%d.%m.%Y %H:%M")
                 self.event += d.isoformat(timespec='seconds').replace("-","").replace(":","")
+            elif a == "duration":
+                self.event += "PT" + b.split(":")[0] + "H" + b.split(":")[1] + "M00S"
             else:
                 self.event += b
             self.event += u"\n"
             
         except ValueError:
-            print("Invalid item: ",a)
+            print("Invalid date item: ",a)
             raise
             
     def get(self):
@@ -60,22 +63,26 @@ class Event():
     
 event = Event()
 
-event.add("summary","Lab Meeting")
-start = "02.03.2020 13:15"
-end = "02.03.2020 15:30"
-event.add('start',start)
-event.add('end', end)
-event.add('description', "Very nice socializing event")
-event.add('location', "Karlsruhe Digital Lab")
+### simple test
+##event.add("summary","Lab Meeting")
+##start = "02.03.2020 13:15"
+##end = "02.03.2020 15:30"
+##event.add('start',start)
+##event.add('end', end)
+##event.add('description', "Very nice socializing event")
+##event.add('location', "Karlsruhe Digital Lab")
+##
+##print(event.get())
+##print(base64.b64encode(event.get().encode()).decode("utf-8"))
 
-print(event.get())
-print(base64.b64encode(event.get().encode()).decode("utf-8"))
-
-# insert base64 later
+# link template
 href = "<a href=\"data:text/calendar;base64,{{{ics}}}\">ICS</a>"
 
-# get the original json
+# data url to get the original json
 url = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json"
+
+# local
+url = "https://raw.githubusercontent.com/CodeforKarlsruhe/codeforka/master/static/schedule/schedule.json"
 
 try:
     req = urllib.request.Request(url)
@@ -90,20 +97,43 @@ except urllib.error.HTTPError as err:
         sys.exit(0)
 
 data = json.loads(data)
-for e in data["de"]:
-    if not "ics" in e:
-        event = Event()
-        event.add("summary",e["title"])
-        start = e["date"]
-        try:
-            s = datetime.datetime.strptime(start, "%d.%m.%Y %H:%M")
-        except ValueError:
-            start += " 19:00"
-            pass
-        event.add('start',start) #e["date"])
-        #event.add('end', end)
-        event.add('location', "Karlsruhe Digital Lab")
-        context = {"ics":base64.b64encode(event.get().encode()).decode("utf-8")}
-        link = pystache.render(href,context)
-        print(link)
+for dd in enumerate(data): # all languages
+    lidx = dd[0]
+    lang = dd[1]
+    for ee in enumerate(data[lang]):
+        idx = ee[0]
+        e = ee[1]
+        if  not "ics" in e:
+            event = Event()
+            event.add("summary",e["title"])
+            start = e["date"]
+            try:
+                s = datetime.datetime.strptime(start, "%d.%m.%Y %H:%M")
+            except ValueError:
+                start += " 19:00"
+                pass
+            event.add('start',start) 
 
+            if not "duration" in e:
+                e["duration"] = "02:00" # default 2 hours
+            try:
+                event.add("duration",e["duration"])
+            except ValueError:
+                print ("invalid duration")
+
+            #event.add('end', end)
+            if not "location" in e:
+                if lang == "en":
+                    e["location"] = "Town hall, Digital Lab"
+                else:
+                    e["location"] = "Rathaus, Digital Labor"
+            event.add('location', e["location"])
+            print("event: ",event.get())
+            context = {"ics":base64.b64encode(event.get().encode()).decode("utf-8")}
+            link = pystache.render(href,context)
+            data[lang][idx]["ics"] = link
+
+with open("out.json","w") as f:
+    f.write(json.dumps(data))
+
+print("new json generated: out.json");

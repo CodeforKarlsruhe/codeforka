@@ -21,6 +21,8 @@ $(document).ready(function(e) {
             $.each(schedule, function(i, field){
                 sc += "<li>";
                 sc += field.date + ": " + field.title;
+                if (typeof(undefined) !== typeof(field.ics))
+                    sc += "&nbsp;("+ field.ics + ")"
                 sc += "</li>";
             });
             sc += "</ul>";

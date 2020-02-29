@@ -76,13 +76,13 @@ event = Event()
 ##print(base64.b64encode(event.get().encode()).decode("utf-8"))
 
 # link template
-href = "<a href=\"data:text/calendar;base64,{{{ics}}}\">ICS</a>"
+href = "<a href=\"data:text/calendar;headers=filename%3Doklab.ics;base64,{{{ics}}}\" download=\"oklab.ics\">ICS</a>"
 
 # data url to get the original json
-url = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json"
+#url = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json"
 
-# local
-#url = "https://raw.githubusercontent.com/CodeforKarlsruhe/codeforka/master/static/schedule/schedule.json"
+# use the simple local version from the codeforka repo
+url = "https://raw.githubusercontent.com/CodeforKarlsruhe/codeforka/master/static/schedule/schedule.json"
 
 try:
     req = urllib.request.Request(url)

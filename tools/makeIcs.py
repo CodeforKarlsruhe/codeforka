@@ -82,7 +82,7 @@ href = "<a href=\"data:text/calendar;base64,{{{ics}}}\">ICS</a>"
 url = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json"
 
 # local
-url = "https://raw.githubusercontent.com/CodeforKarlsruhe/codeforka/master/static/schedule/schedule.json"
+#url = "https://raw.githubusercontent.com/CodeforKarlsruhe/codeforka/master/static/schedule/schedule.json"
 
 try:
     req = urllib.request.Request(url)
@@ -112,6 +112,7 @@ for dd in enumerate(data): # all languages
             except ValueError:
                 start += " 19:00"
                 pass
+            print("start: ",start)
             event.add('start',start) 
 
             if not "duration" in e:

@@ -76,7 +76,7 @@ event = Event()
 ##print(base64.b64encode(event.get().encode()).decode("utf-8"))
 
 # link template
-href = "<a href=\"data:text/calendar;headers=filename%3Doklab.ics;base64,{{{ics}}}\" download=\"oklab.ics\">ICS</a>"
+href = "<a href=\"data:text/calendar;headers=filename%3Doklab{{{date}}}.ics;base64,{{{ics}}}\" download=\"oklab{{{date}}}.ics\">ICS</a>"
 
 # data url to get the original json
 #url = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json"
@@ -130,7 +130,8 @@ for dd in enumerate(data): # all languages
                     e["location"] = "Rathaus, Digital Labor"
             event.add('location', e["location"])
             print("event: ",event.get())
-            context = {"ics":base64.b64encode(event.get().encode()).decode("utf-8")}
+            context = {"ics":base64.b64encode(event.get().encode()).decode("utf-8"),
+                       "date":e["date"].split(" ")[0].replace(".","")}
             link = pystache.render(href,context)
             data[lang][idx]["ics"] = link
 

@@ -271,8 +271,8 @@ cmd = "mjml " + fn + ".mjml -o " + fn + ".html"
 os.system(cmd)
 
 # specify addresses
-addr = [{"email":"josef.attmann@web.de"},
-        {"email":"andreas.kugel@ok-lab-karlsruhe.de"}
+addr = [
+    {"email":"andreas.kugel@ok-lab-karlsruhe.de"}
     ]
 
 # process addresses

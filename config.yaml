@@ -136,7 +136,8 @@ languages:
           # Icons are from Font Awesome
         - link: https://github.com/CodeforKarlsruhe
           icon: github
-          #icon: twitter
+        - link: https://twitter.com/code4karlsruhe
+          icon: twitter
         bulmalogo: true
         quicklinks:
           column1:
@@ -272,6 +273,8 @@ languages:
           icon: envelope
         - link: https://github.com/CodeforKarlsruhe
           icon: github
+        - link: https://twitter.com/code4karlsruhe
+          icon: twitter
         bulmalogo: true
         quicklinks:
           column1:

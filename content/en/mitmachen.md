@@ -28,5 +28,6 @@ Do you want to know how open data can be used as a research tool and how this da
 **\*** The OK Lab Karlsruhe is an informal association of interested people.
 The foundation of a non-profit organization is currently under discussion.
 
+## Due to SARS-CoV-2 meetings in the near future will be online. Links are given with the individual events. 
 
 

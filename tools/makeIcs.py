@@ -82,7 +82,8 @@ href = "<a href=\"data:text/calendar;headers=filename%3Doklab{{{date}}}.ics;base
 #url = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json"
 
 # use the simple local version from the codeforka repo
-url = "https://raw.githubusercontent.com/CodeforKarlsruhe/codeforka/master/static/schedule/schedule.json"
+#url = "https://raw.githubusercontent.com/CodeforKarlsruhe/codeforka/master/static/schedule/schedule.json"
+url = "http://localhost:1313/schedule/schedule.json"
 
 try:
     req = urllib.request.Request(url)
@@ -128,6 +129,7 @@ for dd in enumerate(data): # all languages
                     e["location"] = "Town hall, Digital Lab"
                 else:
                     e["location"] = "Rathaus, Digital Labor"
+                
             event.add('location', e["location"])
             print("event: ",event.get())
             context = {"ics":base64.b64encode(event.get().encode()).decode("utf-8"),

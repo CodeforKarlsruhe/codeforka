@@ -21,6 +21,15 @@ $(document).ready(function(e) {
             $.each(schedule, function(i, field){
                 sc += "<li>";
                 sc += field.date + ": " + field.title;
+
+                // check location, and online, if it is there
+                if (typeof(undefined) !== typeof(field.location)) {
+                    if (0 == field.location.search("http"))
+                        sc += ", &nbsp;<a href=\"" + field.location + "\" target=\"_blank\">Online</a>"
+                    else
+                        sc += ",&nbsp;" + field.location
+                }
+
                 if (typeof(undefined) !== typeof(field.ics))
                     sc += "&nbsp;("+ field.ics + ")"
                 sc += "</li>";

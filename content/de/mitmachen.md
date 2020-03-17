@@ -24,3 +24,5 @@ Du willst wissen, wie Offene Daten als Werkzeug bei der Recherche genutzt werden
 **\*** Das OK Lab Karlsruhe ist ein informeller Zusammenschluss interessierter Menschen. 
 Die Gründung eines gemeinnützigen Vereins ist gerade im Gespräch.
 
+## Aufgrund SARS-CoV-2 finden alle Meetings bis auf weiteres online statt. Die Links stehen bei den Terminen. 
+

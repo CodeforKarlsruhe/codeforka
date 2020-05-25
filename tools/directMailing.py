@@ -24,7 +24,7 @@ import html2text # pip install html2text
 
 #################
 
-sendMails = True
+sendMails = False
 
 #################
 # config parser

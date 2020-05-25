@@ -40,7 +40,7 @@ languages:
         # Hero subtitle (optional)
         # subtitle: Wir sind ein offenes Stadtlabor und bauen digitale Werkzeuge für alle!
         subtitle: Open Knowledge // Freies Wissen mit digitalen Werkzeugen für alle!  
-        subsubtitle: Diese Seiten sind noch im Aufbau ...
+        # subsubtitle: Mehr InfoDiese Seiten sind noch im Aufbau ...
         #subtitle: Diese Seite ist noch im Aufbau ...
         # Button text
         buttontext: Werde Stadtentwickler*in!
@@ -180,7 +180,7 @@ languages:
         title: OK Lab Karlsruhe
         # Hero subtitle (optional)
         subtitle: Open Knowledge with digital tools for all!
-        subsubtitle: This site is work in progress. Stay tuned ...
+        ## subsubtitle: This site is work in progress. Stay tuned ...
         # Button text
         buttontext: Improve your city!
         # Where the main hero button links to

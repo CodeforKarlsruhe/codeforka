@@ -17,4 +17,9 @@ ein Programm der [Open Knowledge Foundation Deutschland](http://okfn.de/). Ziel 
 Bürgerservice, Partizipation und staatlicher Transparenz und
 die Öffnung staatlicher Daten weiter voranzutreiben. 
 
+Einen Vortrag mit weiteren Infos zu unserer Arbeit findest Du auf der Seite der 
+[Hochschule der Medien Stuttgart](https://openup.iuk.hdm-stuttgart.de/programm/) als [PDF](https://openup.iuk.hdm-stuttgart.de/wp-content/uploads/2020/05/2020-05-12_OK-LabKarlsruhe.pdf) oder als [Video](https://openup.iuk.hdm-stuttgart.de/wp-content/uploads/2020/05/2020-05-12_OK-LabKarlsruhe.mp4).
+
+
+
 

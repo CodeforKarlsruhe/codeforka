@@ -141,3 +141,7 @@ with open("out.json","w") as f:
     f.write(json.dumps(data))
 
 print("new json generated: out.json");
+print("Simplest next step: update github file at \n\
+      https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json\n\
+      with this content")
+

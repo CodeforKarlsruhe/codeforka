@@ -20,4 +20,7 @@ to further open up governmental data.
 
 Meeting spot: [Digital Lab](https://www.openstreetmap.org/relation/1333212) at town hall Karlsruhe
 
+You can find a presentation (in German) about our activities on the website of the 
+[\"Hochschule der Medien Stuttgart\"](https://openup.iuk.hdm-stuttgart.de/programm/) as [PDF](https://openup.iuk.hdm-stuttgart.de/wp-content/uploads/2020/05/2020-05-12_OK-LabKarlsruhe.pdf) and as [Video](https://openup.iuk.hdm-stuttgart.de/wp-content/uploads/2020/05/2020-05-12_OK-LabKarlsruhe.mp4).
+
 

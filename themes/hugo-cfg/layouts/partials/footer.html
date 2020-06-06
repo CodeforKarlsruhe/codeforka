@@ -42,7 +42,11 @@
               <div class="level-left">
                 {{- range $socialMedia }}
                 <a class="level-item" href="{{ .link }}">
+                  {{- if .icon -}}
                   <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
+                  {{- else -}}
+                  <span class="icon"><img src="/images/{{ .logo }}" /></span>
+                  {{- end -}}
                 </a>
                 {{- end }}
               </div>

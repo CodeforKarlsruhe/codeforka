@@ -1,53 +1,25 @@
 {
     "de": [
         {
-            "date": "24.03.2020",
+            "date": "04.02.2021 19:00",
+            "title": "Online Lab Treffen. Zugangscode in der Cloud, oder per Mail anfordern",
+            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab04022021.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4uIFp1Z2FuZ3Njb2RlIGluIGRlciBDbG91ZCwgb2RlciBwZXIgTWFpbCBhbmZvcmRlcm4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMTAyMDRUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbGVjdHVyZS5zZW5mY2FsbC5kZS9hbmQtcmZ4LWJ5ay00MXEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab04022021.ics\">ICS</a>"
+        },
+        {
+            "date": "21.01.2021 19:00",
             "title": "Online Lab Treffen",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20200324",
+            "location": "https://meet.ok-lab-karlsruhe.de/okl20210121",
             "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab24032020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMDAzMjRUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbWVldC5vay1sYWIta2FybHNydWhlLmRlL29rbDIwMjAwMzI0CkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab24032020.ics\">ICS</a>"
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21012021.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMTAxMjFUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbWVldC5vay1sYWIta2FybHNydWhlLmRlL29rbDIwMjEwMTIxCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab21012021.ics\">ICS</a>"
         },
         {
-            "date": "28.04.2020 19:00",
+            "date": "08.12.2020 19:00",
             "title": "Online Lab Treffen",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20200428",
+            "location": "https://meet.ok-lab-karlsruhe.de/okl20201208",
             "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab28042020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMDA0MjhUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbWVldC5vay1sYWIta2FybHNydWhlLmRlL29rbDIwMjAwNDI4CkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab28042020.ics\">ICS</a>"
-        },
-        {
-            "date": "28.05.2020 18:30",
-            "title": "Online Lab Treffen - Donnerstag!",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20200528",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab28052020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4gLSBEb25uZXJzdGFnIQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMDUyOFQxODMwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDA1MjgKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab28052020.ics\">ICS</a>"
-        },
-        {
-            "date": "18.06.2020 19:00",
-            "title": "Online Lab Treffen - Donnerstag!",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20200618",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab18062020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4gLSBEb25uZXJzdGFnIQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMDYxOFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDA2MTgKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab18062020.ics\">ICS</a>"
-        },
-        {
-            "date": "21.07.2020 19:00",
-            "title": "Lab Treffen im Digital-Labor, Rathaus Karlsruhe",
-            "duration": "02:00",
-            "location": "Rathaus, Digital Labor",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21072020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBEaWdpdGFsLUxhYm9yLCBSYXRoYXVzIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMDcyMVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046UmF0aGF1cywgRGlnaXRhbCBMYWJvcgpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab21072020.ics\">ICS</a>"
-        },
-        {
-            "date": "29.09.2020 19:00",
-            "title": "Online Lab Treffen. URL kann sich noch \u00e4ndern.",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20200929",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab29092020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4uIFVSTCBrYW5uIHNpY2ggbm9jaCDDpG5kZXJuLgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMDkyOVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDA5MjkKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab29092020.ics\">ICS</a>"
-        },
-        {
-            "date": "20.10.2020 19:00",
-            "title": "Online Lab Treffen",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20201020",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab20102020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMDEwMjBUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbWVldC5vay1sYWIta2FybHNydWhlLmRlL29rbDIwMjAxMDIwCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab20102020.ics\">ICS</a>"
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab08122020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMDEyMDhUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbWVldC5vay1sYWIta2FybHNydWhlLmRlL29rbDIwMjAxMjA4CkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab08122020.ics\">ICS</a>"
         },
         {
             "date": "18.11.2020 19:00",
@@ -57,69 +29,27 @@
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab18112020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4uIE1JVFRXT0NIIQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMTExOFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDExMTgKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab18112020.ics\">ICS</a>"
         },
         {
-            "date": "08.12.2020 19:00",
+            "date": "20.10.2020 19:00",
             "title": "Online Lab Treffen",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20201208",
+            "location": "https://meet.ok-lab-karlsruhe.de/okl20201020",
             "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab08122020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMDEyMDhUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbWVldC5vay1sYWIta2FybHNydWhlLmRlL29rbDIwMjAxMjA4CkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab08122020.ics\">ICS</a>"
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab20102020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMDEwMjBUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbWVldC5vay1sYWIta2FybHNydWhlLmRlL29rbDIwMjAxMDIwCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab20102020.ics\">ICS</a>"
         }
     ],
     "en": [
         {
-            "date": "24.03.2020",
+            "date": "04.02.2021 19:00",
+            "title": "Online Lab Meetup. Access code in cloud or request by email.",
+            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab04022021.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cC4gQWNjZXNzIGNvZGUgaW4gY2xvdWQgb3IgcmVxdWVzdCBieSBlbWFpbC4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMTAyMDRUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbGVjdHVyZS5zZW5mY2FsbC5kZS9hbmQtcmZ4LWJ5ay00MXEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab04022021.ics\">ICS</a>"
+        },
+        {
+            "date": "08.12.2020 19:00",
             "title": "Online Lab Meetup",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20200324",
+            "location": "https://meet.ok-lab-karlsruhe.de/okl20201208",
             "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab24032020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cApEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMDMyNFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDAzMjQKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab24032020.ics\">ICS</a>"
-        },
-        {
-            "date": "28.04.2020",
-            "title": "Online Lab Meetup",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20200428",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab28042020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cApEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMDQyOFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDA0MjgKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab28042020.ics\">ICS</a>"
-        },
-        {
-            "date": "28.05.2020 18:30",
-            "title": "Online Lab Meetup - Thursday!",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20200528",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab28052020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cCAtIFRodXJzZGF5IQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMDUyOFQxODMwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDA1MjgKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab28052020.ics\">ICS</a>"
-        },
-        {
-            "date": "18.06.2020 19:00",
-            "title": "Online Lab Meetup - Thursday!",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20200618",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab18062020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cCAtIFRodXJzZGF5IQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMDYxOFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDA2MTgKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab18062020.ics\">ICS</a>"
-        },
-        {
-            "date": "30.06.2020 19:00",
-            "title": "Lab Meetup at Digital-Labor, town hall Karlsruhe",
-            "duration": "02:00",
-            "location": "Town hall, Digital Lab",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab30062020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IERpZ2l0YWwtTGFib3IsIHRvd24gaGFsbCBLYXJsc3J1aGUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMDA2MzBUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOlRvd24gaGFsbCwgRGlnaXRhbCBMYWIKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab30062020.ics\">ICS</a>"
-        },
-        {
-            "date": "21.07.2020 19:00",
-            "title": "Lab Meetup at Digital-Labor, town hall Karlsruhe",
-            "duration": "02:00",
-            "location": "Town hall, Digital Lab",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21072020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IERpZ2l0YWwtTGFib3IsIHRvd24gaGFsbCBLYXJsc3J1aGUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMDA3MjFUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOlRvd24gaGFsbCwgRGlnaXRhbCBMYWIKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab21072020.ics\">ICS</a>"
-        },
-        {
-            "date": "29.09.2020 19:00",
-            "title": "Online Lab Meetup. URL might change!",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl2020929",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab29092020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cC4gVVJMIG1pZ2h0IGNoYW5nZSEKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMDA5MjlUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbWVldC5vay1sYWIta2FybHNydWhlLmRlL29rbDIwMjA5MjkKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab29092020.ics\">ICS</a>"
-        },
-        {
-            "date": "20.10.2020 19:00",
-            "title": "Online Lab Meetup",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20201020",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab20102020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cApEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMTAyMFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDEwMjAKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab20102020.ics\">ICS</a>"
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab08122020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cApEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMTIwOFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDEyMDgKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab08122020.ics\">ICS</a>"
         },
         {
             "date": "18.11.2020 19:00",
@@ -129,11 +59,11 @@
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab18112020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cC4gV0VETkVTREFZIQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMTExOFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDExMTgKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab18112020.ics\">ICS</a>"
         },
         {
-            "date": "08.12.2020 19:00",
+            "date": "20.10.2020 19:00",
             "title": "Online Lab Meetup",
-            "location": "https://meet.ok-lab-karlsruhe.de/okl20201208",
+            "location": "https://meet.ok-lab-karlsruhe.de/okl20201020",
             "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab08122020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cApEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMTIwOFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDEyMDgKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab08122020.ics\">ICS</a>"
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab20102020.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cApEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIwMTAyMFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9tZWV0Lm9rLWxhYi1rYXJsc3J1aGUuZGUvb2tsMjAyMDEwMjAKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab20102020.ics\">ICS</a>"
         }
     ]
 }

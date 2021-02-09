@@ -38,7 +38,8 @@ $(document).ready(function(e) {
             });
             sc += "</ul>";
             // $("#schedule").append(sc);
-            $("#schedule").replaceWith(sc);
+            // replace only content: removes script hint but leaves schedule div
+            $("#schedule").html(sc);
         }
       });
   } else

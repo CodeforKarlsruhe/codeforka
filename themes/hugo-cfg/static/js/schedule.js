@@ -5,8 +5,10 @@ $(document).ready(function(e) {
   if ($("#schedule").length) {
       //$.getJSON("/schedule/schedule.json", function(result){
       $.ajaxSetup({ cache: false });
-      var langUrl = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json";
-          $.getJSON(langUrl, function(result){
+      // get data from website, 2021-02-09
+      // var langUrl = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json";
+      var langUrl = "/schedule/schedule.json";
+      $.getJSON(langUrl, function(result){
         if (0 == result.length) 
             console.log("No schedule data")
         else {
@@ -35,7 +37,8 @@ $(document).ready(function(e) {
                 sc += "</li>";
             });
             sc += "</ul>";
-            $("#schedule").append(sc);
+            // $("#schedule").append(sc);
+            $("#schedule").replaceWith(sc);
         }
       });
   } else

@@ -79,7 +79,7 @@ event = Event()
 href = "<a href=\"data:text/calendar;headers=filename%3Doklab{{{date}}}.ics;base64,{{{ics}}}\" download=\"oklab{{{date}}}.ics\">ICS</a>"
 
 # data url to get the original json
-url = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json"
+# url = "https://raw.githubusercontent.com/CodeforKarlsruhe/labSchedule/master/karlsruhe.json"
 
 # use the simple local version from the codeforka repo
 # for use with running hugo server

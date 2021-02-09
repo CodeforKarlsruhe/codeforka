@@ -10,6 +10,11 @@
       {{ if isset .Params "schedule" }}
         <h2>{{ .Params.schedule }}</h2>
         <div id="schedule" class="schedule">
+          {{ if eq site.Language.Lang "de" }} 
+          <p>Zum Abrufen der Termine müssen Skripte zugelassen sein.</p>
+          {{ else }}
+          <p>Scripts must be allowed for schedule download.</p>
+          {{ end }}
         </div>
       {{- end -}}
     </div>

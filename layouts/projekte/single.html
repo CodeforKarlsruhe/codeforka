@@ -23,7 +23,14 @@
           {{ .Content }}
         </div>
         <div class="column is-offset-1 sidebar">
-        <h3>Projektmitglieder</h3>
+
+          {{ if eq .Lang "en" }}
+          <h3>Project Members</h3>
+          {{ else }}
+          <h3>Projektmitglieder</h3>
+          {{ end }}
+          
+          
         {{ range .Params.Collaborators }}
           <strong>{{ .name }}</strong>
           {{ range .links }}
@@ -31,7 +38,11 @@
           {{ end }}
         {{ end }}
         <hr>
-        <h3>Projekt-Links</h3>
+          {{ if eq .Lang "en" }}
+          <h3>Project-Links</h3>
+          {{ else }}
+          <h3>Projekt-Links</h3>
+          {{ end }}
         {{ range .Params.Links }}
           <a href="{{ .url }}">{{ .name }}</a>
         {{ end }}
@@ -41,7 +52,11 @@
         {{.Params.lab }}
         <hr>
         */}}
+        {{ if eq .Lang "en" }}
         <h3>Projektstatus</h3>
+        {{ else }}
+        <h3>Projektstatus</h3>
+        {{ end }}
         {{.Params.status }}
         </div>
       </div>

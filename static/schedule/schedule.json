@@ -1,6 +1,12 @@
 {
     "de": [
         {
+            "date": "07.12.2021 19:00",
+            "title": "Online Lab Treffen, Zugangscode in der Cloud, oder per Mail bei info@ok-lab-karlsruhe.de anfordern",
+            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
+            "duration": "02:00"
+        },
+        {
             "date": "04.10.2021 19:00",
             "title": "Online Lab Treffen, Zugangscode in der Cloud, oder per Mail bei info@ok-lab-karlsruhe.de anfordern",
             "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
@@ -107,6 +113,12 @@
         }
     ],
     "en": [
+        {
+            "date": "07.12.2021 19:00",
+            "title": "Online Lab Meetup, Access code in cloud or request by email at info@ok-lab-karlsruhe.de",
+            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
+            "duration": "02:00"
+        },
         {
             "date": "04.10.2021 19:00",
             "title": "Online Lab Meetup, Access code in cloud or request by email at info@ok-lab-karlsruhe.de",

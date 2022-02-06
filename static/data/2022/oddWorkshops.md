@@ -1,9 +1,12 @@
 # Workshops am Open Data Day, 5.3.2022
 
+**Vorläufiges Programm!**
+
 ![ODD22](oddlogo.png)
 
 Am OpenDataDay 2022 könnt Ihr an einem der folgenden Workshops teilnehmen:
 
+<!--
 ## Datenaufbereitung und Datenvisualisierung (Variante Michael)
 
 Im Rahmen des Open Data Day 2022 bietet das OK-Lab Karlsruhe interessierten Teilnehmern an, sich über Aufgaben zu informieren, die entstehen wenn man mit Daten aus Open Data Quellen eigene Auswertungen erstellen möchte.
@@ -88,7 +91,9 @@ Die genutzten Programme sind entweder Open Source oder frei verfügbar,
 so dass bei Interesse die Möglichkeit besteht, diese zu installieren und
 alles in der eigenen Umgebung durchzuführen.
 
-## Datenaufbereitung und Datenvisualisierung (Variante Andreas)
+-->
+
+## Datenaufbereitung und Datenvisualisierung
 Das OK Lab zeigt, wie man interaktiv Auswertungen mit offenen Daten
 erstellt. 
 An Beispielen wird anschaulich vorgeführt, wie man von den Daten in
@@ -118,7 +123,7 @@ Zur Darstellung der Ergebnisse zeigen wir Euch Grundlagen der Datenvisualisierun
 
 * Filter verwenden
 
-![Datenvisualisierung (da brauchen wir noch ein Bild!)](Datenvisualisierung.png)
+![Datenvisualisierung (da brauchen wir noch ein Bild!)](haushalt.png)
 
 
 Mit Euren Fragestellungen und der zugehörigen **Datenauswertung** könnt Ihr damit Eure eigenen Datenstories erstellen. Wir helfen dabei, aus Euren Fragen eine technische Umsetzung zu entwickeln.
@@ -127,21 +132,26 @@ Die genutzten Programme sind entweder Open Source oder frei verfügbar,
 so dass bei Interesse die Möglichkeit besteht, diese zu installieren und
 alles in der eigenen Umgebung durchzuführen.
 
+<div style="page-break-after:always;"><div>
 
 
 ## Datenreise durch Karlsruher Open Data
 Wir wollen die Fragestellung beantworten: Welchen Wert haben offene Verwaltungsdaten für Bürgerinnen und Bürger?
 
-Dazu zeigen am Beispiel von *Bauen und Wohnen* wie man durch ein OpenData-Portal navigieren kann.
+Dazu zeigen wir am Beispiel von *Bauen und Wohnen* wie man durch ein OpenData-Portal navigieren kann.
 ![Wohnungen](wohnungen.png)
 
 Im Workshop schlüpft Ihr in verschiedene Rollen und entwickelt daraus Ideen und Fragestellungen 
 zu den Verwaltungsdaten. In einem Frage-Antwort-Spiel erkunden wir dann die Datenlandschaft.
 Als Ergebnis könnt Ihr eine „Kurzgeschichte“ zu dem bearbeiteten Thema mit nach Hause nehmen.
 
+<div style="page-break-after:always;"><div>
 
 
 ## Offene Umwelt- und Geodaten
+
+
+<div style="page-break-after:always;"><div>
 
 ## Umwelt und Klima 
 

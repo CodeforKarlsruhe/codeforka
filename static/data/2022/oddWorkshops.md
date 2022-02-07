@@ -150,9 +150,20 @@ Als Ergebnis könnt Ihr eine „Kurzgeschichte“ zu dem bearbeiteten Thema mit 
 
 ## Offene Umwelt- und Geodaten
 
+In diesem Workshop machen wir eine Reise durch offene Umweltdaten. Wir sehen uns einige Portale von Ämtern an und zeigen, wie man anhand von Schlagworten Daten finden und in Portalen visualisieren kann.
+
+Wir selektieren uns einige Dienste und gelangen zu einer eigenen, lokalen Kartendarstellung in einem geographischen Informationssystem (GIS), das für weitere Analysen genutzt werden kann.
+
+Wer die Reise selbst durchführen möchte, sollte sich vorher [QGIS](https://qgis.org/de/site/) installieren (Version 3.16 mit Langzeitunterstützung), das wird das zentrale Werkzeug für die Darstellung und Kombination von Geodaten sein. Daten aus mehreren Portalen können hinzugefügt und mit lokalen Daten kombiniert werden. Wir schauen uns dafür auch die Stadtradeln Datensätze an, die etwas über die genutzten Fahrradstrecken aussagen. Entsprechend können weitere, eigene Fragestellungen untersucht werden.
+
+Die Moderatoren stehen eigenen Erkundungen mit technischer Hilfestellung, Tipps und Tricks zur Seite.
+
+![Stadtradeln und Bäume](stadtradelnBaeume.jpg)
+
 
 <div style="page-break-after:always;"><div>
 
-## Umwelt und Klima 
+## Noch nicht bestätigt
+### Umwelt und Klima 
 
-## Karlsruhe transparent 2.0
+### Karlsruhe transparent 2.0

@@ -1,6 +1,5 @@
 # Workshops am Open Data Day, 5.3.2022
 
-**Vorläufiges Programm!**
 
 ![ODD22](oddlogo.png)
 
@@ -161,9 +160,3 @@ Die Moderatoren stehen eigenen Erkundungen mit technischer Hilfestellung, Tipps 
 ![Stadtradeln und Bäume](stadtradelnBaeume.jpg)
 
 
-<div style="page-break-after:always;"><div>
-
-## Noch nicht bestätigt
-### Umwelt und Klima 
-
-### Karlsruhe transparent 2.0

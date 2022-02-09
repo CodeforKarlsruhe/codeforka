@@ -113,6 +113,10 @@ Open Data liefert oft Daten in Dateien oder Formaten, die nicht unmittelbar zur 
 
 und 
 
+<div style="page-break-after:always; padding-top:100px;">
+<img src="okl.png" style="width:64px;position:fixed;bottom:0;right:0;"/>
+<div>
+
 ### Datenvisualisierung
 Zur Darstellung der Ergebnisse zeigen wir Euch Grundlagen der Datenvisualisierung 
 
@@ -131,7 +135,9 @@ Die genutzten Programme sind entweder Open Source oder frei verfügbar,
 so dass bei Interesse die Möglichkeit besteht, diese zu installieren und
 alles in der eigenen Umgebung durchzuführen.
 
-<div style="page-break-after:always;"><div>
+<div style="page-break-after:always; padding-top:100px;">
+<img src="okl.png" style="width:64px;position:fixed;bottom:0;right:0;"/>
+<div>
 
 
 ## Datenreise durch Karlsruher Open Data
@@ -144,7 +150,10 @@ Im Workshop schlüpft Ihr in verschiedene Rollen und entwickelt daraus Ideen und
 zu den Verwaltungsdaten. In einem Frage-Antwort-Spiel erkunden wir dann die Datenlandschaft.
 Als Ergebnis könnt Ihr eine „Kurzgeschichte“ zu dem bearbeiteten Thema mit nach Hause nehmen.
 
-<div style="page-break-after:always;"><div>
+
+<div style="page-break-after:always; padding-top:100px;">
+<img src="okl.png" style="width:64px;position:fixed;bottom:0;right:0;"/>
+<div>
 
 
 ## Offene Umwelt- und Geodaten

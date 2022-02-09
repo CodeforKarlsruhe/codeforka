@@ -138,7 +138,7 @@ alles in der eigenen Umgebung durchzuführen.
 Wir wollen die Fragestellung beantworten: Welchen Wert haben offene Verwaltungsdaten für Bürgerinnen und Bürger?
 
 Dazu zeigen wir am Beispiel von *Bauen und Wohnen* wie man durch ein OpenData-Portal navigieren kann.
-![Wohnungen](wohnungen.png)
+![Wohnungen](wohnungen.jpg)
 
 Im Workshop schlüpft Ihr in verschiedene Rollen und entwickelt daraus Ideen und Fragestellungen 
 zu den Verwaltungsdaten. In einem Frage-Antwort-Spiel erkunden wir dann die Datenlandschaft.

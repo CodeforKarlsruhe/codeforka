@@ -24,7 +24,7 @@ import html2text # pip install html2text
 
 #################
 
-sendMails = False
+sendMails = True
 
 #################
 # config parser
@@ -38,29 +38,22 @@ config.read(cfgFile)
 
 data = {
   "de": {
-    "date": "01.03.2021",
+    "date": "01.03.2022",
     "title": "Open Data Day 2022",
-    "intro":"""Ihr Zugang zum OpenDataDay 2022<br>""",
-    "items": [{
+    "item": {
         "headline": "Open Data Day Zugangsinformation",
         "imglink": "https://ok-lab-karlsruhe.de/projects/karlsruhe/ODDlogo-ka.svg",
         "imgtitle": "ODD",
-        "teaser": """Vielen Dank für Ihre Anmeldung zum OpenDataDay 2022.
-            Die Veranstaltung findet am 5.3.2022 von 14:00 Uhr bis 17:00 Uhr statt.
+        "teaser": """Vielen Dank für Ihr Interesse am OpenDataDay 2022.<br>
+            Die Veranstaltung findet am 5.3.2022 von 14:00 Uhr bis 17:00 Uhr statt.<br>
             Bitte wählen Sie sich mit Ihrem Webbrowser unter
-            <a href="meet.google.com/gdx-xvda-yea">diesem Link</a> oder mit der
-            Telefonnummer 08081618117, PIN: 441529540 ein.
-            """,
-        "text": """Vielen Dank für Ihre Anmeldung zum OpenDataDay 2022.
-            Die Veranstaltung findet am 5.3.2022 von 14:00 Uhr bis 17:00 Uhr statt.
-            Bitte wählen Sie sich mit Ihrem Webbrowser unter
-            <a href="meet.google.com/gdx-xvda-yea">diesem Link</a> oder mit der
-            Telefonnummer 08081618117, PIN: 441529540 ein.
-            Alle weiteren Informationen finden Sie auf unserer Webseite.
+            <a href="https://meet.google.com/gdx-xvda-yea">diesem Link</a> oder mit der
+            Telefonnummer 08081618117, PIN: 441529540 ein.<br>
+            Alle weiteren Informationen finden Sie auf unserer Webseite.<br>
+            Gerne können Sie diese Mail an Bekannte oder Freunde weiterleiten.<br>
             Wir freuen uns auf Ihre Teilnahme.""",
         "more": "https://ok-lab-karlsruhe.de/projekte/odd22/"
       }
-    ]
   }
 }
 
@@ -120,10 +113,6 @@ intro_t = """
         <mj-text align="center" mj-class="headline" padding="30px 40px 10px 40px">
           {{{title}}}
         </mj-text>
-        <mj-image src="https://ok-lab-karlsruhe.de/img/CFG_Karlsruhe.svg" title="OK Lab Karlsruhe" align="center" border="none" padding="10px" width="250px"></mj-image>
-        <mj-text mj-class="text">
-          {{{intro}}}
-        </mj-text>
       </mj-column>
     </mj-section>
     <!-- separator -->
@@ -152,23 +141,6 @@ even_t = """
     </mj-section>
 """
 
-odd_t = """
-    <!-- news item odd -->
-    <mj-section background-color="#EFF4F7">
-      <mj-column>
-        <mj-text align="center" mj-class="headline" padding="30px 40px 10px 40px">
-          {{{headline}}}
-        </mj-text>
-        <mj-image  src="{{{imglink}}}" title="{{{imgtitle}}}" align="center" border="none" padding="10px" width="250px"></mj-image>
-        <mj-text mj-class="text">
-          {{{teaser}}}
-        </mj-text>
-        <mj-text mj-class="text more">
-          <a href="{{{more}}}" style="text-decoration:none" title="Weiter" >Weiter</a>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-"""
 
 foot_t = """
   <!-- blue separator -->
@@ -225,29 +197,22 @@ foot_t = """
 news = hdr
 
 # we should know what the template code is ...
-context = {"title":data["de"]["title"],"intro":data["de"]["intro"]}
+context = {"title":data["de"]["title"]}
 intro = pystache.render(intro_t,context)
 #print(intro)
 
 # append intro
 news += intro
 
-items = data["de"]["items"]
-print("Number of items", len(items))
+item = data["de"]["item"]
 
-for i in range(len(items)):
-    if 0 == i % 2:
-        t = even_t
-    else:
-        t = odd_t
-        
-    context = {"headline": items[i]["headline"],
-               "imglink":items[i]["imglink"],
-               "imgtitle":items[i]["imgtitle"],
-               "teaser":items[i]["teaser"],
-               "more":items[i]["more"]}
-    #append items
-    news += pystache.render(t,context)
+context = {"headline": item["headline"],
+           "imglink":item["imglink"],
+           "imgtitle":item["imgtitle"],
+           "teaser":item["teaser"],
+           "more":item["more"]}
+#append items
+news += pystache.render(even_t,context)
      
 
 #print(news)
@@ -269,8 +234,8 @@ os.system(cmd)
 
 # specify addresses
 addr = [
-    {"email":"andreas.kugel@ok-lab-karlsruhe.de"}
-    ]
+    {"email":"ak@akugel.de"},
+]
 
 # process addresses
 # create out dir

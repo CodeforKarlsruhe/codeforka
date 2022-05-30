@@ -4,6 +4,7 @@ import base64
 import urllib.request
 import json
 import pystache
+import sys
 
 # see also https://www.kanzaki.com/docs/ical/dateTime.html
 

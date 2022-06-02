@@ -15,7 +15,7 @@ links:
 
 
 ## Programm (vorläufig)
-Zwischen 18:00Uhr und 21:00Uhr wird unser Stand im Rathaus besetzt sein. 
+Zwischen 15:00Uhr und 21:00Uhr wird unser Stand im Rathaus besetzt sein. 
 Wir freuen uns auf Ihren Besuch und Austausch zu offenen Daten, Sensoren, Coding, digitalem Ehrenamt und weiteren Themen.
 
 Wenn Sie mehr wissen wollen, kommen Sie zu unseren Vorträgen (je ca 30 Minuten) oder Workshops (ca 60 Minuten)

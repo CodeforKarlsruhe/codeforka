@@ -9,12 +9,12 @@ status: Laufend
 
 links:
   - name: Bunte Nacht der Digitalisierung
-    url: https://karlsruhe.digital/bunte-nacht-der-digitalisierung/
+    url: https://bunte-nacht-der-digitalisierung.de/details#partner23
 
 ---
 
 
-## Programm (vorläufig)
+## Programm
 Zwischen 15:00Uhr und 21:00Uhr wird unser Stand im Rathaus besetzt sein. 
 Wir freuen uns auf Ihren Besuch und Austausch zu offenen Daten, Sensoren, Coding, digitalem Ehrenamt und weiteren Themen.
 

@@ -21,6 +21,10 @@ Wir treffen uns online oder im [Digital Lab](https://www.openstreetmap.org/relat
 
 **Weitere Infos**
 
+Ein SWR2-Interview vom 30.7.2022 mit dem OK Lab findest Du [hier](https://www.swr.de/swr2/wissen/das-ok-lab-in-karlsruhe-die-stadt-besser-verstehen-102.html). 
+
+Hier ist die [Videoaufzeichnung](https://media.ccc.de/v/gpn20-79-code-for-germany-open-data-digitales-ehrenamt) der *Code for Germany* Session bei der [GPN2022](https://entropia.de/GPN20) am 21.5.2022.
+
 Den Video-Mitschnitt des Panels zu *Civic Tech – Dank Technik zu mehr Demokratie?* beim [*House of Switzerland*](https://so-schweiz.de/programm/civic-tech-die-technologie-im-dienste-der-gesellschaft/) in Stuttgart am 26.8.2021 findest Du [hier](https://youtu.be/iPIo2sHNTnQ?t=297).
 
 Hier findest du die Zusammenfassung unseres [Beitrags](/data/2021/openGovWeek/govWeekSummary.pdf) bei der [*OpenGovWeek*](https://www.open-government-deutschland.de/opengov-de/service/termine/opengov-werkschau-und-multi-stakeholder-sprechstunde-3-nap-1913186) am 17.5.2021.

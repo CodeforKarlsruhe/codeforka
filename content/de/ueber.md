@@ -19,6 +19,13 @@ die Öffnung staatlicher Daten weiter voranzutreiben.
 
 Wir treffen uns online oder im [Digital Lab](https://www.openstreetmap.org/relation/1333212) im Rathaus Karlsruhe
 
+Das OK Lab Karlsruhe ist Mitglied im [Klimabündnis Karlsruhe](https://www.klimabuendnis-karlsruhe.de/)
+
+{{< unsafe >}}
+<img src="/img/kb-logo.jpg" alt="Klimabündnis Logo" style="width:5rem;"/>
+{{< /unsafe >}}
+
+
 **Weitere Infos**
 
 Ein SWR2-Interview vom 30.7.2022 mit dem OK Lab findest Du [hier](https://www.swr.de/swr2/wissen/das-ok-lab-in-karlsruhe-die-stadt-besser-verstehen-102.html). 

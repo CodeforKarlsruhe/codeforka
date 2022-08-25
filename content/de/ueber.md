@@ -28,6 +28,9 @@ Das OK Lab Karlsruhe ist Mitglied im [Klimabündnis Karlsruhe](https://www.klima
 
 **Weitere Infos**
 
+Am 1.9.2022 ab 10:00 findet die *Community Cnnvention* zur nachhaltigen Digitalisierung des *BMUV* statt. Wir zeigen [Projekte 
+mit offenen Daten](/projekte/green-it/)
+
 Ein SWR2-Interview vom 30.7.2022 mit dem OK Lab findest Du [hier](https://www.swr.de/swr2/wissen/das-ok-lab-in-karlsruhe-die-stadt-besser-verstehen-102.html). 
 
 Hier ist die [Videoaufzeichnung](https://media.ccc.de/v/gpn20-79-code-for-germany-open-data-digitales-ehrenamt) der *Code for Germany* Session bei der [GPN2022](https://entropia.de/GPN20) am 21.5.2022.

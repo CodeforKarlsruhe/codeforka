@@ -13,9 +13,20 @@ links:
 
 ---
 
-Die Klima-Apps der [Bunten Nacht](/projekte/bunte-nacht/) werden weiter entwickelt. 
 
-Mitarbeit und Anpassung an andere Umgebungen sind erwünscht.
+## Klimafestival
+24.9.2022
+
+Nutzung der Apps für [*Klima Karlsruhe*](https://klima.karlsruhe.de/blog/energie-und-klimafestival-karlsruhe-fuer-15c/) => [App](https://co2app.karlsruhe.de) und [Dash](https://co2dash.karlsruhe.de)
+
+
+## Bunte Nacht der Digitalisierung
+1.7.2022
+
+Start der CO2-App und des Dashboards
+
+
+Die Klima-Apps der werden weiter entwickelt. Mitarbeit und Anpassung an andere Umgebungen sind erwünscht.
 
 
 ## App

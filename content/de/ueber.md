@@ -28,7 +28,7 @@ Das OK Lab Karlsruhe ist Mitglied im [Klimabündnis Karlsruhe](https://www.klima
 
 **Weitere Infos**
 
-Am 1.9.2022 ab 10:00 findet die *Community Cnnvention* zur nachhaltigen Digitalisierung des *BMUV* statt. Wir zeigen [Projekte 
+Am 1.9.2022 ab 10:00 findet die *Community Convention* zur nachhaltigen Digitalisierung des *BMUV* statt. Wir zeigen [Projekte 
 mit offenen Daten](/projekte/green-it/)
 
 Ein SWR2-Interview vom 30.7.2022 mit dem OK Lab findest Du [hier](https://www.swr.de/swr2/wissen/das-ok-lab-in-karlsruhe-die-stadt-besser-verstehen-102.html). 

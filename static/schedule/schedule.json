@@ -1,6 +1,20 @@
 {
     "de": [
         {
+            "date": "10.01.2023 19:00",
+            "title": "Online Lab Treffen, Zugangscode in der Cloud, oder per Mail bei info@ok-lab-karlsruhe.de anfordern",
+            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab10012023.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4sIFp1Z2FuZ3Njb2RlIGluIGRlciBDbG91ZCwgb2RlciBwZXIgTWFpbCBiZWkgaW5mb0Bvay1sYWIta2FybHNydWhlLmRlIGFuZm9yZGVybgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIzMDExMFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9sZWN0dXJlLnNlbmZjYWxsLmRlL2FuZC1yZngtYnlrLTQxcQpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab10012023.ics\">ICS</a>"
+        },
+        {
+            "date": "13.12.2022 19:00",
+            "title": "Online Lab Treffen, Zugangscode in der Cloud, oder per Mail bei info@ok-lab-karlsruhe.de anfordern",
+            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab13122022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4sIFp1Z2FuZ3Njb2RlIGluIGRlciBDbG91ZCwgb2RlciBwZXIgTWFpbCBiZWkgaW5mb0Bvay1sYWIta2FybHNydWhlLmRlIGFuZm9yZGVybgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIyMTIxM1QxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9sZWN0dXJlLnNlbmZjYWxsLmRlL2FuZC1yZngtYnlrLTQxcQpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab13122022.ics\">ICS</a>"
+        },
+        {
             "date": "22.11.2022 19:00",
             "title": "Online Lab Treffen, Zugangscode in der Cloud, oder per Mail bei info@ok-lab-karlsruhe.de anfordern",
             "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
@@ -20,37 +34,23 @@
             "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
             "duration": "02:00",
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab27092022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4sIFp1Z2FuZ3Njb2RlIGluIGRlciBDbG91ZCwgb2RlciBwZXIgTWFpbCBiZWkgaW5mb0Bvay1sYWIta2FybHNydWhlLmRlIGFuZm9yZGVybgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIyMDkyN1QxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9sZWN0dXJlLnNlbmZjYWxsLmRlL2FuZC1yZngtYnlrLTQxcQpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab27092022.ics\">ICS</a>"
-        },
-        {
-            "date": "30.08.2022 19:00",
-            "title": "Online Lab Treffen, Zugangscode in der Cloud, oder per Mail bei info@ok-lab-karlsruhe.de anfordern",
-            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab30082022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4sIFp1Z2FuZ3Njb2RlIGluIGRlciBDbG91ZCwgb2RlciBwZXIgTWFpbCBiZWkgaW5mb0Bvay1sYWIta2FybHNydWhlLmRlIGFuZm9yZGVybgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIyMDgzMFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9sZWN0dXJlLnNlbmZjYWxsLmRlL2FuZC1yZngtYnlrLTQxcQpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab30082022.ics\">ICS</a>"
-        },
-        {
-            "date": "09.08.2022 19:00",
-            "title": "Online Lab Treffen, Zugangscode in der Cloud, oder per Mail bei info@ok-lab-karlsruhe.de anfordern",
-            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab09082022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4sIFp1Z2FuZ3Njb2RlIGluIGRlciBDbG91ZCwgb2RlciBwZXIgTWFpbCBiZWkgaW5mb0Bvay1sYWIta2FybHNydWhlLmRlIGFuZm9yZGVybgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIyMDgwOVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9sZWN0dXJlLnNlbmZjYWxsLmRlL2FuZC1yZngtYnlrLTQxcQpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab09082022.ics\">ICS</a>"
-        },
-        {
-            "date": "18.07.2022 19:00",
-            "title": "Online Lab Treffen, Zugangscode in der Cloud, oder per Mail bei info@ok-lab-karlsruhe.de anfordern",
-            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab18072022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4sIFp1Z2FuZ3Njb2RlIGluIGRlciBDbG91ZCwgb2RlciBwZXIgTWFpbCBiZWkgaW5mb0Bvay1sYWIta2FybHNydWhlLmRlIGFuZm9yZGVybgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIyMDcxOFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9sZWN0dXJlLnNlbmZjYWxsLmRlL2FuZC1yZngtYnlrLTQxcQpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab18072022.ics\">ICS</a>"
-        },
-        {
-            "date": "21.06.2022 19:00",
-            "title": "Online Lab Treffen, Zugangscode in der Cloud, oder per Mail bei info@ok-lab-karlsruhe.de anfordern",
-            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21062022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIFRyZWZmZW4sIFp1Z2FuZ3Njb2RlIGluIGRlciBDbG91ZCwgb2RlciBwZXIgTWFpbCBiZWkgaW5mb0Bvay1sYWIta2FybHNydWhlLmRlIGFuZm9yZGVybgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIyMDYyMVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046aHR0cHM6Ly9sZWN0dXJlLnNlbmZjYWxsLmRlL2FuZC1yZngtYnlrLTQxcQpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab21062022.ics\">ICS</a>"
         }
     ],
     "en": [
+        {
+            "date": "01.01.2023 19:00",
+            "title": "Online Lab Meetup, Access code in cloud or request by email at info@ok-lab-karlsruhe.de",
+            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab01012023.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cCwgQWNjZXNzIGNvZGUgaW4gY2xvdWQgb3IgcmVxdWVzdCBieSBlbWFpbCBhdCBpbmZvQG9rLWxhYi1rYXJsc3J1aGUuZGUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMzAxMDFUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbGVjdHVyZS5zZW5mY2FsbC5kZS9hbmQtcmZ4LWJ5ay00MXEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab01012023.ics\">ICS</a>"
+        },
+        {
+            "date": "13.12.2022 19:00",
+            "title": "Online Lab Meetup, Access code in cloud or request by email at info@ok-lab-karlsruhe.de",
+            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab13122022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cCwgQWNjZXNzIGNvZGUgaW4gY2xvdWQgb3IgcmVxdWVzdCBieSBlbWFpbCBhdCBpbmZvQG9rLWxhYi1rYXJsc3J1aGUuZGUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMjEyMTNUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbGVjdHVyZS5zZW5mY2FsbC5kZS9hbmQtcmZ4LWJ5ay00MXEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab13122022.ics\">ICS</a>"
+        },
         {
             "date": "22.11.2022 19:00",
             "title": "Online Lab Meetup, Access code in cloud or request by email at info@ok-lab-karlsruhe.de",
@@ -71,34 +71,6 @@
             "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
             "duration": "02:00",
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab27092022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cCwgQWNjZXNzIGNvZGUgaW4gY2xvdWQgb3IgcmVxdWVzdCBieSBlbWFpbCBhdCBpbmZvQG9rLWxhYi1rYXJsc3J1aGUuZGUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMjA5MjdUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbGVjdHVyZS5zZW5mY2FsbC5kZS9hbmQtcmZ4LWJ5ay00MXEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab27092022.ics\">ICS</a>"
-        },
-        {
-            "date": "30.08.2022 19:00",
-            "title": "Online Lab Meetup, Access code in cloud or request by email at info@ok-lab-karlsruhe.de",
-            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab30082022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cCwgQWNjZXNzIGNvZGUgaW4gY2xvdWQgb3IgcmVxdWVzdCBieSBlbWFpbCBhdCBpbmZvQG9rLWxhYi1rYXJsc3J1aGUuZGUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMjA4MzBUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbGVjdHVyZS5zZW5mY2FsbC5kZS9hbmQtcmZ4LWJ5ay00MXEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab30082022.ics\">ICS</a>"
-        },
-        {
-            "date": "09.08.2022 19:00",
-            "title": "Online Lab Meetup, Access code in cloud or request by email at info@ok-lab-karlsruhe.de",
-            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab09082022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cCwgQWNjZXNzIGNvZGUgaW4gY2xvdWQgb3IgcmVxdWVzdCBieSBlbWFpbCBhdCBpbmZvQG9rLWxhYi1rYXJsc3J1aGUuZGUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMjA4MDlUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbGVjdHVyZS5zZW5mY2FsbC5kZS9hbmQtcmZ4LWJ5ay00MXEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab09082022.ics\">ICS</a>"
-        },
-        {
-            "date": "18.07.2022 19:00",
-            "title": "Online Lab Meetup, Access code in cloud or request by email at info@ok-lab-karlsruhe.de",
-            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab18072022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cCwgQWNjZXNzIGNvZGUgaW4gY2xvdWQgb3IgcmVxdWVzdCBieSBlbWFpbCBhdCBpbmZvQG9rLWxhYi1rYXJsc3J1aGUuZGUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMjA3MThUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbGVjdHVyZS5zZW5mY2FsbC5kZS9hbmQtcmZ4LWJ5ay00MXEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab18072022.ics\">ICS</a>"
-        },
-        {
-            "date": "21.06.2022 19:00",
-            "title": "Online Lab Meetup, Access code in cloud or request by email at info@ok-lab-karlsruhe.de",
-            "location": "https://lecture.senfcall.de/and-rfx-byk-41q",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21062022.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPbmxpbmUgTGFiIE1lZXR1cCwgQWNjZXNzIGNvZGUgaW4gY2xvdWQgb3IgcmVxdWVzdCBieSBlbWFpbCBhdCBpbmZvQG9rLWxhYi1rYXJsc3J1aGUuZGUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyMjA2MjFUMTkwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOmh0dHBzOi8vbGVjdHVyZS5zZW5mY2FsbC5kZS9hbmQtcmZ4LWJ5ay00MXEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab21062022.ics\">ICS</a>"
         }
     ]
 }

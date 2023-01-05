@@ -24,5 +24,8 @@ Du willst wissen, wie Offene Daten als Werkzeug bei der Recherche genutzt werden
 **\*** Das OK Lab Karlsruhe ist ein informeller Zusammenschluss interessierter Menschen. 
 Die Gründung eines gemeinnützigen Vereins ist gerade im Gespräch.
 
-## Aufgrund SARS-CoV-2 finden alle Meetings bis auf weiteres online statt. Die Links stehen bei den Terminen. 
+## Ab 17.1.2023 treffen wir uns wieder persönlich
+Ort: [Impact Hub Karlsruhe, Kaiserstr. 41](https://karlsruhe.impacthub.net/) 
+
+Eine Online-Option wird möglich sein, bitte [anfragen](mailto:info@ok-lab-karlsruhe.de?subject=Online_Zugang)
 

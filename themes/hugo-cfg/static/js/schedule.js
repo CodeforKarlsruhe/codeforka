@@ -32,6 +32,15 @@ $(document).ready(function(e) {
                         sc += ",&nbsp;" + field.location
                 }
 
+                // check map
+                if (typeof(undefined) !== typeof(field.map)) {
+                    if (lang && lang == "en") {
+                        sc += ", &nbsp;<a href=\"" + field.map + "\" target=\"_blank\">Map</a>"
+                    } else {
+                        sc += ", &nbsp;<a href=\"" + field.map + "\" target=\"_blank\">Karte</a>"
+                    }
+                }
+
                 if (typeof(undefined) !== typeof(field.ics))
                     sc += "&nbsp;("+ field.ics + ")"
                 sc += "</li>";

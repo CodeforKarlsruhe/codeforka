@@ -9,6 +9,14 @@
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab14032023.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIzMDMxNFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgNDEKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab14032023.ics\">ICS</a>"
         },
         {
+            "date": "04.03.2023 15:00",
+            "title": "Open Data Day - Ein Tag mit offenen Daten",
+            "location": "ZKM, Media Lounge",
+            "map": "https://www.openstreetmap.org/way/224089410#map=19/49.00130/8.38359",
+            "duration": "03:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab04032023.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPcGVuIERhdGEgRGF5IC0gRWluIFRhZyBtaXQgb2ZmZW5lbiBEYXRlbgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDIzMDMwNFQxNTAwMDAKRFVSQVRJT046UFQwM0gwME0wMFMKTE9DQVRJT046WktNLCBNZWRpYSBMb3VuZ2UKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab04032023.ics\">ICS</a>"
+        },
+        {
             "date": "28.02.2023 19:00",
             "title": "Lab Treffen im Impact Hub Karlsruhe",
             "location": "76131 Karlsruhe, Kaiserstr 41",
@@ -69,6 +77,14 @@
             "map": "https://www.openstreetmap.org/way/321659914#map=19/49.00903/8.41305",
             "duration": "02:00",
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab14032023.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjMwMzE0VDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA0MQpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab14032023.ics\">ICS</a>"
+        },
+        {
+            "date": "04.03.2023 15:00",
+            "title": "Open Data Day",
+            "location": "ZKM, Media Lounge",
+            "map": "https://www.openstreetmap.org/way/224089410#map=19/49.00130/8.38359",
+            "duration": "03:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab04032023.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPcGVuIERhdGEgRGF5CkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjMwMzA0VDE1MDAwMApEVVJBVElPTjpQVDAzSDAwTTAwUwpMT0NBVElPTjpaS00sIE1lZGlhIExvdW5nZQpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab04032023.ics\">ICS</a>"
         },
         {
             "date": "28.02.2023 19:00",

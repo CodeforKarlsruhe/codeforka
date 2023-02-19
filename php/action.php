@@ -372,6 +372,10 @@ try {
     case "POST":
       // test with http -f POST 127.0.0.1:8000/index1.php  email=123@ab.cd  lang=de
       mlog(json_encode($_POST));
+      if (empty($cfg["usesmtp"])) {
+        mlog("Mail disabled");
+        throw new Exception("0");
+      }
       if (empty($_POST["lang"])) {
         throw new Exception("0");
       } else {

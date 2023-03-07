@@ -28,6 +28,8 @@ Das OK Lab Karlsruhe ist Mitglied im [Klimabündnis Karlsruhe](https://www.klima
 
 **Weitere Infos**
 
+Die Folien zum [OpenDataDay](/projekte/odd23/) am 4.3.2023 sind [hier](/projekte/odd23/#folien)
+
 Am 1.9.2022 ab 10:00 findet die *Community Convention* zur nachhaltigen Digitalisierung des *BMUV* statt. Wir zeigen [Projekte 
 mit offenen Daten](/projekte/green-it/)
 

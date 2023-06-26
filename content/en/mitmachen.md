@@ -29,7 +29,7 @@ Do you want to know how open data can be used as a research tool and how this da
 The foundation of a non-profit organization is currently under discussion.
 
 ## From Jan 17th 2023 we restart to meet in person
-Location: [Impact Hub Karlsruhe, Kaiserstr. 41](https://karlsruhe.impacthub.net/) 
+Location: [Impact Hub Karlsruhe, Kaiserstr. 97](https://karlsruhe.impacthub.net/) 
 
 There will be an online option as well, please ask for [access](mailto:info@ok-lab-karlsruhe.de?subject=Online_Zugang)
 

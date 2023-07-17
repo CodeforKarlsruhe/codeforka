@@ -7,6 +7,16 @@ import json
 
 LANGS = ["de","en"]
 LABURL = "https://ok-lab-karlsruhe.de"
+VERSION = 0.1
+NAME = "Projectlist"
+
+# categories: must be in sync with globals site
+# currently we have umwelt, politik, gesellschaft, mobilität
+# if no key present, default to all
+DEFAULT_CATEGORIES = ["environment","politics","society","mobility"]
+
+# Status should be one of active, completed, archived. Default is completed
+DEFAULT_STATUS = "completed"
 
 projects = []
 
@@ -28,15 +38,26 @@ for lang in LANGS:
             print(md)
             yml = load(y,CLoader)
             #print(yml)
-            # make project link
+            # get project name and year from file name
             prjname = fl.split(".md")[0].split("-")
+            prjyear = str(prjname[0])
             prjname = "-".join(prjname[3:])
             print(prjname)
+            # get status or use default
+            if yml.get("status") != None:
+                prjstatus = yml["status"]
+            else:
+                prjstatus = DEFAULT_STATUS
+            # get categories or use default
+            if yml.get("categories") != None:
+                prjcats = yml["categories"]
+            else:
+                prjcats = DEFAULT_CATEGORIES
             # get image or use default
             prjimg = f"{LABURL}/img/CfKA%20Hexagon%203d.svg"
             if yml.get("imgname") != None:
                 prjimg = f"{LABURL}/projects/{yml['imgname']}"
-            # make lang specific link
+            # make project link, lang specific
             if lang == LANGS[0]:
                 prjurl = f"{LABURL}/projekte/{prjname}"
             else:
@@ -55,6 +76,9 @@ for lang in LANGS:
             prj = {
                 "lab": yml["lab"],
                 "title": yml["title"],
+                "year":prjyear,
+                "categories":prjcats,
+                "status":prjstatus,
                 "link": prjurl,
                 "img": prjimg,
                 "teaser": teaser,
@@ -64,6 +88,13 @@ for lang in LANGS:
             projects.append(prj)
             
 
+# create project list for export 
+pl = {
+    "name": NAME,
+    "version": VERSION,
+    "projects": projects
+    }
+
 with open("../static/projects/projectlist.json","w") as f:
-    json.dump(projects,f)
+    json.dump(pl,f)
     

@@ -9,6 +9,10 @@ status: Laufend
 collaborators:
   - name: Andreas Kugel
 
+# DEFAULT_CATEGORIES = ["environment","politics","society","mobility"]
+categories:
+  - society
+
 
 links:
   - name: Github

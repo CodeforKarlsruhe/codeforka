@@ -41,3 +41,8 @@ AddOutputFilterByType DEFLATE text/xml
 RewriteEngine on
 ErrorDocument 404   https://ok-lab-karlsruhe.de/404.html
 
+# add cors headers
+Header add Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Methods: "GET,OPTIONS"
+
+

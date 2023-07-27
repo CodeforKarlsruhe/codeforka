@@ -28,5 +28,18 @@ links:
 Daten.Cafe möchte auf einfache Art grundlegende Kenntnisse in Datenkompetenz vermitteln. Dafür bilden ein freier Zugang zur Anwendung und den Ergebnissen die Basis. Die Anwendung erlaubt das Erlernen und Üben der Konzepte auch auf (modernen) Smartphones und Tablets. Datenkompetenz bedeutet, dass man Daten verstehen und damit umgehen kann. Daten aus verschiedenen Zusammenhängen zu nutzen hilft uns, informierte Entscheidungen zu treffen. 
 
 ### Mitmachen
-Gerne kannst Du mit Ideen, Datenstories oder Code beitragen. Schreib einfach eine [Mail an uns](mailto:info@daten.cafe)
+Gerne kannst Du mit Ideen, Datenstories oder Code beitragen. Schreib einfach eine [Mail an uns](mailto:info@daten.cafe) oder komm
+zu einem *Walk-In DatenCafe*
+
+
+### Termine
+Walk-In DatenCafe
+
+Freitags, je 13:00-15:00 im ImpactHub Karlsruhe, Kaiserstr 97
+
+2023: 22.9., 20.10., 24.11., 15.12.
+
+Einfach vorbei kommen!
+
+
 

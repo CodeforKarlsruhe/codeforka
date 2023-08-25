@@ -72,7 +72,7 @@ for lang in LANGS:
                 print(f"Error on {prjimg}: {r.status_code}")
                 sys.exit()
             # make teaser
-            teaser = " ".join(md.split("\n")[:3]) + " ...\n" 
+            teaser = " ".join(md.split("\n")[:3]) + " ...\n"
             prj = {
                 "lab": yml["lab"],
                 "title": yml["title"],
@@ -81,7 +81,7 @@ for lang in LANGS:
                 "status":prjstatus,
                 "link": prjurl,
                 "img": prjimg,
-                "teaser": teaser,
+                "teaser": teaser.strip(),
                 "lang":lang
                 }
             print(prj)

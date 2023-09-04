@@ -10,6 +10,21 @@ LABURL = "https://ok-lab-karlsruhe.de"
 VERSION = 0.1
 NAME = "Projectlist"
 
+LABINFO = {
+    "city": "Karlsruhe",
+    "url": LABURL,
+    "members" : ["Andreas Kugel",
+                 "Martin Weis",
+                 "Josef Attmann",
+                 "Michael Riedmüller",
+                 "Alexander Melde"
+                 ],
+    "socials" : {
+        "github":"https://github.com/CodeforKarlsruhe",
+        "gettogether":"https://gettogether.community/ok-lab-ka/"
+    }
+}
+
 # categories: must be in sync with globals site
 # currently we have umwelt, politik, gesellschaft, mobilität
 # if no key present, default to all
@@ -41,6 +56,9 @@ for lang in LANGS:
             # get project name and year from file name
             prjname = fl.split(".md")[0].split("-")
             prjyear = str(prjname[0])
+            pm = str(prjname[1])
+            pd = str(prjname[2])
+            prjdate = "".join([prjyear,pm,pd])
             prjname = "-".join(prjname[3:])
             print(prjname)
             # get status or use default
@@ -77,6 +95,7 @@ for lang in LANGS:
                 "lab": yml["lab"],
                 "title": yml["title"],
                 "year":prjyear,
+                "date":prjdate,
                 "categories":prjcats,
                 "status":prjstatus,
                 "link": prjurl,
@@ -88,10 +107,15 @@ for lang in LANGS:
             projects.append(prj)
             
 
+# sort by date, descending
+projects = sorted(projects, key=lambda prj: prj["date"], reverse=True)
+
+
 # create project list for export 
 pl = {
     "name": NAME,
     "version": VERSION,
+    "lab":LABINFO,
     "projects": projects
     }
 

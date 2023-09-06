@@ -3,7 +3,7 @@ layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/open_sense.png
 title: Open Sense
-status: Laufend
+status: Fertig
 draft: false
 
 links:

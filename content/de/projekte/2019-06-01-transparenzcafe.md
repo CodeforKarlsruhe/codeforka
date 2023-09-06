@@ -5,7 +5,7 @@ imgname: karlsruhe/tcafe.jpg
 imgcaption: "© ZKM | Zentrum für Kunst und Medien, Foto: Tanja Meissner"
 title: Transparenz.Cafe
 showcase: 0
-status: Ruhend (coronabedingt)
+status: Abgeschlosen
 
 collaborators:
 - name: Andreas Kugel

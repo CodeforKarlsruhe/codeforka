@@ -3,7 +3,7 @@ layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/strassennamen.png
 title: Straßennamen
-status: Fertig
+status: Abgeschlossen
 
 links:
 - url: https://codeforkarlsruhe.github.io/streetnames
@@ -15,4 +15,5 @@ collaborators:
 - name: Torf
 
 ---
+
 Visualisiert die nach Menschen benannten Karlsruher Straßen und deren Geschlechter.

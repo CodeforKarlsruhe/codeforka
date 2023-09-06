@@ -4,7 +4,7 @@ lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/bunteNacht22.png
 title: Bunte Nacht der Digitalisierung am 1.7.2022
 showcase: 1
-status: Laufend
+status: Abgeschlosen
 
 
 links:
@@ -12,7 +12,6 @@ links:
     url: https://bunte-nacht-der-digitalisierung.de/details#partner23
 
 ---
-
 
 ## Programm
 Zwischen 15:00Uhr und 21:00Uhr wird unser Stand im Rathaus besetzt sein. 

@@ -24,7 +24,6 @@ links:
 
 ---
 
-
 Daten.Cafe möchte auf einfache Art grundlegende Kenntnisse in Datenkompetenz vermitteln. Dafür bilden ein freier Zugang zur Anwendung und den Ergebnissen die Basis. Die Anwendung erlaubt das Erlernen und Üben der Konzepte auch auf (modernen) Smartphones und Tablets. Datenkompetenz bedeutet, dass man Daten verstehen und damit umgehen kann. Daten aus verschiedenen Zusammenhängen zu nutzen hilft uns, informierte Entscheidungen zu treffen. 
 
 ### Mitmachen

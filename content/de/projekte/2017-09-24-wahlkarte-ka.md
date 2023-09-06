@@ -2,11 +2,8 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: 
-title: Karlsruher Wahlanzeiger
-status: abgeschlossen
-type: WS
-draft: false #set to 'true'
-status: Abgeschlossen
+title: Karlsruher Wahlanzeiger 2017
+status: Abgeschlosen
 
 links:
 - url: https://codeforkarlsruhe.github.io/wahlkarte

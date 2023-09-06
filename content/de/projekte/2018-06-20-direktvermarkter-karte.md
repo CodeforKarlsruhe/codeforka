@@ -4,7 +4,7 @@ lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/direktvermarkter.png
 title: farmshops.eu Direktvermarkter Karte
 showcase: 1
-status: Laufend
+status: Fertig
 
 collaborators:
 - name: Stefan R. Grotz

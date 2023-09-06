@@ -5,10 +5,16 @@ import requests
 import sys
 import json
 
+from bs4 import BeautifulSoup
+from markdown import markdown
+
+
 LANGS = ["de","en"]
 LABURL = "https://ok-lab-karlsruhe.de"
 VERSION = 0.1
 NAME = "Projectlist"
+
+TESTLINKS = False #True
 
 LABINFO = {
     "city": "Karlsruhe",
@@ -26,12 +32,23 @@ LABINFO = {
 }
 
 # categories: must be in sync with globals site
-# currently we have umwelt, politik, gesellschaft, mobilität
+# currently we have Umwelt, Politik, Gesellschaft, Mobilität
 # if no key present, default to all
-DEFAULT_CATEGORIES = ["environment","politics","society","mobility"]
+# DEFAULT_CATEGORIES = ["environment","politics","society","mobility"]
+
+DEFAULT_CATEGORIES = [0,1,2,3]
+
+CATEGEORIES = {"de": ["Umwelt", "Politik", "Gesellschaft", "Mobilität"],
+               "en": ["environment","politics","society","mobility"]}
 
 # Status should be one of active, completed, archived. Default is completed
-DEFAULT_STATUS = "completed"
+# localized status
+STATUS = {
+    "en":["active","completed","archived"],
+    "de":["Laufend","Fertig","Abgeschlossen"]
+}
+DEFAULT_STATUS = 2
+
 
 projects = []
 
@@ -65,12 +82,12 @@ for lang in LANGS:
             if yml.get("status") != None:
                 prjstatus = yml["status"]
             else:
-                prjstatus = DEFAULT_STATUS
+                prjstatus = STATUS[lang][DEFAULT_STATUS]
             # get categories or use default
             if yml.get("categories") != None:
                 prjcats = yml["categories"]
             else:
-                prjcats = DEFAULT_CATEGORIES
+                prjcats = [x for x in CATEGEORIES["en"]]
             # get image or use default
             prjimg = f"{LABURL}/img/CfKA%20Hexagon%203d.svg"
             if yml.get("imgname") != None:
@@ -81,16 +98,25 @@ for lang in LANGS:
             else:
                 prjurl = f"{LABURL}/{lang}/projekte/{prjname}"
             # test url and image links
-            r = requests.get(prjurl)
-            if r.status_code != 200:
-                print(f"Error on {prjurl}: {r.status_code}")
-                sys.exit()
-            r = requests.get(prjimg)
-            if r.status_code != 200:
-                print(f"Error on {prjimg}: {r.status_code}")
-                sys.exit()
+            if TESTLINKS:
+                r = requests.get(prjurl)
+                if r.status_code != 200:
+                    print(f"Error on {prjurl}: {r.status_code}")
+                    sys.exit()
+                r = requests.get(prjimg)
+                if r.status_code != 200:
+                    print(f"Error on {prjimg}: {r.status_code}")
+                    sys.exit()
             # make teaser
-            teaser = " ".join(md.split("\n")[:3]) + " ...\n"
+            print(md)
+            html = markdown(md)
+            text = ''.join(BeautifulSoup(html).findAll(text=True))
+
+            if len(text) < 200:
+                teaser = text
+            else:
+                teaser = text[:200] + " ...\n"
+            # teaser = " ".join(md.split("\n")[:3]) + " ...\n"
             prj = {
                 "lab": yml["lab"],
                 "title": yml["title"],

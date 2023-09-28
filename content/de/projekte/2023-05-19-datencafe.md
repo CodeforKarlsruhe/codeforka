@@ -36,7 +36,7 @@ Walk-In DatenCafe
 
 Freitags, je 13:00-15:00 im ImpactHub Karlsruhe, Kaiserstr 97
 
-2023: 22.9., 20.10., 24.11., 15.12.
+2023: 22.9., 27.10., 24.11., 15.12.
 
 Einfach vorbei kommen!
 

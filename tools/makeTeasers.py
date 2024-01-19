@@ -63,7 +63,7 @@ for lang in LANGS:
         with open(os.sep.join([prjdir,fl])) as f:
             # split by "---" to get yaml header
             x = f.read().split("---")
-            if len(x) != 3:
+            if len(x) < 3: #!= 3:
                 continue
             y = x[1]
             md = x[2]

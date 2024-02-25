@@ -1,0 +1,33 @@
+{{ define "main"}}
+  {{ partial "navbar.html" . }}
+  <section class="section is-medium project">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-centered-tablet-portrait">
+          <h1 class="title section-title">{{ .Title }}</h1>
+          <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
+          <div class="divider"></div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-12 content">
+		  <div style="position:relative;">
+			<fig>
+	          	<img src="/projects/{{ .Params.Imgname }}" alt="" style="width:30%;min-width:300px;">
+				{{- if isset .Params "imgcaption" -}}
+					<figcaption class="figcaption">{{ .Params.Imgcaption }}
+					</figcaption>
+				{{- end -}}
+			  </fig>
+        {{- if isset .Params "time" -}}
+        <h3 class="time">{{ .Params.time }}
+        </h3>
+        {{- end -}}
+    </div>
+          {{ .Content }}
+        </div>
+
+      </div>
+    </div>
+  </section>
+{{ end }}

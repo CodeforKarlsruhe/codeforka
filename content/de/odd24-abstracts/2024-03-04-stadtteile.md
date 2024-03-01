@@ -51,7 +51,7 @@ Datensatz [**Stadtteilprofile Karlsruhe**](https://transparenz.karlsruhe.de/data
 
   Quelle: unterschiedliche Quellen (siehe Veröffentlichung) / Stadt Karlsruhe, Amt für Stadtentwicklung
 - **Größe:** 220 Seiten plus ein Kartenteil
-- **Download:** [Link zum Datensatz im Transparenzportal (Original)](https://transparenz.karlsruhe.de/dataset/stadtteilprofile)
+- **Download:** [Link zum Datensatz im Transparenzportal (Original)](https://transparenz.karlsruhe.de/dataset/stadtteilprofile) und  https://cloud.ok-lab-karlsruhe.de/s/nATffSgZfDpzEFr?path=%2F%2FStadtteilprofile 
 - **Lizenz:** Dieser Datensatz wurde unter der Lizenz [Creative Commons Namensnennung - 4.0 International (CC-BY 4.0)](http://creativecommons.org/licenses/by/4.0/) veröffentlicht.
 - ***Kontakt*:** 
 - **Mögliche Verwendungszwecke:** Spiel Digital Twin zu Karlsruhe – Stadtteile bauen
@@ -65,3 +65,4 @@ Thema Bevölkerung
 
 - **Kontakt:** Josef Attmann
 
+![](/projects/karlsruhe/odd2024/qr/profile.png)

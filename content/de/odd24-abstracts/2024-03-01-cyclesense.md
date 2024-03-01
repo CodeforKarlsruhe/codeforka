@@ -20,3 +20,8 @@ imgname: karlsruhe/odd2024/cylcesense.jpg
 - **Technische Anforderungen**: -
 
 ![](/projects/karlsruhe/odd2024/qr/cyclesense.png)
+
+
+
+[Alternativer Download](/projects/karlsruhe/odd2024/data/CycleSense.zip)
+

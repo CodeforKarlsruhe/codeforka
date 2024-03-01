@@ -21,3 +21,8 @@ imgname: karlsruhe/odd2024/govdata.png
 
 
 ![](/projects/karlsruhe/odd2024/qr/landschaft.png)
+
+
+
+[Alternativer Download](/projects/karlsruhe/odd2024/data/OpenDataLandschaft.zip)
+

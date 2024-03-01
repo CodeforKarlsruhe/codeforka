@@ -1,6 +1,6 @@
 ---
 title: Stadtteilprofile
-imgname: karlsruhe/odd2024/odd24.png
+imgname: karlsruhe/odd2024/profile.png
 
 ---
 
@@ -66,3 +66,8 @@ Thema Bevölkerung
 - **Kontakt:** Josef Attmann
 
 ![](/projects/karlsruhe/odd2024/qr/profile.png)
+
+
+
+[Alternativer Download](/projects/karlsruhe/odd2024/data/Stadtteilprofile.zip)
+

@@ -5,9 +5,7 @@ imgname: karlsruhe/odd2024/kaklima.jpg
 ---
 
 
-## Vorlage
-
-- **Themen:** Klimadate in Karlsruhe / Klimadashboard
+- **Themen:** Klimadaten in Karlsruhe / Klimadashboard
 - **Objekttyp:** Verschiedene
 - **Dateiformat:** PDF, CSV, SHP, ...
 - **Herausgeber:** Stadt Karlsruhe, Umweltamt
@@ -22,5 +20,8 @@ imgname: karlsruhe/odd2024/kaklima.jpg
 - **Technische Anforderungen**: QGIS, Geopandas, Shapely etc. nützlich
 
 
-![](/projects/karlsruhe/odd2024/qr/cyclesense.png)
+![](/projects/karlsruhe/odd2024/qr/klima.png)
+
+
+[Alternativer Download](/projects/karlsruhe/odd2024/data/UmweltAmt-Klimadashboard.zip)
 

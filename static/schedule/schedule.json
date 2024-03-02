@@ -1,6 +1,22 @@
 {
     "de": [
         {
+            "date": "16.03.2024 13:00",
+            "title": "CoDaKaI-Workshop. OpenDataDay Follow-Up",
+            "location": "Impact Hub Karlsruhe, 76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "04:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab16032024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpDb0RhS2FJLVdvcmtzaG9wLiBPcGVuRGF0YURheSBGb2xsb3ctVXAKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNDAzMTZUMTMwMDAwCkRVUkFUSU9OOlBUMDRIMDBNMDBTCkxPQ0FUSU9OOkltcGFjdCBIdWIgS2FybHNydWhlLCA3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab16032024.ics\">ICS</a>"
+        },
+        {
+            "date": "15.03.2024 13:00",
+            "title": "Walk-In Daten.Cafe: Platz f\u00fcr alle Deine Fragen. Einfach vorbeikommen",
+            "location": "Impact Hub Karlsruhe, 76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab15032024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpXYWxrLUluIERhdGVuLkNhZmU6IFBsYXR6IGbDvHIgYWxsZSBEZWluZSBGcmFnZW4uIEVpbmZhY2ggdm9yYmVpa29tbWVuCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQwMzE1VDEzMDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjpJbXBhY3QgSHViIEthcmxzcnVoZSwgNzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab15032024.ics\">ICS</a>"
+        },
+        {
             "date": "01.03.2024 17:00",
             "title": "Open Data HackDays FR 17:00 bis SA 20:00 Uhr (<a href='https://ok-lab-karlsruhe.de/projekte/odd24/'>Info</a>).",
             "location": "Triangel, 76131 Karlsruhe, Kaiserstr 93",
@@ -89,6 +105,22 @@
         }
     ],
     "en": [
+        {
+            "date": "16.03.2024 13:00",
+            "title": "CoDaKaI-Workshop. OpenDataDay Follow-Up",
+            "location": "Impact Hub Karlsruhe, 76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "04:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab16032024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpDb0RhS2FJLVdvcmtzaG9wLiBPcGVuRGF0YURheSBGb2xsb3ctVXAKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNDAzMTZUMTMwMDAwCkRVUkFUSU9OOlBUMDRIMDBNMDBTCkxPQ0FUSU9OOkltcGFjdCBIdWIgS2FybHNydWhlLCA3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab16032024.ics\">ICS</a>"
+        },
+        {
+            "date": "15.03.2024 13:00",
+            "title": "Walk-In Daten.Cafe:  Space for all your questions. Just drop in",
+            "location": "Impact Hub Karlsruhe, 76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab15032024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpXYWxrLUluIERhdGVuLkNhZmU6ICBTcGFjZSBmb3IgYWxsIHlvdXIgcXVlc3Rpb25zLiBKdXN0IGRyb3AgaW4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNDAzMTVUMTMwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOkltcGFjdCBIdWIgS2FybHNydWhlLCA3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab15032024.ics\">ICS</a>"
+        },
         {
             "date": "01.03.2024 17:00",
             "title": "Open Data HackDays FR 17:00 until SA 20:00 Uhr (<a href='https://ok-lab-karlsruhe.de/projekte/odd24/'>Info</a>).",

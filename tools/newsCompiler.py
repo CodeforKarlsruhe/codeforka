@@ -3,7 +3,7 @@ import sys
 import os
 import time 
 ####
-import urllib.request
+import requests
 import json
 import pystache
 ####
@@ -41,19 +41,13 @@ config.read(cfgFile)
 
 url = "https://raw.githubusercontent.com/CodeforKarlsruhe/codeforka/master/static/news/news.json"
 
-try:
-    req = urllib.request.Request(url)
-    with urllib.request.urlopen(req) as response:
-       data = response.read()
-except urllib.error.HTTPError as err:
-    if err.code == 404 or err.code == 500 :
-        print("URL not found: ",url)
-        sys.exit(0)
-    else:
-        raise
-        sys.exit(0)
+req = requests.get(url)
+if req.status_code == 200:
+    data = req.json()
+else:
+    print("Request error: ",status_code)
+    sys.exit(0)
 
-data = json.loads(data)
 print(data["de"]["date"])
 
 
@@ -265,19 +259,17 @@ downCode = config["crypt"]["down"].replace("\"","")
 url = "https://ok-lab-karlsruhe.de/php/action.php/?lang=de&down=" + downCode
 
 
-try:
-    req = urllib.request.Request(url)
-    with urllib.request.urlopen(req) as response:
-       data = response.read()
-except urllib.error.HTTPError as err:
-    if err.code == 404 or err.code == 500 :
-        print("URL not found: ",url)
-        sys.exit(0)
-    else:
-        raise
-        sys.exit(0)
-
-addrData = json.loads(data)
+req = requests.get(url)
+if req.status_code == 200:
+    try:
+        addrData = req.json()
+    except requests.exceptions.JSONDecodeError:
+        print("Invalid JSON")
+        sys.exit()
+    except:
+        print("Request error")
+        sys.exit()
+        
 print("number of addresses: ",len(addrData))
 
 if len(addrData) == 0:
@@ -285,7 +277,7 @@ if len(addrData) == 0:
     sys.exit()
 
 ###########################################
-# decrypt all eamils and remove links
+# decrypt all emails and remove links
 
 # see https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/
 

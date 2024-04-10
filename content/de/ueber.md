@@ -29,7 +29,7 @@ Das OK Lab Karlsruhe ist Mitglied im [Klimabündnis Karlsruhe](https://www.klima
 
 **Weitere Infos**
 
-Hier ist das [**Video**](https://youtu.be/lFcIXbp3C3Y) der Abschlusspräsentationen vom [OpenDataDay 2024](/projekte/odd24).
+Hier sind ein paar kurze [**Video-Impressionen**](https://youtu.be/289RJwps2Sk) und die Aufzeichnung der [**Abschlusspräsentationen**](https://youtu.be/lFcIXbp3C3Y) vom [OpenDataDay 2024](/projekte/odd24).
 
 
 Die Folien zum [OpenDataDay](/projekte/odd23/) am 4.3.2023 sind [hier](/projekte/odd23/#folien)

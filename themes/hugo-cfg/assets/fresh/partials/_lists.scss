@@ -46,6 +46,7 @@ ul li.preview, .preview {
     background-color: $cfg-green-3;
     background-image: linear-gradient(0deg, $cfg-green-3, $cfg-green-1);
     background-size: cover;
+    background-position: center;
     //box-shadow: .5em .5em $cfg-cyan-3;
     margin-bottom: .5em;
   }

@@ -1,6 +1,14 @@
 {
     "de": [
         {
+            "date": "25.06.2024 19:00",
+            "title": "Lab Treffen im Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab25062024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI0MDYyNVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab25062024.ics\">ICS</a>"
+        },
+        {
             "date": "21.06.2024 13:00",
             "title": "Walk-In Daten.Cafe: Platz f\u00fcr alle Deine Fragen. Einfach vorbeikommen",
             "location": "Impact Hub Karlsruhe, 76131 Karlsruhe, Kaiserstr 97",
@@ -137,6 +145,14 @@
         }
     ],
     "en": [
+        {
+            "date": "25.06.2024 19:00",
+            "title": "Lab Meetup at Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab25062024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQwNjI1VDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab25062024.ics\">ICS</a>"
+        },
         {
             "date": "21.06.2024 13:00",
             "title": "Walk-In Daten.Cafe:  Space for all your questions. Just drop in",

@@ -1,6 +1,22 @@
 {
     "de": [
         {
+            "date": "21.07.2024 13:40",
+            "title": "Lab Talk bei der FEST Klima-Akademie",
+            "location": "76135 Karlsruhe, Klotz Anlage",
+            "map": "https://www.openstreetmap.org/node/446298781",
+            "duration": "00:20",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21072024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVGFsayBiZWkgZGVyIEZFU1QgS2xpbWEtQWthZGVtaWUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNDA3MjFUMTM0MDAwCkRVUkFUSU9OOlBUMDBIMjBNMDBTCkxPQ0FUSU9OOjc2MTM1IEthcmxzcnVoZSwgS2xvdHogQW5sYWdlCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab21072024.ics\">ICS</a>"
+        },
+        {
+            "date": "21.07.2024 10:00",
+            "title": "Lab Info Stand beim FEST",
+            "location": "76135 Karlsruhe, Klotz Anlage",
+            "map": "https://www.openstreetmap.org/node/446298781",
+            "duration": "10:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21072024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgSW5mbyBTdGFuZCBiZWltIEZFU1QKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNDA3MjFUMTAwMDAwCkRVUkFUSU9OOlBUMTBIMDBNMDBTCkxPQ0FUSU9OOjc2MTM1IEthcmxzcnVoZSwgS2xvdHogQW5sYWdlCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab21072024.ics\">ICS</a>"
+        },
+        {
             "date": "25.06.2024 19:00",
             "title": "Lab Treffen im Impact Hub Karlsruhe",
             "location": "76131 Karlsruhe, Kaiserstr 97",

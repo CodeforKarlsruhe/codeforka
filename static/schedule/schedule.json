@@ -1,6 +1,14 @@
 {
     "de": [
         {
+            "date": "09.12.2024 19:00",
+            "title": "Lab Treffen im Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab09122024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI0MTIwOVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab09122024.ics\">ICS</a>"
+        },
+        {
             "date": "11.11.2024 19:00",
             "title": "Lab Treffen im Impact Hub Karlsruhe",
             "location": "76131 Karlsruhe, Kaiserstr 97",
@@ -66,6 +74,14 @@
         }
     ],
     "en": [
+        {
+            "date": "09.12.2024 19:00",
+            "title": "Lab Meetup at Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab09122024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQxMjA5VDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab09122024.ics\">ICS</a>"
+        },
         {
             "date": "11.11.2024 19:00",
             "title": "Lab Meetup at Impact Hub Karlsruhe",

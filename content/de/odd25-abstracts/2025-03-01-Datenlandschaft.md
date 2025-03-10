@@ -20,7 +20,9 @@ imgname: karlsruhe/odd2024/govdata.png
 - **Technische Anforderungen**: Je nach Projektziel Tools zur Datenanalyse und Visualisierung (Python, R, PowerBI, ...)
 
 
-![](/projects/karlsruhe/odd2025/qr/landschaft.png)
+![](/projects/karlsruhe/odd2024/qr/landschaft.png)
 
 
+
+[Alternativer Download](/projects/karlsruhe/odd2024/data/OpenDataLandschaft.zip)
 

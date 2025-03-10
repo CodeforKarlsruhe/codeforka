@@ -1,0 +1,49 @@
+---
+title: Daten-Steckbrief Vorlage
+imgname: karlsruhe/odd2024/wanted.png
+
+---
+
+
+## Vorlage
+
+- **Name**
+
+- **Themen:** Zum Beispiel Bildung, Erziehung, Geschichte,Geografie, Gesellschaft und Alltagsleben, Kunst und Kultur, Medien und Information, Medizin und Gesundheit, Natur und Naturkunde, Politik und Militär, Recht und Justiz, Religion und Weltanschauung, Sport und Spiel, Sprache und Literatur, Technik und Wissenschaft, Transport und Verkehr, Wirtschaft und Finanzwesen, Umwelt, ...
+- **Objekttyp:** Zum Beispiel Bild, Modell, Software, Text, Ton, Video
+- **Dateiformat:** PDF, XLS, CSV, JPG, ...
+- **Herausgeber:** Stadt Karlsruhe, ... Name mit Beschreibung der Organisation falls unbekannt
+- **Datenqualität:** Datenerhebungs-Zeitpunkt/Zeitraum, Vollständigkeit, Genauigkeit
+- **Vorverarbeitung:** Transformationen etc.
+- **Kurzbeschreibung:** Hintergrund der Erhebung, wichtigste Tabellenspalten, ...
+- **Größe:** Anzahl Tabellenzeilen, Einträge, Bilder, Dateigröße
+- **Mögliche Verwendungszwecke:** Zum Beispiel Digital Twin Spiel etc.
+- **Download:** Link zu unserer Cloud und/oder Originalquelle (QR-Code wird später generiert)
+- **Lizenz:** Zum Beispiel CC BY, CC BY-SA, CC0, public domain
+- **Kontakt:** Ansprechpartner während des Hackathons (Datenpate)
+- **Technische Anforderungen**: Für die Verarbeitung oder Analyse der Daten erforderliche Programmiersprachen, Bibliotheken oder Hardware.
+
+
+## Daten in Planung 
+
+In Ergänzung zu den folgenden Steckbriefen sollten wir noch folgende Datenquellen einpflegen:
+
+- **Sven**: LUBW Umweltdaten, Messwerte 100 Sensoren der Stadt
+- **Sven**: 3D Daten kommen von der Stadt für Hackday
+- **Stefan**: Stadtradeln Daten 2023
+- **Stefan:** Daten liefern die in Klimadashboard landen würden
+- **Daniel:** Roblox Environment bereitstellen zum Download mit Steckbrief
+- **Daniel:** benötigte 3D-Daten, Geodaten, Live-Daten, Sensordaten, Klima- und Umweltdaten in Steckbriefe formulieren
+- Liegenschaftsamt Daten
+- Sensordaten von OpenSenseMap <https://opensensemap.org/>  oder Luftdaten.info <https://sensor.community/de/>
+- Daten zu barrierefreien Orten in der Stadt
+- 16 Handlungsfelder
+- Energieleitplan? Gebäudescharf, Blockebene, SmartGeomatics aggregierte Daten
+- OSM
+- Mobilitätsdaten, multimodales Routing, Fahrradsensoren (OpenBikeSensor
+- SmartCity, überregional
+- Google Environmental Insights <https://insights.sustainability.google/places/ChIJCXjgokgGl0cRf-63THNV_LY/transportation?hl=de&tv=gpc>
+- Fahrrad Unfallschwerpunkte <https://heatview.de/?kreis=08212>  
+- Transparenzportal allgemein / weiteres
+
+![](/projects/karlsruhe/odd2024/qr/cyclesense.png)

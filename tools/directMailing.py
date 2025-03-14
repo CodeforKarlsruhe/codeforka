@@ -24,7 +24,7 @@ import html2text # pip install html2text
 
 #################
 
-sendMails = False
+sendMails = True
 
 #################
 # config parser
@@ -38,27 +38,28 @@ config.read(cfgFile)
 
 data = {
   "de": {
-    "date": "01.03.2021",
-    "title": "Open Data Day 2022",
-    "intro":"""Ihr Zugang zum OpenDataDay 2022<br>""",
+    "date": "14.03.2025",
+    "title": "Open Data Day 2025",
+    "intro":"""Infos zum OpenDataDay 2025<br>""",
     "items": [{
-        "headline": "Open Data Day Zugangsinformation",
+        "headline": "Open Data Day Infos",
         "imglink": "https://ok-lab-karlsruhe.de/projects/karlsruhe/ODDlogo-ka.svg",
         "imgtitle": "ODD",
-        "teaser": """Vielen Dank für Ihre Anmeldung zum OpenDataDay 2022.
-            Die Veranstaltung findet am 5.3.2022 von 14:00 Uhr bis 17:00 Uhr statt.
-            Bitte wählen Sie sich mit Ihrem Webbrowser unter
-            <a href="meet.google.com/gdx-xvda-yea">diesem Link</a> oder mit der
-            Telefonnummer 08081618117, PIN: 441529540 ein.
+        "teaser": """Vielen Dank für Ihre Anmeldung zum OpenDataDay 2025.
+            Die Veranstaltung findet am 14.3.2025 von 17:00 Uhr bis 21:00 Uhr 
+            und am 15.3.2025 von 10:00 Uhr bis 20:00 Uhr statt.
+            Unsere Webseite <a href="https://ok-lab-karlsruhe.de/projekte/odd25/">ODD 2025</a>
+            wurde mit letzten Infos aktualisiert.
+            Wir beginnen pünktlich um 17:00 Uhr, Einlass ab 16:00 Uhr.
             """,
-        "text": """Vielen Dank für Ihre Anmeldung zum OpenDataDay 2022.
-            Die Veranstaltung findet am 5.3.2022 von 14:00 Uhr bis 17:00 Uhr statt.
-            Bitte wählen Sie sich mit Ihrem Webbrowser unter
-            <a href="meet.google.com/gdx-xvda-yea">diesem Link</a> oder mit der
-            Telefonnummer 08081618117, PIN: 441529540 ein.
-            Alle weiteren Informationen finden Sie auf unserer Webseite.
+        "text": """Vielen Dank für Ihre Anmeldung zum OpenDataDay 2025.
+            Die Veranstaltung findet am 14.3.2025 von 17:00 Uhr bis 21:00 Uhr 
+            und am 15.3.2025 von 10:00 Uhr bis 20:00 Uhr statt.
+            Unsere Webseite <a href="https://ok-lab-karlsruhe.de/projekte/odd25/">ODD 2025</a>
+            wurde mit letzten Infos aktualisiert.
+            Wir beginnen pünktlich um 17:00 Uhr, Einlass ab 16:00 Uhr.
             Wir freuen uns auf Ihre Teilnahme.""",
-        "more": "https://ok-lab-karlsruhe.de/projekte/odd22/"
+        "more": "https://ok-lab-karlsruhe.de/projekte/odd25/"
       }
     ]
   }
@@ -198,8 +199,8 @@ foot_t = """
             style="color: #98a9c3; text-decoration:none;" Title="EMail">Email</a>
           </mj-text>
           <mj-social  padding="0 10px 0 10px">
-            <mj-social-element  name="github" background-color="#444F60" href="https://github.com/codeforkarlsruhe"/>
-            <mj-social-element  name="web" background-color="#444F60" href="https://ok-lab-karlsruhe.de"/>
+            <mj-social-element  src="https://ok-lab-karlsruhe.de/icons/github.svg" background-color="#444F60" href="https://github.com/codeforkarlsruhe"/>
+            <mj-social-element  src="https://ok-lab-karlsruhe.de/icons/home.svg" background-color="#444F60" href="https://ok-lab-karlsruhe.de"/>
           </mj-social>
         </mj-column>
       </mj-section>
@@ -269,8 +270,57 @@ os.system(cmd)
 
 # specify addresses
 addr = [
-    {"email":"andreas.kugel@ok-lab-karlsruhe.de"}
-    ]
+  {"email": "andreas.kugel@ok-lab-karlsruhe.de"},
+  {"email": "goulandris@fzi.de"},
+  {"email": "alexander@melde.net"},
+  {"email": "andreas@cardeneo.de"},
+  {"email": "andrii.shtefan20@gmail.com"},
+  {"email": "heling@fzi.de"},
+  {"email": "andreas@cardeneo.de"},
+  {"email": "coban@fzi.de"},
+  {"email": "info@readi.de"},
+  {"email": "carolin.engel@wissenschaftsbuero.karlsruhe.de"},
+  {"email": "cschellenberger@bnn.de"},
+  {"email": "rickelt@ondics.de"},
+  {"email": "daniel.schwarz@h-ka.de"},
+  {"email": "liebetrau@ondics.de"},
+  {"email": "michelle.bender@pforzheim.de"},
+  {"email": "ekaterina.ehringhaus@t-online.de"},
+  {"email": "elamkhosravi@gmail.com"},
+  {"email": "felix.hoerner@gmx.de"},
+  {"email": "ichbineinsommerkind@gmx.de"},
+  {"email": "bladde8@gmail.com"},
+  {"email": "henry.boos@posteo.de"},
+  {"email": "jo@wurzelpilz.de"},
+  {"email": "julian.bucher@freenet.de"},
+  {"email": "julian@familiewaller.de"},
+  {"email": "ivo.dujmovic@posteo.de"},
+  {"email": "bladde8@gmail.com"},
+  {"email": "maventrell@gmail.com"},
+  {"email": "jaenicke@fzi.de"},
+  {"email": "max@liesegang.io"},
+  {"email": "zipfl@fzi.de"},
+  {"email": "osm-ml@michreichert.de"},
+  {"email": "m.riedmueller@web.de"},
+  {"email": "gebertmilo@gmail.com"},
+  {"email": "mustafabahazadah@gmail.com"},
+  {"email": "navid@nikpour.com"},
+  {"email": "bipa1012@h-ka.de"},
+  {"email": "patricia.bonaudo@wissenschaftsbuero.karlsruhe.de"},
+  {"email": "oklabka@phb23.io"},
+  {"email": "philipp.wadlinger@gmx.net"},
+  {"email": "pretix@kosro.de"},
+  {"email": "sebastian.goehring.bw@gmail.com"},
+  {"email": "Silas_G@mail.de"},
+  {"email": "silvio.martin@kit.edu"},
+  {"email": "laun@ondics.de"},
+  {"email": "tobiasfischer.76199@web.de"},
+  {"email": "vladimir.alyoshin01@gmail.com"},
+  {"email": "shramenko.vlad@gmail.com"},
+  {"email": "wolfgang.clauss@ondics.de"},
+  {"email": "w.radke@gmx.de"},
+  {"email": "lisa.marie.karl@gmx.de"}
+]
 
 # process addresses
 # create out dir

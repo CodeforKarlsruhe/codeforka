@@ -11,4 +11,8 @@ Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
+# php
+/php/news.ini
+/php/oklab-cert.pem
+/php/user.csv
 

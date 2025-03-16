@@ -24,7 +24,7 @@ import html2text # pip install html2text
 
 #################
 
-sendMails = True
+sendMails = False
 
 #################
 # config parser
@@ -270,6 +270,10 @@ os.system(cmd)
 
 # specify addresses
 addr = [
+  {"email": "andreas.kugel@ok-lab-karlsruhe.de"}
+]
+
+addr1 = [
   {"email": "andreas.kugel@ok-lab-karlsruhe.de"},
   {"email": "goulandris@fzi.de"},
   {"email": "alexander@melde.net"},

@@ -301,7 +301,6 @@ addr = [
   {"email": "maventrell@gmail.com"},
   {"email": "jaenicke@fzi.de"},
   {"email": "max@liesegang.io"},
-  {"email": "zipfl@fzi.de"},
   {"email": "osm-ml@michreichert.de"},
   {"email": "m.riedmueller@web.de"},
   {"email": "gebertmilo@gmail.com"},

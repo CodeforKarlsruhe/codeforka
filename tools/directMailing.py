@@ -24,42 +24,40 @@ import html2text # pip install html2text
 
 #################
 
-sendMails = False
+sendMails = True
 
 #################
 # config parser
 # https://docs.python.org/3.6/library/configparser.html
-cfgFile = "/home/kugel/daten/work/projekte/okLabs/okLab/repo/code4ka/php/news.ini"
+#cfgFile = "/home/kugel/daten/work/projekte/okLabs/okLab/repo/code4ka/php/news.ini"
+cfgFile = "../php/news.ini"
 config = configparser.ConfigParser()
 config.read(cfgFile)
+
 
 ################
 # create local new data
 
 data = {
   "de": {
-    "date": "14.03.2025",
-    "title": "Open Data Day 2025",
-    "intro":"""Infos zum OpenDataDay 2025<br>""",
+    "date": "02.04.2025",
+    "title": "DatenCafe Useum - FollowUp Open Data Day 2025",
+    "intro":"""DatenCafe FollowUp zum OpenDataDay 2025<br>""",
     "items": [{
-        "headline": "Open Data Day Infos",
+        "headline": "DatenCafe Useum",
         "imglink": "https://ok-lab-karlsruhe.de/projects/karlsruhe/ODDlogo-ka.svg",
         "imgtitle": "ODD",
-        "teaser": """Vielen Dank für Ihre Anmeldung zum OpenDataDay 2025.
-            Die Veranstaltung findet am 14.3.2025 von 17:00 Uhr bis 21:00 Uhr 
-            und am 15.3.2025 von 10:00 Uhr bis 20:00 Uhr statt.
-            Unsere Webseite <a href="https://ok-lab-karlsruhe.de/projekte/odd25/">ODD 2025</a>
-            wurde mit letzten Infos aktualisiert.
-            Wir beginnen pünktlich um 17:00 Uhr, Einlass ab 16:00 Uhr.
+        "teaser": """Erinnerung: OpenData - DatenCafe, Start am 5.4.2025.
+            Wie angekündigt, finden die FollowUp DatenCafes am ZKM statt. 
+            Bitte melde Dich für einen, zwei oder drei der Nachmittage an.
+            <a href="https://pretix.eu/digital-codes/datencafe-useum/">DatenCafe Anmeldung</a>
             """,
-        "text": """Vielen Dank für Ihre Anmeldung zum OpenDataDay 2025.
-            Die Veranstaltung findet am 14.3.2025 von 17:00 Uhr bis 21:00 Uhr 
-            und am 15.3.2025 von 10:00 Uhr bis 20:00 Uhr statt.
-            Unsere Webseite <a href="https://ok-lab-karlsruhe.de/projekte/odd25/">ODD 2025</a>
-            wurde mit letzten Infos aktualisiert.
-            Wir beginnen pünktlich um 17:00 Uhr, Einlass ab 16:00 Uhr.
-            Wir freuen uns auf Ihre Teilnahme.""",
-        "more": "https://ok-lab-karlsruhe.de/projekte/odd25/"
+        "text": """Erinnerung: OpenData - DatenCafe, Start am 5.4.2025.
+            Wie angekündigt, finden die FollowUp DatenCafes am ZKM statt. 
+            Bitte melde Dich für einen, zwei oder drei der Nachmittage an.
+            <a href="https://pretix.eu/digital-codes/datencafe-useum/">DatenCafe Anmeldung</a>
+            Mit dem Anmeldeticket ist der Eintritt zum ZKM frei. Bring Deinen Laptop mit.""",
+        "more": "https://ok-lab-karlsruhe.de/projekte/odd25/#follow-up-events-datencafe"
       }
     ]
   }
@@ -269,11 +267,11 @@ cmd = "mjml " + fn + ".mjml -o " + fn + ".html"
 os.system(cmd)
 
 # specify addresses
-addr = [
+addr0 = [
   {"email": "andreas.kugel@ok-lab-karlsruhe.de"}
 ]
 
-addr1 = [
+addr = [
   {"email": "andreas.kugel@ok-lab-karlsruhe.de"},
   {"email": "goulandris@fzi.de"},
   {"email": "alexander@melde.net"},

@@ -267,61 +267,12 @@ cmd = "mjml " + fn + ".mjml -o " + fn + ".html"
 os.system(cmd)
 
 # specify addresses
-addr0 = [
+addr = [
   {"email": "andreas.kugel@ok-lab-karlsruhe.de"}
 ]
 
-addr = [
-  {"email": "andreas.kugel@ok-lab-karlsruhe.de"},
-  {"email": "goulandris@fzi.de"},
-  {"email": "alexander@melde.net"},
-  {"email": "andreas@cardeneo.de"},
-  {"email": "andrii.shtefan20@gmail.com"},
-  {"email": "heling@fzi.de"},
-  {"email": "andreas@cardeneo.de"},
-  {"email": "coban@fzi.de"},
-  {"email": "info@readi.de"},
-  {"email": "carolin.engel@wissenschaftsbuero.karlsruhe.de"},
-  {"email": "cschellenberger@bnn.de"},
-  {"email": "rickelt@ondics.de"},
-  {"email": "daniel.schwarz@h-ka.de"},
-  {"email": "liebetrau@ondics.de"},
-  {"email": "michelle.bender@pforzheim.de"},
-  {"email": "ekaterina.ehringhaus@t-online.de"},
-  {"email": "elamkhosravi@gmail.com"},
-  {"email": "felix.hoerner@gmx.de"},
-  {"email": "ichbineinsommerkind@gmx.de"},
-  {"email": "bladde8@gmail.com"},
-  {"email": "henry.boos@posteo.de"},
-  {"email": "jo@wurzelpilz.de"},
-  {"email": "julian.bucher@freenet.de"},
-  {"email": "julian@familiewaller.de"},
-  {"email": "ivo.dujmovic@posteo.de"},
-  {"email": "bladde8@gmail.com"},
-  {"email": "maventrell@gmail.com"},
-  {"email": "jaenicke@fzi.de"},
-  {"email": "max@liesegang.io"},
-  {"email": "osm-ml@michreichert.de"},
-  {"email": "m.riedmueller@web.de"},
-  {"email": "gebertmilo@gmail.com"},
-  {"email": "mustafabahazadah@gmail.com"},
-  {"email": "navid@nikpour.com"},
-  {"email": "bipa1012@h-ka.de"},
-  {"email": "patricia.bonaudo@wissenschaftsbuero.karlsruhe.de"},
-  {"email": "oklabka@phb23.io"},
-  {"email": "philipp.wadlinger@gmx.net"},
-  {"email": "pretix@kosro.de"},
-  {"email": "sebastian.goehring.bw@gmail.com"},
-  {"email": "Silas_G@mail.de"},
-  {"email": "silvio.martin@kit.edu"},
-  {"email": "laun@ondics.de"},
-  {"email": "tobiasfischer.76199@web.de"},
-  {"email": "vladimir.alyoshin01@gmail.com"},
-  {"email": "shramenko.vlad@gmail.com"},
-  {"email": "wolfgang.clauss@ondics.de"},
-  {"email": "w.radke@gmx.de"},
-  {"email": "lisa.marie.karl@gmx.de"}
-]
+with open ("addr.json") as f:
+    addr0 = json.load(f)
 
 # process addresses
 # create out dir

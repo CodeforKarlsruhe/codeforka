@@ -29,3 +29,6 @@ Ort: [Impact Hub Karlsruhe, Kaiserstr. 97](https://karlsruhe.impacthub.net/)
 
 Link zur online-Teilnahme auf [Anfrage](mailto:info@ok-lab-karlsruhe.de?subject=Online_Zugang)
 
+[Kalender Abo](https://cloud.ok-lab-karlsruhe.de/remote.php/dav/public-calendars/xGEf5ogpZXaRnZso?export)
+
+

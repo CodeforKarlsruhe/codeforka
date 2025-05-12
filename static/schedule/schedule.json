@@ -9,6 +9,14 @@
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab25052025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpEYXRlbi5DYWZlOiBGb2xsb3ctVXAgenUgZGVuIE9wZW5EYXRhIEhhY2trRGF5cyBhYmVyIGF1Y2ggUGxhdHogZsO8ciBhbGxlIERlaW5lIEZyYWdlbi4gRWluZmFjaCB2b3JiZWlrb21tZW4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNTA1MjVUMTMwMDAwCkRVUkFUSU9OOlBUMDNIMDBNMDBTCkxPQ0FUSU9OOlpLTSBVc2V1bS4gQW5tZWxkZW4gc2llaGUgaHR0cHM6Ly96a20uZGUvZGUvMjAyNS8wNS9kYXRlbmNhZmUtdXNldW0tMApFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab25052025.ics\">ICS</a>"
         },
         {
+            "date": "18.05.2025 11:00",
+            "title": "Effekte: Underst\u00e4nd the L\u00e4nd. Kurzvortr\u00e4ge und Demos zu offenen Daten.",
+            "location": "Effekte Expermentierpark. Schlossplatz Karlsruhe",
+            "map": "https://www.openstreetmap.org/way/1234029143",
+            "duration": "07:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab18052025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpFZmZla3RlOiBVbmRlcnN0w6RuZCB0aGUgTMOkbmQuIEt1cnp2b3J0csOkZ2UgdW5kIERlbW9zIHp1IG9mZmVuZW4gRGF0ZW4uCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjUwNTE4VDExMDAwMApEVVJBVElPTjpQVDA3SDAwTTAwUwpMT0NBVElPTjpFZmZla3RlIEV4cGVybWVudGllcnBhcmsuIFNjaGxvc3NwbGF0eiBLYXJsc3J1aGUKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab18052025.ics\">ICS</a>"
+        },
+        {
             "date": "03.05.2025 13:00",
             "title": "Daten.Cafe: Follow-Up zu den OpenData HackkDays aber auch Platz f\u00fcr alle Deine Fragen. Einfach vorbeikommen",
             "location": "ZKM Useum. Anmelden siehe https://zkm.de/de/2025/05/datencafe-useum",
@@ -121,6 +129,14 @@
             "map": "https://www.openstreetmap.org/way/224089408",
             "duration": "03:00",
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab25052025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpEYXRlbi5DYWZlOiBGb2xsb3ctVXAgdG8gT3BlbkRhdGEgSGFja2tEYXlzLiBKdXN0IHdhbGsgaW4gYW55d2F5LgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI1MDUyNVQxMzAwMDAKRFVSQVRJT046UFQwM0gwME0wMFMKTE9DQVRJT046WktNIFVzZXVtLiBSZWdpc3RlciB2aWEgaHR0cHM6Ly96a20uZGUvZGUvMjAyNS8wNS9kYXRlbmNhZmUtdXNldW0KRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab25052025.ics\">ICS</a>"
+        },
+        {
+            "date": "18.05.2025 11:00",
+            "title": "Effekte: Underst\u00e4nd the Land. Talks and demos on OpenData.",
+            "location": "Effekte Expermentierpark. Schlossplatz Karlsruhe",
+            "map": "https://www.openstreetmap.org/way/1234029143",
+            "duration": "07:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab18052025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpFZmZla3RlOiBVbmRlcnN0w6RuZCB0aGUgTGFuZC4gVGFsa3MgYW5kIGRlbW9zIG9uIE9wZW5EYXRhLgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI1MDUxOFQxMTAwMDAKRFVSQVRJT046UFQwN0gwME0wMFMKTE9DQVRJT046RWZmZWt0ZSBFeHBlcm1lbnRpZXJwYXJrLiBTY2hsb3NzcGxhdHogS2FybHNydWhlCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab18052025.ics\">ICS</a>"
         },
         {
             "date": "03.05.2025 13:00",

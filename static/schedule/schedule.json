@@ -1,6 +1,14 @@
 {
     "de": [
         {
+            "date": "16.06.2025 19:00",
+            "title": "Lab Treffen im Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab16062025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI1MDYxNlQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab16062025.ics\">ICS</a>"
+        },
+        {
             "date": "25.05.2025 13:00",
             "title": "Daten.Cafe: Follow-Up zu den OpenData HackkDays aber auch Platz f\u00fcr alle Deine Fragen. Einfach vorbeikommen",
             "location": "ZKM Useum. Anmelden siehe https://zkm.de/de/2025/05/datencafe-useum-0",
@@ -47,81 +55,17 @@
             "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
             "duration": "02:00",
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab13012025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI1MDExM1QxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab13012025.ics\">ICS</a>"
-        },
-        {
-            "date": "09.12.2024 19:00",
-            "title": "Lab Treffen im Impact Hub Karlsruhe",
-            "location": "76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab09122024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI0MTIwOVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab09122024.ics\">ICS</a>"
-        },
-        {
-            "date": "11.11.2024 19:00",
-            "title": "Lab Treffen im Impact Hub Karlsruhe",
-            "location": "76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab11112024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI0MTExMVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab11112024.ics\">ICS</a>"
-        },
-        {
-            "date": "01.10.2024 19:00",
-            "title": "Lab Treffen im Impact Hub Karlsruhe",
-            "location": "76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab01102024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI0MTAwMVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab01102024.ics\">ICS</a>"
-        },
-        {
-            "date": "13.08.2024 19:00",
-            "title": "Lab Treffen im Impact Hub Karlsruhe",
-            "location": "76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab13082024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI0MDgxM1QxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab13082024.ics\">ICS</a>"
-        },
-        {
-            "date": "21.07.2024 13:40",
-            "title": "Lab Talk bei der FEST Klima-Akademie",
-            "location": "76135 Karlsruhe, Klotz Anlage",
-            "map": "https://www.openstreetmap.org/node/1616497276",
-            "duration": "00:20",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21072024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVGFsayBiZWkgZGVyIEZFU1QgS2xpbWEtQWthZGVtaWUKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNDA3MjFUMTM0MDAwCkRVUkFUSU9OOlBUMDBIMjBNMDBTCkxPQ0FUSU9OOjc2MTM1IEthcmxzcnVoZSwgS2xvdHogQW5sYWdlCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab21072024.ics\">ICS</a>"
-        },
-        {
-            "date": "21.07.2024 10:00",
-            "title": "Lab Info Stand beim FEST",
-            "location": "76135 Karlsruhe, Klotz Anlage",
-            "map": "https://www.openstreetmap.org/node/1616497276",
-            "duration": "10:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21072024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgSW5mbyBTdGFuZCBiZWltIEZFU1QKRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNDA3MjFUMTAwMDAwCkRVUkFUSU9OOlBUMTBIMDBNMDBTCkxPQ0FUSU9OOjc2MTM1IEthcmxzcnVoZSwgS2xvdHogQW5sYWdlCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab21072024.ics\">ICS</a>"
-        },
-        {
-            "date": "25.06.2024 19:00",
-            "title": "Lab Treffen im Impact Hub Karlsruhe",
-            "location": "76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab25062024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI0MDYyNVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab25062024.ics\">ICS</a>"
-        },
-        {
-            "date": "21.06.2024 13:00",
-            "title": "Walk-In Daten.Cafe: Platz f\u00fcr alle Deine Fragen. Einfach vorbeikommen",
-            "location": "Impact Hub Karlsruhe, 76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21062024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpXYWxrLUluIERhdGVuLkNhZmU6IFBsYXR6IGbDvHIgYWxsZSBEZWluZSBGcmFnZW4uIEVpbmZhY2ggdm9yYmVpa29tbWVuCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQwNjIxVDEzMDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjpJbXBhY3QgSHViIEthcmxzcnVoZSwgNzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab21062024.ics\">ICS</a>"
-        },
-        {
-            "date": "07.06.2024 15:00",
-            "title": "Bunte Nacht der Digitalisierung",
-            "location": "ZKM Useum. https://zkm.de/de/2025/05/datencafe-useum-0",
-            "map": "https://www.openstreetmap.org/relation/1333212#map=19/49.00863/8.40317",
-            "duration": "06:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab07062024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpCdW50ZSBOYWNodCBkZXIgRGlnaXRhbGlzaWVydW5nCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQwNjA3VDE1MDAwMApEVVJBVElPTjpQVDA2SDAwTTAwUwpMT0NBVElPTjo3NjEzMyBLYXJsc3J1aGUsIFZvciBkZW0gUmF0aGF1cyBhbSBNYXJrdHBsYXR6CkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab07062024.ics\">ICS</a>"
         }
     ],
     "en": [
+        {
+            "date": "19.06.2025 19:00",
+            "title": "Lab Meetup at Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab19062025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjUwNjE5VDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab19062025.ics\">ICS</a>"
+        },
         {
             "date": "25.05.2025 13:00",
             "title": "Daten.Cafe: Follow-Up to OpenData HackkDays. Just walk in anyway.",
@@ -169,62 +113,6 @@
             "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
             "duration": "02:00",
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab13012025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjUwMTEzVDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab13012025.ics\">ICS</a>"
-        },
-        {
-            "date": "09.12.2024 19:00",
-            "title": "Lab Meetup at Impact Hub Karlsruhe",
-            "location": "76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab09122024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQxMjA5VDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab09122024.ics\">ICS</a>"
-        },
-        {
-            "date": "11.11.2024 19:00",
-            "title": "Lab Meetup at Impact Hub Karlsruhe",
-            "location": "76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab11112024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQxMTExVDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab11112024.ics\">ICS</a>"
-        },
-        {
-            "date": "01.10.2024 19:00",
-            "title": "Lab Meetup at Impact Hub Karlsruhe",
-            "location": "76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab01102024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQxMDAxVDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab01102024.ics\">ICS</a>"
-        },
-        {
-            "date": "13.08.2024 19:00",
-            "title": "Lab Meetup at Impact Hub Karlsruhe",
-            "location": "76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab13082024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQwODEzVDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab13082024.ics\">ICS</a>"
-        },
-        {
-            "date": "25.06.2024 19:00",
-            "title": "Lab Meetup at Impact Hub Karlsruhe",
-            "location": "76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab25062024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQwNjI1VDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab25062024.ics\">ICS</a>"
-        },
-        {
-            "date": "21.06.2024 13:00",
-            "title": "Walk-In Daten.Cafe:  Space for all your questions. Just drop in",
-            "location": "Impact Hub Karlsruhe, 76131 Karlsruhe, Kaiserstr 97",
-            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
-            "duration": "02:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab21062024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpXYWxrLUluIERhdGVuLkNhZmU6ICBTcGFjZSBmb3IgYWxsIHlvdXIgcXVlc3Rpb25zLiBKdXN0IGRyb3AgaW4KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNDA2MjFUMTMwMDAwCkRVUkFUSU9OOlBUMDJIMDBNMDBTCkxPQ0FUSU9OOkltcGFjdCBIdWIgS2FybHNydWhlLCA3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab21062024.ics\">ICS</a>"
-        },
-        {
-            "date": "07.06.2024 15:00",
-            "title": "Bunte Nacht der Digitalisierung",
-            "location": "76133 Karlsruhe, Vor dem Rathaus am Marktplatz",
-            "map": "https://www.openstreetmap.org/relation/1333212#map=19/49.00863/8.40317",
-            "duration": "06:00",
-            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab07062024.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpCdW50ZSBOYWNodCBkZXIgRGlnaXRhbGlzaWVydW5nCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjQwNjA3VDE1MDAwMApEVVJBVElPTjpQVDA2SDAwTTAwUwpMT0NBVElPTjo3NjEzMyBLYXJsc3J1aGUsIFZvciBkZW0gUmF0aGF1cyBhbSBNYXJrdHBsYXR6CkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab07062024.ics\">ICS</a>"
         }
     ]
 }

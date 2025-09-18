@@ -1,6 +1,22 @@
 {
     "de": [
         {
+            "date": "22.10.2025 16:00",
+            "title": "Workshop: Daten, Coding & Visualisierung \u2013 mit Blick auf gesellschaftliche L\u00fccken. <a href='https://keepkarlsruheboring.org/event/code-week-workshop-daten-coding-and-visualisierung-mit-blick-auf-gesellschaftliche-lucken' target=_blank>Info und Ameldung</a>",
+            "location": "76133 Karlsruhe, St\u00e4ndehausstra\u00dfe 2",
+            "map": "https://www.openstreetmap.org/#map=19/49.008860/8.400317",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab22102025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpXb3Jrc2hvcDogRGF0ZW4sIENvZGluZyAmIFZpc3VhbGlzaWVydW5nIOKAkyBtaXQgQmxpY2sgYXVmIGdlc2VsbHNjaGFmdGxpY2hlIEzDvGNrZW4uIDxhIGhyZWY9J2h0dHBzOi8va2VlcGthcmxzcnVoZWJvcmluZy5vcmcvZXZlbnQvY29kZS13ZWVrLXdvcmtzaG9wLWRhdGVuLWNvZGluZy1hbmQtdmlzdWFsaXNpZXJ1bmctbWl0LWJsaWNrLWF1Zi1nZXNlbGxzY2hhZnRsaWNoZS1sdWNrZW4nIHRhcmdldD1fYmxhbms+SW5mbyB1bmQgQW1lbGR1bmc8L2E+CkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjUxMDIyVDE2MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMyBLYXJsc3J1aGUsIFN0w6RuZGVoYXVzc3RyYcOfZSAyCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab22102025.ics\">ICS</a>"
+        },
+        {
+            "date": "01.10.2025 19:00",
+            "title": "Lab Treffen im Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab01102025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI1MTAwMVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab01102025.ics\">ICS</a>"
+        },
+        {
             "date": "16.06.2025 19:00",
             "title": "Lab Treffen im Impact Hub Karlsruhe",
             "location": "76131 Karlsruhe, Kaiserstr 97",
@@ -58,6 +74,22 @@
         }
     ],
     "en": [
+        {
+            "date": "22.10.2025 16:00",
+            "title": "Workshop: Daten, Coding & Visualisierung \u2013 mit Blick auf gesellschaftliche L\u00fccken (German only). <a href='https://keepkarlsruheboring.org/event/code-week-workshop-daten-coding-and-visualisierung-mit-blick-auf-gesellschaftliche-lucken' target=_blank>Info und Registration</a>",
+            "location": "76133 Karlsruhe, St\u00e4ndehausstra\u00dfe 2",
+            "map": "https://www.openstreetmap.org/#map=19/49.008860/8.400317",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab22102025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpXb3Jrc2hvcDogRGF0ZW4sIENvZGluZyAmIFZpc3VhbGlzaWVydW5nIOKAkyBtaXQgQmxpY2sgYXVmIGdlc2VsbHNjaGFmdGxpY2hlIEzDvGNrZW4gKEdlcm1hbiBvbmx5KS4gPGEgaHJlZj0naHR0cHM6Ly9rZWVwa2FybHNydWhlYm9yaW5nLm9yZy9ldmVudC9jb2RlLXdlZWstd29ya3Nob3AtZGF0ZW4tY29kaW5nLWFuZC12aXN1YWxpc2llcnVuZy1taXQtYmxpY2stYXVmLWdlc2VsbHNjaGFmdGxpY2hlLWx1Y2tlbicgdGFyZ2V0PV9ibGFuaz5JbmZvIHVuZCBSZWdpc3RyYXRpb248L2E+CkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjUxMDIyVDE2MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMyBLYXJsc3J1aGUsIFN0w6RuZGVoYXVzc3RyYcOfZSAyCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab22102025.ics\">ICS</a>"
+        },
+        {
+            "date": "01.10.2025 19:00",
+            "title": "Lab Meetup at Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab01102025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjUxMDAxVDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab01102025.ics\">ICS</a>"
+        },
         {
             "date": "19.06.2025 19:00",
             "title": "Lab Meetup at Impact Hub Karlsruhe",

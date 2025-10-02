@@ -6,12 +6,6 @@ title: Hat eigentlich jemand mal die Platanen gefragt?
 showcase: 1
 status: Laufend
 
-collaborators:
-  - name: Andreas Kugel
-  - name: My-Tien Nguyen
-  - name: Marie Bruns
-  - name: Murphy
-
 
 
 links:

@@ -1,6 +1,14 @@
 {
     "de": [
         {
+            "date": "14.11.2025 14:00",
+            "title": "Workshop: Hat eigentlich jemand mal die Platanen gefragt? \u2014 Wie man mit einem Umwelt-Chatbot \u00fcber Politik sprechen kann. <a href='https://pretix.eu/digital-codes/ki-nov25/' target=_blank>Ameldung</a>",
+            "location": "76133 Karlsruhe, St\u00e4ndehausstra\u00dfe 2",
+            "map": "https://www.openstreetmap.org/#map=19/49.001320/8.383593",
+            "duration": "04:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab14112025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpXb3Jrc2hvcDogSGF0IGVpZ2VudGxpY2ggamVtYW5kIG1hbCBkaWUgUGxhdGFuZW4gZ2VmcmFndD8g4oCUIFdpZSBtYW4gbWl0IGVpbmVtIFVtd2VsdC1DaGF0Ym90IMO8YmVyIFBvbGl0aWsgc3ByZWNoZW4ga2Fubi4gPGEgaHJlZj0naHR0cHM6Ly9wcmV0aXguZXUvZGlnaXRhbC1jb2Rlcy9raS1ub3YyNS8nIHRhcmdldD1fYmxhbms+QW1lbGR1bmc8L2E+CkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjUxMTE0VDE0MDAwMApEVVJBVElPTjpQVDA0SDAwTTAwUwpMT0NBVElPTjo3NjEzMyBLYXJsc3J1aGUsIFN0w6RuZGVoYXVzc3RyYcOfZSAyCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab14112025.ics\">ICS</a>"
+        },
+        {
             "date": "22.10.2025 16:00",
             "title": "Workshop: Daten, Coding & Visualisierung \u2013 mit Blick auf gesellschaftliche L\u00fccken. <a href='https://keepkarlsruheboring.org/event/code-week-workshop-daten-coding-and-visualisierung-mit-blick-auf-gesellschaftliche-lucken' target=_blank>Info und Ameldung</a>",
             "location": "76133 Karlsruhe, St\u00e4ndehausstra\u00dfe 2",
@@ -74,6 +82,14 @@
         }
     ],
     "en": [
+        {
+            "date": "14.11.2025 14:00",
+            "title": "Workshop: Hat eigentlich jemand mal die Platanen gefragt? \u2014 Wie man mit einem Umwelt-Chatbot \u00fcber Politik sprechen kann. <a href='https://pretix.eu/digital-codes/ki-nov25/' target=_blank>Ameldung</a>",
+            "location": "76133 Karlsruhe, St\u00e4ndehausstra\u00dfe 2",
+            "map": "https://www.openstreetmap.org/#map=19/49.001320/8.383593",
+            "duration": "04:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab14112025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpXb3Jrc2hvcDogSGF0IGVpZ2VudGxpY2ggamVtYW5kIG1hbCBkaWUgUGxhdGFuZW4gZ2VmcmFndD8g4oCUIFdpZSBtYW4gbWl0IGVpbmVtIFVtd2VsdC1DaGF0Ym90IMO8YmVyIFBvbGl0aWsgc3ByZWNoZW4ga2Fubi4gPGEgaHJlZj0naHR0cHM6Ly9wcmV0aXguZXUvZGlnaXRhbC1jb2Rlcy9raS1ub3YyNS8nIHRhcmdldD1fYmxhbms+QW1lbGR1bmc8L2E+CkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjUxMTE0VDE0MDAwMApEVVJBVElPTjpQVDA0SDAwTTAwUwpMT0NBVElPTjo3NjEzMyBLYXJsc3J1aGUsIFN0w6RuZGVoYXVzc3RyYcOfZSAyCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab14112025.ics\">ICS</a>"
+        },
         {
             "date": "22.10.2025 16:00",
             "title": "Workshop: Daten, Coding & Visualisierung \u2013 mit Blick auf gesellschaftliche L\u00fccken (German only). <a href='https://keepkarlsruheboring.org/event/code-week-workshop-daten-coding-and-visualisierung-mit-blick-auf-gesellschaftliche-lucken' target=_blank>Info und Registration</a>",

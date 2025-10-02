@@ -17,13 +17,14 @@ links:
 
 **Wie man mit einem Umwelt-Chatbot über Politik sprechen kann**
 
-Habt ihr schon mal mit einem Baum gesprochen?  
+Habt ihr schon mal mit einem Baum gesprochen? 
 
 Die „plaudernde Platane“ ist ein Projekt, das zeigt, wie Künstliche Intelligenz zur Erforschung und Interaktion mit der Umwelt eingesetzt werden kann. Im Gespräch mit dem Umwelt-Chatbot zeigen sich bekannte, aber auch überraschende Sichtweisen auf den Umwelt- und Klimaschutz. Mit einem Augenzwinkern beantworten wir dabei die Frage, wie nicht-menschliche Akteure an gesellschaftlichen oder politischen Debatten beteiligt werden können. 
-
-Im Workshop untersuchen wir auch, wie spezifische Informationen (Domänenwissen) eingebunden werden können, um fundierte Antworten zu liefern.
  
-Im Workshop entwickeln wir gemeinsam System-Eingaben, so genannte Prompts, für eine „plaudernde Platane“ und experimentieren live mit verschiedenen Rollenklischees — vom humorvollen Stadtbaum über die nüchterne Urbanistin bis hin zum wütenden Umweltaktivisten. Im Workshop und in einer abschließenden Diskussion wollen wir gemeinsam folgenden Fragen nachgehen: Kann ein Baum-Chatbot überhaupt Interessen vertreten; und falls ja, wessen? Welche Geschichten kann ein solches Projekt erzählen? Wie können neue Ideen und Narrative eingebracht werden? Und wie können die Perspektiven eines non-humanen Stakeholders sinnvoll in politische Diskussionen eingebunden werden? 
+Im Workshop entwickeln wir gemeinsam System-Eingaben, so genannte Prompts, für eine „plaudernde Platane“ und experimentieren live mit verschiedenen Rollenklischees — vom humorvollen Stadtbaum über die nüchterne Urbanistin bis hin zum wütenden Umweltaktivisten. Dabei wollen wir folgenden Fragen nachgehen: Kann ein Baum-Chatbot überhaupt Interessen vertreten; und falls ja, wessen? Welche handfesten Informationen (sog. Domänenwissen) braucht eine KI, um fundierte Antworten zu geben? Welche Geschichten kann ein solches Projekt erzählen? Wie können neue Ideen und Narrative eingebracht werden? Und wie können die Perspektiven eines non-humanen Stakeholders sinnvoll in politische Diskussionen eingebunden werden? 
+
+Anschließend diskutieren wir gemeinsam über das Thema Stadtgrün in Karlsruhe. Hier sollen die Erkenntnisse des Workshops – und die Frage, wie der Platanen-Chatbot konstruktiv in eine politische Debatte eingebracht werden kann – nochmal im Gespräch vertieft werden. 
+
 
 ### Zielgruppe: alle Interessierte; kein Vorwissen über KI nötig 
 
@@ -34,7 +35,7 @@ Mit Unterstützung durch [Klimabündnis Karlsruhe](https://www.klimabuendnis-ka
 
 ### Ablauf:  
 14-16 Uhr: Workshop / Prompting-Experiment  
-16:30-17:30: Offene Diskussion 
+16:30-17:30: Offene Diskussion: Mehr Stadtgrün für Karlsruhe 
 
 ### Ort:
 ZKM | Zentrum für Kunst und Medien 
@@ -44,7 +45,11 @@ Lorenzstraße 19
 Im **Useum**-Bereich. Eintritt Freitags frei.
 
 
-**Anmeldung erforderlich über https://pretix.eu/digital-codes/ki-nov25**
 
+### Anmeldung
+**Um Anmeldung vorab wird gebeten (die Teilnahme ist kostenlos) https://pretix.eu/digital-codes/ki-nov25**
+
+### Fragen zum Event? 
+... beantwortet die KI-Ideenwerkstatt für Umweltschutz: info@ki-ideenwerkstatt.de 
 
 

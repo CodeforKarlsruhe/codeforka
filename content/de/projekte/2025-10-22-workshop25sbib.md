@@ -1,7 +1,7 @@
 ---
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
-imgname: karlsruhe/2025-10-22-workshop-2.png
+imgname: karlsruhe/2025-10-22-workshop-2.jpg
 title: Workshop Daten und Code, Stadtbibliothek
 showcase: 1
 status: Laufend

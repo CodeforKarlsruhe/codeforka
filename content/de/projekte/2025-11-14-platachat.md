@@ -28,9 +28,9 @@ Anschließend diskutieren wir gemeinsam über das Thema Stadtgrün in Karlsruhe.
 
 ### Zielgruppe: alle Interessierte; kein Vorwissen über KI nötig 
 
-Veranstalter*innen: OK Lab Karlsruhe, [KI-Ideenwerkstatt für Umweltschutz](https://www.ki-ideenwerkstatt.de/) 
+Veranstalter*innen: OK Lab Karlsruhe, [KI-Ideenwerkstatt für Umweltschutz](https://www.ki-ideenwerkstatt.de/veranstaltungen/workshop-hat-jemand-mal-die-platanen-gefragt/) 
 
-Mit Unterstützung durch [Klimabündnis Karlsruhe](https://www.klimabuendnis-karlsruhe.de/), [Klima Aktion Karlsruhe e.V.](https://klima-aktion-ka.de/), [ZKM Useum](https://zkm.de/de/ausstellungen-veranstaltungen/useum)
+Mit Unterstützung durch [Klimabündnis Karlsruhe](https://www.klimabuendnis-karlsruhe.de/), [Klima Aktion Karlsruhe e.V.](https://klima-aktion-ka.de/), [ZKM Useum](https://zkm.de/de/2025/11/hat-eigentlich-jemand-mal-die-platanen-gefragt)
 
 
 ### Ablauf:  

@@ -136,10 +136,10 @@ languages:
           # Icons are from Font Awesome
         - link: https://github.com/CodeforKarlsruhe
           icon: github
-        - link: https://twitter.com/codeforka
-          icon: twitter
-        - link: https://gettogether.community/ok-lab-ka/
-          logo: gettogether.png
+        # - link: https://twitter.com/codeforka
+        #  icon: twitter
+        #- link: https://gettogether.community/ok-lab-ka/
+        #  logo: gettogether.png
         bulmalogo: true
         quicklinks:
           column1:

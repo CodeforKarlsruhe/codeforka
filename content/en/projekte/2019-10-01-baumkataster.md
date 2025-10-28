@@ -4,7 +4,7 @@ lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/trees.png
 title: Communal Trees
 showcase: 1
-status: Active
+status: Closed
 
 collaborators:
 collaborators:

@@ -4,7 +4,7 @@ lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/od-portals.png
 title: Open Data Portals
 showcase: 1
-status: Active, contributors welcome
+status: Closed
 
 collaborators:
   - name: Michael Riedmüller

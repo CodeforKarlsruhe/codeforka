@@ -4,7 +4,7 @@ lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/trees.png
 title: Baumkataster
 showcase: 1
-status: Laufend
+status: Abgeschlossen
 
 collaborators:
 - name: Andreas Kugel

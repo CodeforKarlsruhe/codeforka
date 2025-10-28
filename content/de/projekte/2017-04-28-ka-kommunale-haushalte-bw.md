@@ -2,7 +2,7 @@
 layout: project
 lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 title: Kommunale Haushalte Baden-Württemberg
-status: Laufend
+status: Abgeschlossen
 
 links:
 - url: https://github.com/CodeforKarlsruhe/kommunale-haushalte-bw

@@ -5,7 +5,7 @@ imgname: karlsruhe/klimakonzept.png
 imgcaption: "Foto: Stadt Karlsruhe"
 title: Climate Protection Plan Karlsruhe
 showcase: 1
-status: Active
+status: Closed
 
 collaborators:
 - name: Johannes Eickhold

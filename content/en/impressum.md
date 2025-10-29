@@ -10,15 +10,16 @@ Vereinsadresse:
     10179 Berlin\
     Deutschland
 
-### EMail des Trägervereins Open Knowledge Foundation e. V. 
-<info@okfn.de>
+### Kontaktdaten unseres Trägervereins Open Knowledge Foundation e. V. 
 
-### Telefon 
-+49 30 97894230
+**Email**: <info@okfn.de>
 
+**Telefon**: +49 30 97894230
 
-Vereinsregister Nr: VR 30468 B\
-Umsatzsteuernummer: DE278022128\
+**Vereinsregister Nr**: VR 30468 B
+
+**Umsatzsteuernummer**: DE278022128
+
 
 
 ### Haftungsausschluss

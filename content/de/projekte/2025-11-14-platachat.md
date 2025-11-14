@@ -52,4 +52,8 @@ Im **Useum**-Bereich. Eintritt Freitags frei.
 ### Fragen zum Event? 
 ... beantwortet die KI-Ideenwerkstatt für Umweltschutz: info@ki-ideenwerkstatt.de 
 
+### Save the date: Vertiefungstreffen
+Wir planen für den 12.1.2026, 19:00-21:00Uhr im ImpactHub Karlsruhe ein Folgetreffen, um Ideen, die aus der Veranstaltung entstanden sind, zu besprechen und zu vertiefen. Eine Online-Teilnahme wird möglich sein.
+
+Weiter Details sind dann rechtzeitig auf unserer [Übersicht](/mitmachen/#schedule) zu finden.
 

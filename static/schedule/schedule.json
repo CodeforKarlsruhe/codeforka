@@ -1,6 +1,38 @@
 {
     "de": [
         {
+            "date": "15.03.2026 10:00",
+            "title": "HackDays 2026, Day 2",
+            "location": "House of Living Labs am FZI, Haid-und-Neu Str 5a, 76131 Karlsruhe",
+            "map": "https://geoportal.karlsruhe.de/stadtplan/#data_s=id%3AdataSource_3-18fe2f0f1a4-layer-9-18fe2f0f1e3-layer-12%3A16817&widget_376=active_datasource_id:dataSource_3,center:937814.1454890482%2C6276898.3933723895%2C102100,scale:282.124294,rotation:0",
+            "duration": "08:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab15032026.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpIYWNrRGF5cyAyMDI2LCBEYXkgMgpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI2MDMxNVQxMDAwMDAKRFVSQVRJT046UFQwOEgwME0wMFMKTE9DQVRJT046SG91c2Ugb2YgTGl2aW5nIExhYnMgYW0gRlpJLCBIYWlkLXVuZC1OZXUgU3RyIDVhLCA3NjEzMSBLYXJsc3J1aGUKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab15032026.ics\">ICS</a>"
+        },
+        {
+            "date": "14.03.2026 10:00",
+            "title": "HackDays 2026, Day 1",
+            "location": "House of Living Labs am FZI, Haid-und-Neu Str 5a, 76131 Karlsruhe",
+            "map": "https://geoportal.karlsruhe.de/stadtplan/#data_s=id%3AdataSource_3-18fe2f0f1a4-layer-9-18fe2f0f1e3-layer-12%3A16817&widget_376=active_datasource_id:dataSource_3,center:937814.1454890482%2C6276898.3933723895%2C102100,scale:282.124294,rotation:0",
+            "duration": "10:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab14032026.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpIYWNrRGF5cyAyMDI2LCBEYXkgMQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI2MDMxNFQxMDAwMDAKRFVSQVRJT046UFQxMEgwME0wMFMKTE9DQVRJT046SG91c2Ugb2YgTGl2aW5nIExhYnMgYW0gRlpJLCBIYWlkLXVuZC1OZXUgU3RyIDVhLCA3NjEzMSBLYXJsc3J1aGUKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab14032026.ics\">ICS</a>"
+        },
+        {
+            "date": "17.12.2025 19:00",
+            "title": "Lab Treffen im Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab17122025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI1MTIxN1QxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab17122025.ics\">ICS</a>"
+        },
+        {
+            "date": "25.11.2025 19:00",
+            "title": "Lab Treffen im Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab25112025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI1MTEyNVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab25112025.ics\">ICS</a>"
+        },
+        {
             "date": "14.11.2025 14:00",
             "title": "Workshop: Hat eigentlich jemand mal die Platanen gefragt? \u2014 Wie man mit einem Umwelt-Chatbot \u00fcber Politik sprechen kann. <a href='https://pretix.eu/digital-codes/ki-nov25/' target=_blank>Ameldung</a>",
             "location": "76133 Karlsruhe, St\u00e4ndehausstra\u00dfe 2",
@@ -90,6 +122,14 @@
         }
     ],
     "en": [
+        {
+            "date": "25.11.2025 19:00",
+            "title": "Lab Meetup at Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab25112025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgTWVldHVwIGF0IEltcGFjdCBIdWIgS2FybHNydWhlCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjUxMTI1VDE5MDAwMApEVVJBVElPTjpQVDAySDAwTTAwUwpMT0NBVElPTjo3NjEzMSBLYXJsc3J1aGUsIEthaXNlcnN0ciA5NwpFTkQ6VkVWRU5UCkVORDpWQ0FMRU5EQVIK\" download=\"oklab25112025.ics\">ICS</a>"
+        },
         {
             "date": "14.11.2025 14:00",
             "title": "Workshop: Hat eigentlich jemand mal die Platanen gefragt? \u2014 Wie man mit einem Umwelt-Chatbot \u00fcber Politik sprechen kann. <a href='https://pretix.eu/digital-codes/ki-nov25/' target=_blank>Ameldung</a>",

@@ -1,6 +1,14 @@
 {
     "de": [
         {
+            "date": "11.04.2026 14:00",
+            "title": "HackDays FollowUp - Nach dem Hack ist vor dem Hack",
+            "location": "Triangel, 76131 Karlsruhe, Kaiserstr 93",
+            "map": "https://www.openstreetmap.org/node/524555510",
+            "duration": "04:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab11042026.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpIYWNrRGF5cyBGb2xsb3dVcCAtIE5hY2ggZGVtIEhhY2sgaXN0IHZvciBkZW0gSGFjawpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI2MDQxMVQxNDAwMDAKRFVSQVRJT046UFQwNEgwME0wMFMKTE9DQVRJT046VHJpYW5nZWwsIDc2MTMxIEthcmxzcnVoZSwgS2Fpc2Vyc3RyIDkzCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab11042026.ics\">ICS</a>"
+        },
+        {
             "date": "15.03.2026 10:00",
             "title": "HackDays 2026, Day 2",
             "location": "House of Living Labs am FZI, Haid-und-Neu Str 5a, 76131 Karlsruhe",

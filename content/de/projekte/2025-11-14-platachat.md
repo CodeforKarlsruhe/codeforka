@@ -4,7 +4,7 @@ lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/platachat.jpg
 title: Hat eigentlich jemand mal die Platanen gefragt?
 showcase: 1
-status: Laufend
+status: Abgeschlossen
 
 
 

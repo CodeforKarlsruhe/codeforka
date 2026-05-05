@@ -4,7 +4,7 @@ lab: OK Lab Karlsruhe #needed for Aggregation on Lab-Page
 imgname: karlsruhe/effekte25-okl.jpg
 title: HackDays Follow-Up
 showcase: 1
-status: Laufend
+status: Abgeschlossen
 publishDate: 2026-03-31
 
 collaborators:

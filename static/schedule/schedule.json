@@ -1,6 +1,22 @@
 {
     "de": [
         {
+            "date": "11.08.2026 19:00",
+            "title": "Lab Treffen im Impact Hub Karlsruhe",
+            "location": "76131 Karlsruhe, Kaiserstr 97",
+            "map": "https://www.openstreetmap.org/way/304550742#map=19/49.00926/8.40815",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab11082026.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpMYWIgVHJlZmZlbiBpbSBJbXBhY3QgSHViIEthcmxzcnVoZQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI2MDgxMVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046NzYxMzEgS2FybHNydWhlLCBLYWlzZXJzdHIgOTcKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab11082026.ics\">ICS</a>"
+        },
+        {
+            "date": "26.07.2026 10:00",
+            "title": "OK Lab bei DAS FEST",
+            "location": "G\u00fcnther Klotz Anlage, Karlsruhe. Klima-Akademie im Familienbereich",
+            "map": "https://www.openstreetmap.org/node/1616497277#map=19/49.001542/8.371047",
+            "duration": "07:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab26072026.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPSyBMYWIgYmVpIERBUyBGRVNUCkRUU1RBUlQ7VFpJRD1FdXJvcGUvQmVybGluOjIwMjYwNzI2VDEwMDAwMApEVVJBVElPTjpQVDA3SDAwTTAwUwpMT0NBVElPTjpHw7xudGhlciBLbG90eiBBbmxhZ2UsIEthcmxzcnVoZS4gS2xpbWEtQWthZGVtaWUgaW0gRmFtaWxpZW5iZXJlaWNoCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab26072026.ics\">ICS</a>"
+        },
+        {
             "date": "02.06.2026 19:00",
             "title": "Lab Treffen im Impact Hub Karlsruhe",
             "location": "76131 Karlsruhe, Kaiserstr 97",

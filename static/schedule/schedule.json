@@ -1,6 +1,14 @@
 {
     "de": [
         {
+            "date": "17.10.2025 14:00",
+            "title": "CODE WEEK BW / Daten und Code. Workshop. Anmelden auf anmelden auf https://pretix.eu/digital-codes/okl-cw26/",
+            "location": "ZKM Medienwerkstatt",
+            "map": "https://www.openstreetmap.org/way/224089408",
+            "duration": "03:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab17102025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpDT0RFIFdFRUsgQlcgLyBEYXRlbiB1bmQgQ29kZS4gV29ya3Nob3AuIEFubWVsZGVuIGF1ZiBhbm1lbGRlbiBhdWYgaHR0cHM6Ly9wcmV0aXguZXUvZGlnaXRhbC1jb2Rlcy9va2wtY3cyNi8KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNTEwMTdUMTQwMDAwCkRVUkFUSU9OOlBUMDNIMDBNMDBTCkxPQ0FUSU9OOlpLTSBNZWRpZW53ZXJrc3RhdHQKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab17102025.ics\">ICS</a>"
+        },
+        {
             "date": "18.08.2026 19:00",
             "title": "OK Lab HACKT@Entropia, Offenes Coding Treffen, anmelden auf https://pretix.eu/digital-codes/chaos-hack/",
             "location": "Entropia e.V., GewerbehofSteinstra\u00dfe 23, 76133 Karlsruhe",

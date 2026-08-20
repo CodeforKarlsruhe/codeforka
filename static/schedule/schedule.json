@@ -1,16 +1,48 @@
 {
     "de": [
         {
+            "date": "15.12.2026 19:00",
+            "title": "OK Lab HACKT@Entropia, Offener Coding Workshop, anmelden auf <a href=\"https://pretix.eu/digital-codes/chaos-hack/\" target=\"_blank\">pretix okl-hack</a>",
+            "location": "Entropia e.V., GewerbehofSteinstra\u00dfe 23, 76133 Karlsruhe",
+            "map": "https://www.openstreetmap.org/?mlat=49.0065&mlon=8.40717&zoom=15#map=18/49.006897/8.406687&layers=T",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab15122026.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPSyBMYWIgSEFDS1RARW50cm9waWEsIE9mZmVuZXIgQ29kaW5nIFdvcmtzaG9wLCBhbm1lbGRlbiBhdWYgaHR0cHM6Ly9wcmV0aXguZXUvZGlnaXRhbC1jb2Rlcy9jaGFvcy1oYWNrLwpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI2MTIxNVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046RW50cm9waWEgZS5WLiwgR2V3ZXJiZWhvZlN0ZWluc3RyYcOfZSAyMywgNzYxMzMgS2FybHNydWhlCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab15122026.ics\">ICS</a>"
+        },
+        {
+            "date": "17.11.2026 19:00",
+            "title": "OK Lab HACKT@Entropia, Offener Coding Workshop, anmelden auf <a href=\"https://pretix.eu/digital-codes/chaos-hack/\" target=\"_blank\">pretix okl-hack</a>",
+            "location": "Entropia e.V., GewerbehofSteinstra\u00dfe 23, 76133 Karlsruhe",
+            "map": "https://www.openstreetmap.org/?mlat=49.0065&mlon=8.40717&zoom=15#map=18/49.006897/8.406687&layers=T",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab17112026.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPSyBMYWIgSEFDS1RARW50cm9waWEsIE9mZmVuZXIgQ29kaW5nIFdvcmtzaG9wLCBhbm1lbGRlbiBhdWYgaHR0cHM6Ly9wcmV0aXguZXUvZGlnaXRhbC1jb2Rlcy9jaGFvcy1oYWNrLwpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI2MTExN1QxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046RW50cm9waWEgZS5WLiwgR2V3ZXJiZWhvZlN0ZWluc3RyYcOfZSAyMywgNzYxMzMgS2FybHNydWhlCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab17112026.ics\">ICS</a>"
+        },
+        {
+            "date": "20.10.2026 19:00",
+            "title": "OK Lab HACKT@Entropia, Offener Coding Workshop, anmelden auf <a href=\"https://pretix.eu/digital-codes/chaos-hack/\" target=\"_blank\">pretix okl-hack</a>",
+            "location": "Entropia e.V., GewerbehofSteinstra\u00dfe 23, 76133 Karlsruhe",
+            "map": "https://www.openstreetmap.org/?mlat=49.0065&mlon=8.40717&zoom=15#map=18/49.006897/8.406687&layers=T",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab20102026.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPSyBMYWIgSEFDS1RARW50cm9waWEsIE9mZmVuZXIgQ29kaW5nIFdvcmtzaG9wLCBhbm1lbGRlbiBhdWYgaHR0cHM6Ly9wcmV0aXguZXUvZGlnaXRhbC1jb2Rlcy9jaGFvcy1oYWNrLwpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI2MTAyMFQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046RW50cm9waWEgZS5WLiwgR2V3ZXJiZWhvZlN0ZWluc3RyYcOfZSAyMywgNzYxMzMgS2FybHNydWhlCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab20102026.ics\">ICS</a>"
+        },
+        {
             "date": "17.10.2025 14:00",
-            "title": "CODE WEEK BW / Daten und Code. Workshop. Anmelden auf anmelden auf https://pretix.eu/digital-codes/okl-cw26/",
+            "title": "CODE WEEK BW / Daten und Code. Workshop. Anmelden auf anmelden auf <a href=\"https://pretix.eu/digital-codes/okl-cw26/\" target=\"_blank\">pretix Codeweek</a>",
             "location": "ZKM Medienwerkstatt",
             "map": "https://www.openstreetmap.org/way/224089408",
             "duration": "03:00",
             "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab17102025.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpDT0RFIFdFRUsgQlcgLyBEYXRlbiB1bmQgQ29kZS4gV29ya3Nob3AuIEFubWVsZGVuIGF1ZiBhbm1lbGRlbiBhdWYgaHR0cHM6Ly9wcmV0aXguZXUvZGlnaXRhbC1jb2Rlcy9va2wtY3cyNi8KRFRTVEFSVDtUWklEPUV1cm9wZS9CZXJsaW46MjAyNTEwMTdUMTQwMDAwCkRVUkFUSU9OOlBUMDNIMDBNMDBTCkxPQ0FUSU9OOlpLTSBNZWRpZW53ZXJrc3RhdHQKRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==\" download=\"oklab17102025.ics\">ICS</a>"
         },
         {
+            "date": "15.09.2026 19:00",
+            "title": "OK Lab HACKT@Entropia, Offener Coding Workshop, anmelden auf <a href=\"https://pretix.eu/digital-codes/chaos-hack/\" target=\"_blank\">pretix okl-hack</a>",
+            "location": "Entropia e.V., GewerbehofSteinstra\u00dfe 23, 76133 Karlsruhe",
+            "map": "https://www.openstreetmap.org/?mlat=49.0065&mlon=8.40717&zoom=15#map=18/49.006897/8.406687&layers=T",
+            "duration": "02:00",
+            "ics": "<a href=\"data:text/calendar;headers=filename%3Doklab15092026.ics;base64,QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wCkNBTFNDQUxFOkdSRUdPUklBTgpQUk9ESUQ6T0sgTGFiIEthcmxzcnVoZQpCRUdJTjpWRVZFTlQKU1VNTUFSWTpPSyBMYWIgSEFDS1RARW50cm9waWEsIE9mZmVuZXIgQ29kaW5nIFdvcmtzaG9wLCBhbm1lbGRlbiBhdWYgaHR0cHM6Ly9wcmV0aXguZXUvZGlnaXRhbC1jb2Rlcy9jaGFvcy1oYWNrLwpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JlcmxpbjoyMDI2MDkxNVQxOTAwMDAKRFVSQVRJT046UFQwMkgwME0wMFMKTE9DQVRJT046RW50cm9waWEgZS5WLiwgR2V3ZXJiZWhvZlN0ZWluc3RyYcOfZSAyMywgNzYxMzMgS2FybHNydWhlCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUgo=\" download=\"oklab15092026.ics\">ICS</a>"
+        },
+        {
             "date": "18.08.2026 19:00",
-            "title": "OK Lab HACKT@Entropia, Offenes Coding Treffen, anmelden auf https://pretix.eu/digital-codes/chaos-hack/",
+            "title": "OK Lab HACKT@Entropia, Offenes Coding Treffen, anmelden auf <a href=\"https://pretix.eu/digital-codes/chaos-hack/\" target=\"_blank\">pretix</a>",
             "location": "Entropia e.V., GewerbehofSteinstra\u00dfe 23, 76133 Karlsruhe",
             "map": "https://www.openstreetmap.org/?mlat=49.0065&mlon=8.40717&zoom=15#map=18/49.006897/8.406687&layers=T",
             "duration": "02:00",

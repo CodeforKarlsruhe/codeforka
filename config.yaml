@@ -57,6 +57,8 @@ languages:
       navbar:
       - title: Über uns
         url: /ueber/
+      - title: Veranstaltungen
+        url: /veranstaltungen/
       - title: Projekte
         url: /projekte/
       - title: Mitmachen
@@ -198,6 +200,8 @@ languages:
       navbar:
       - title: About
         url: /en/ueber/
+      - title: Events
+        url: /en/veranstaltungen/
       - title: Projects
         url: /en/projekte/
       - title: Join us
